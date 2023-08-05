@@ -5,7 +5,7 @@
 
 [144. 二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorder-traversal/)
 
-C++：[](./cpp/include/leetcode/144/Solution.h) （2023年8月5日）
+C++：[./cpp/include/leetcode/144/Solution.h](./cpp/include/leetcode/144/Solution.h) （2023年8月5日）
 
 
 
