@@ -5,7 +5,7 @@
 
 **[20. 有效的括号](https://leetcode.cn/problems/valid-parentheses/)**
 
-C++：[./cpp/include/leetcode/20/Solution.h](./cpp/include/leetcode/20/Solution.h) （2023年8月8日）
+C++：[cpp/include/leetcode/20/Solution.h](./cpp/include/leetcode/20/Solution.h) （2023年8月8日）
 
 **[105. 从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)**
 
@@ -22,6 +22,10 @@ C++：[./cpp/include/leetcode/210/Solution.h](./cpp/include/leetcode/210/Solutio
 **[217. 存在重复元素](https://leetcode.cn/problems/contains-duplicate/)**
 
 C++：[./cpp/include/leetcode/217/Solution.h](./cpp/include/leetcode/217/Solution.h) （2023年8月7日）
+
+**[232. 用栈实现队列](https://leetcode.cn/problems/implement-queue-using-stacks/)**
+
+C++：[cpp/include/leetcode/232/MyQueue.h](cpp/include/leetcode/232/MyQueue.h) （2023年8月8日）
 
 **[743. 网络延迟时间](https://leetcode.cn/problems/network-delay-time/)**
 

@@ -3,4 +3,4 @@ project(cpp)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(cpp main.cpp include/leetcode/144/Solution.h include/leetcode/105/Solution.h include/leetcode/20/Solution.h)
+add_executable(cpp main.cpp include/leetcode/144/Solution.h include/leetcode/105/Solution.h include/leetcode/20/Solution.h include/leetcode/232/MyQueue.h)
