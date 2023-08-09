@@ -27,6 +27,12 @@ C++：[./cpp/include/leetcode/144/Solution.h](./cpp/include/leetcode/144/Solutio
 
 C++：[cpp/include/leetcode/145/Solution.h](./cpp/include/leetcode/145/Solution.h) （2023年8月9日）
 
+**[206. 反转链表](https://leetcode.cn/problems/reverse-linked-list/)**
+
+`递归` `链表`
+
+C++：[cpp/include/leetcode/206/Solution.h](./cpp/include/leetcode/206/Solution.h) （2023年8月9日）
+
 **[210. 课程表 II](https://leetcode.cn/problems/course-schedule-ii/)**
 
 C++：[./cpp/include/leetcode/210/Solution.h](./cpp/include/leetcode/210/Solution.h) （2023年8月6日）
