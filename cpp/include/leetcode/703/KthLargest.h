@@ -30,6 +30,41 @@ private:
         else return v1 < v2;
     }
 
+    /**
+     * 将第 k 个元素向上调整
+     */
+    void upAdjust(int k) {
+        for (int i = k; i > 1; i /= 2) {  // 向上调整
+            int parent = i / 2;
+            if (!compare(data[parent], data[i])) {
+                swap(data[parent], data[i]);
+            } else {
+                break;
+            }
+        }
+    }
+
+    /**
+     * 将第 k 个元素向下调整
+     */
+    void downAdjust(int k) {
+        for (int i = k * 2; i <= num; i *= 2) {
+            if (i < num && compare(data[i + 1], data[i])) i++;
+            if (!compare(data[k], data[i])) {
+                swap(data[k], data[i]);
+                k = i;
+            } else {
+                break;
+            }
+        }
+    }
+
+    void swap(T &v1, T &v2) {
+        T temp = v1;
+        v1 = v2;
+        v2 = temp;
+    }
+
 public:
     /**
      * 初始化堆
@@ -37,7 +72,7 @@ public:
      * @param mode 所创建的堆的模式，为 true 表示大根堆，为 false 表示小根堆。默认为 false。
      */
     explicit Heap(bool mode = false) : num(0), mode(mode) {
-        this->data.push(0);
+        this->data.push_back(0);
     }
 
     /**
@@ -45,12 +80,23 @@ public:
      */
     void push(T val) {
         num++;
-        data.push_back(val);                // 插入堆末尾
-        for (int i = num; i > 1; i /= 2) {  // 向上调整
-            int parent = i / 2;
-            if (!compare(data[parent], data[i])) {
-                data[parent];
-            }
+        data.push_back(val);  // 插入堆末尾
+        upAdjust(num);        // 调整
+    }
+
+    /**
+     * 删除对顶元素
+     */
+    void pop() {
+        if (num < 1) return;
+        else if (num == 1) {
+            num = 0;
+            data.pop_back();
+        } else {
+            data[1] = data[num]; // 将堆底的元素置于堆顶
+            num--;
+            data.pop_back();
+            downAdjust(1);       // 调整
         }
     }
 
@@ -58,14 +104,12 @@ public:
      * 返回堆顶元素
      */
     T top() {
-        if (num == 0) return nullptr;
+        if (num == 0) return 0;
         else return data[1];
     }
 
     /**
      * 返回堆中元素的个数
-     *
-     * @return
      */
     int size() {
         return num;
@@ -74,13 +118,24 @@ public:
 };
 
 class KthLargest {
-public:
-    KthLargest(int k, vector<int> &nums) {
 
+    int k;
+
+    Heap<int> minHeap; // 小根堆
+
+public:
+    KthLargest(int k, vector<int> &nums) : k(k), minHeap(false) {
+        for (const auto &item: nums) {
+            add(item);
+        }
     }
 
     int add(int val) {
-
+        minHeap.push(val);
+        if (minHeap.size() > k) {
+            minHeap.pop();
+        }
+        return minHeap.top();
     }
 };
 
