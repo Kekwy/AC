@@ -40,6 +40,15 @@
 | C++  | [cpp/include/leetcode/35/Solution.h](./cpp/include/leetcode/35/Solution.h) | 2023年8月13日 |
 |      |                                                              |               |
 
+**[69. x 的平方根 ](https://leetcode.cn/problems/sqrtx/)**
+
+`数学` `二分查找`
+
+| 语言 | 题解                                                         | 最后修改日期  |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/69/Solution.h](./cpp/include/leetcode/69/Solution.h) | 2023年8月13日 |
+|      |                                                              |               |
+
 **[94. 二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/)**
 
 `栈` `树` `深度优先搜索` `二叉树`
@@ -92,13 +101,23 @@ C++：[./cpp/include/leetcode/217/Solution.h](./cpp/include/leetcode/217/Solutio
 
 C++：[cpp/include/leetcode/232/MyQueue.h](cpp/include/leetcode/232/MyQueue.h) （2023年8月8日）
 
+**[367. 有效的完全平方数](https://leetcode.cn/problems/valid-perfect-square/)**
 
+`数学` `二分查找`
+
+| 语言 | 题解                                                         | 最后修改日期  |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/367/Solution.h](./cpp/include/leetcode/367/Solution.h) | 2023年8月13日 |
+|      |                                                              |               |
 
 **[703. 数据流中的第 K 大元素](https://leetcode.cn/problems/kth-largest-element-in-a-stream/)**
 
 `树` `设计` `二叉搜索树` `二叉树` `数据流` `堆（优先队列）`
 
-C++：[cpp/include/leetcode/703/KthLargest.h](cpp/include/leetcode/703/KthLargest.h) （2023年8月10日）
+| 语言 | 题解                                                         | 最后修改日期  |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/703/KthLargest.h](cpp/include/leetcode/703/KthLargest.h) | 2023年8月10日 |
+|      |                                                              |               |
 
 **[704. 二分查找](https://leetcode.cn/problems/binary-search/)**
 
