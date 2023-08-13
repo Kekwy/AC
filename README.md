@@ -5,7 +5,9 @@
 
 ### 数据结构
 
-1. 堆排序：
+1. 查找：
+   - 二分查找：
+2. 堆排序：
 
 ## 数据结构
 
@@ -15,12 +17,10 @@
 
 **[20. 有效的括号](https://leetcode.cn/problems/valid-parentheses/)**
 
-| 语言 | 代码文件                                                     | 最后修改日期 |
+| 语言 | 题解                                                         | 最后修改日期 |
 | ---- | ------------------------------------------------------------ | ------------ |
 | C++  | [cpp/include/leetcode/20/Solution.h](./cpp/include/leetcode/20/Solution.h) | 2023年8月8日 |
 |      |                                                              |              |
-
-
 
 **[94. 二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/)**
 
@@ -82,7 +82,14 @@ C++：[cpp/include/leetcode/232/MyQueue.h](cpp/include/leetcode/232/MyQueue.h) �
 
 C++：[cpp/include/leetcode/703/KthLargest.h](cpp/include/leetcode/703/KthLargest.h) （2023年8月10日）
 
+**[704. 二分查找](https://leetcode.cn/problems/binary-search/)**
 
+`数组` `二分查找`
+
+| 语言 | 题解                                                         | 最后修改日期  |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/704/Solution.h](./cpp/include/leetcode/704/Solution.h) | 2023年8月13日 |
+|      |                                                              |               |
 
 **[743. 网络延迟时间](https://leetcode.cn/problems/network-delay-time/)**
 
@@ -100,12 +107,10 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 
 `数组` `矩阵`
 
-| 语言 | 代码文件                                                     | 最后修改日期  |
+| 语言 | 题解                                                         | 最后修改日期  |
 | ---- | ------------------------------------------------------------ | ------------- |
 | C++  | [cpp/include/leetcode/1572/Solution.h](./cpp/include/leetcode/1572/Solution.h) | 2023年8月11日 |
 |      |                                                              |               |
-
-
 
 
 
