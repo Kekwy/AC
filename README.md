@@ -22,6 +22,24 @@
 | C++  | [cpp/include/leetcode/20/Solution.h](./cpp/include/leetcode/20/Solution.h) | 2023年8月8日 |
 |      |                                                              |              |
 
+**[34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/)**
+
+`数组` `二分查找`
+
+| 语言 | 题解                                                         | 最后修改日期  |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/34/Solution.h](./cpp/include/leetcode/34/Solution.h) | 2023年8月13日 |
+|      |                                                              |               |
+
+**[35. 搜索插入位置](https://leetcode.cn/problems/search-insert-position/)**
+
+`数组` `二分查找`
+
+| 语言 | 题解                                                         | 最后修改日期  |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/35/Solution.h](./cpp/include/leetcode/35/Solution.h) | 2023年8月13日 |
+|      |                                                              |               |
+
 **[94. 二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/)**
 
 `栈` `树` `深度优先搜索` `二叉树`
