@@ -22,6 +22,15 @@
 | C++  | [cpp/include/leetcode/20/Solution.h](./cpp/include/leetcode/20/Solution.h) | 2023年8月8日 |
 |      |                                                              |              |
 
+**[27. 移除元素](https://leetcode.cn/problems/remove-element/)**
+
+`数组` `双指针`
+
+| 语言 | 题解                                                         | 最后修改日期  |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/27/Solution.h](./cpp/include/leetcode/27/Solution.h) | 2023年8月21日 |
+|      |                                                              |               |
+
 **[34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/)**
 
 `数组` `二分查找`
