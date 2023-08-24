@@ -149,6 +149,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 
 
 
+**[1267. 统计参与通信的服务器](https://leetcode.cn/problems/count-servers-that-communicate/)**
+
+`深度优先搜索` `广度优先搜索` `并查集` `数组` `计数` `矩阵`
+
+| 语言 | 题解                                                         | 最后修改日期  |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/1267/README.md](./cpp/include/leetcode/1267/README.md) | 2023年8月11日 |
+|      |                                                              |               |
+
 **[1572. 矩阵对角线元素的和](https://leetcode.cn/problems/matrix-diagonal-sum/)**
 
 `数组` `矩阵`
