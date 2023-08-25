@@ -119,6 +119,15 @@ C++：[cpp/include/leetcode/232/MyQueue.h](cpp/include/leetcode/232/MyQueue.h) �
 | C++  | [cpp/include/leetcode/367/Solution.h](./cpp/include/leetcode/367/Solution.h) | 2023年8月13日 |
 |      |                                                              |               |
 
+**[684. 冗余连接](https://leetcode.cn/problems/redundant-connection/)**
+
+`深度优先搜索` `广度优先搜索` `并查集` `图`
+
+| 语言 | 题解                                                         | 最后修改日期  |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/684/Solution.h](./cpp/include/leetcode/684/Solution.h) | 2023年8月25日 |
+|      |                                                              |               |
+
 **[703. 数据流中的第 K 大元素](https://leetcode.cn/problems/kth-largest-element-in-a-stream/)**
 
 `树` `设计` `二叉搜索树` `二叉树` `数据流` `堆（优先队列）`
