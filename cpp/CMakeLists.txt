@@ -26,4 +26,4 @@ add_executable(cpp src/main.cpp
         include/leetcode/26/Solution.h
         include/leetcode/1267/Solution1.h
         include/leetcode/1267/Solution2.h
-        include/leetcode/1448/Solution.h)
+        include/leetcode/1448/Solution.h include/leetcode/684/solution.h)

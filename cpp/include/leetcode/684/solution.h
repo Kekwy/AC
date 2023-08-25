@@ -1,5 +1,5 @@
 //
-// Created by Kekwy on 2023/8/24.
+// Created by Kekwy on 2023/8/25.
 //
 
 #ifndef CPP_SOLUTION_H
@@ -9,9 +9,6 @@
 
 using namespace std;
 
-/**
- * 并查集
- */
 class UFSets {
 
     int* data;
@@ -55,12 +52,21 @@ public:
 
 };
 
-
 class Solution {
-
 public:
-    int countServers(vector<vector<int>>& grid) {
-
+    vector<int> findRedundantConnection(vector<vector<int>>& edges) {
+        vector<int> res;
+        int size = (int) edges.size();
+        auto ufSets = UFSets(size + 1);
+        for (const auto &item: edges) {
+            int a = item[0];
+            int b = item[1];
+            int root1 = ufSets.findRoot(a);
+            int root2 = ufSets.findRoot(b);
+            if (root1 != root2) ufSets.unionRoots(a, b);
+            else res = item;
+        }
+        return res;
     }
 };
 

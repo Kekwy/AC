@@ -155,7 +155,16 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 
 | 语言 | 题解                                                         | 最后修改日期  |
 | ---- | ------------------------------------------------------------ | ------------- |
-| C++  | [cpp/include/leetcode/1267/README.md](./cpp/include/leetcode/1267/README.md) | 2023年8月11日 |
+| C++  | [cpp/include/leetcode/1267/README.md](./cpp/include/leetcode/1267/README.md) | 2023年8月24日 |
+|      |                                                              |               |
+
+**[1448. 统计二叉树中好节点的数目](https://leetcode.cn/problems/count-good-nodes-in-binary-tree/)**
+
+`树` `深度优先搜索` `广度优先搜索` `二叉树`
+
+| 语言 | 题解                                                         | 最后修改日期  |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/1448/Solution.h](./cpp/include/leetcode/1448/Solution.h) | 2023年8月25日 |
 |      |                                                              |               |
 
 **[1572. 矩阵对角线元素的和](https://leetcode.cn/problems/matrix-diagonal-sum/)**
