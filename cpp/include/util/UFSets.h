@@ -7,15 +7,20 @@
 
 class UFSets {
 
-    int* data;
+    int *data;
+    int size;
 
 public:
 
-    explicit UFSets(int size) {
+    explicit UFSets(int size) : size(size) {
         data = new int[size];
-        for(int i = 0; i < size; i++) {
+        for (int i = 0; i < size; i++) {
             data[i] = -1;
         }
+    }
+
+    ~UFSets() {
+        delete[]data;
     }
 
     void unionRoots(int a, int b) {
@@ -35,15 +40,25 @@ public:
 
     int findRoot(int target) {
         int root = target;
-        while(data[root] >= 0) root = data[root];
+        while (data[root] >= 0) root = data[root];
         int i = target, j;
         // 压缩路径
-        while(data[i] >= 0) {
+        while (data[i] >= 0) {
             j = i;
             i = data[i];
             data[j] = root;
         }
         return root;
+    }
+
+    int setsSize(int min) {
+        int res = 0;
+        for (int i = 0; i < size; i++) {
+            if (data[i] <= -min) {
+                res += data[i];
+            }
+        }
+        return -res;
     }
 
 };
