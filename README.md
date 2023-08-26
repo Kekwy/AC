@@ -177,7 +177,23 @@ C++：[cpp/include/leetcode/232/MyQueue.h](cpp/include/leetcode/232/MyQueue.h) �
 
 C++：[./cpp/include/leetcode/743/Solution.h](./cpp/include/leetcode/743/Solution.h) （2023年8月6日）
 
+**[844. 比较含退格的字符串](https://leetcode.cn/problems/backspace-string-compare/)**
 
+`栈` `双指针` `字符串` `模拟`
+
+| 语言 | 题解                                                         | 最后修改日期  |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/844/Solution.h](./cpp/include/leetcode/844/Solution.h) | 2023年8月26日 |
+|      |                                                              |               |
+
+**[977. 有序数组的平方](https://leetcode.cn/problems/squares-of-a-sorted-array/)**
+
+`数组` `双指针` `排序`
+
+| 语言 | 题解                                                         | 最后修改日期  |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/977/Solution.h](./cpp/include/leetcode/977/Solution.h) | 2023年8月26日 |
+|      |                                                              |               |
 
 **[1135. 最低成本联通所有城市](https://leetcode.cn/problems/connecting-cities-with-minimum-cost/)**
 
