@@ -22,6 +22,15 @@
 | C++  | [cpp/include/leetcode/20/Solution.h](./cpp/include/leetcode/20/Solution.h) | 2023年8月8日 |
 |      |                                                              |              |
 
+**[26. 删除有序数组中的重复项](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/)**
+
+`数组` `双指针`
+
+| 语言 | 题解                                                         | 最后修改日期  |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/26/Solution.h](./cpp/include/leetcode/26/Solution.h) | 2023年8月26日 |
+|      |                                                              |               |
+
 **[27. 移除元素](https://leetcode.cn/problems/remove-element/)**
 
 `数组` `双指针`
@@ -109,6 +118,24 @@ C++：[./cpp/include/leetcode/217/Solution.h](./cpp/include/leetcode/217/Solutio
 **[232. 用栈实现队列](https://leetcode.cn/problems/implement-queue-using-stacks/)**
 
 C++：[cpp/include/leetcode/232/MyQueue.h](cpp/include/leetcode/232/MyQueue.h) （2023年8月8日）
+
+**[228. 汇总区间](https://leetcode.cn/problems/summary-ranges/)**
+
+`数组`
+
+| 语言 | 题解                                                         | 最后修改日期  |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/228/Solution.h](./cpp/include/leetcode/228/Solution.h) | 2023年8月26日 |
+|      |                                                              |               |
+
+**[283. 移动零](https://leetcode.cn/problems/move-zeroes/)**
+
+`数组` `双指针`
+
+| 语言 | 题解                                                         | 最后修改日期  |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/283/Solution.h](./cpp/include/leetcode/283/Solution.h) | 2023年8月26日 |
+|      |                                                              |               |
 
 **[367. 有效的完全平方数](https://leetcode.cn/problems/valid-perfect-square/)**
 
