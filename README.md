@@ -58,6 +58,15 @@
 | C++  | [cpp/include/leetcode/35/Solution.h](./cpp/include/leetcode/35/Solution.h) | 2023年8月13日 |
 |      |                                                              |               |
 
+**[56. 合并区间](https://leetcode.cn/problems/merge-intervals/)**
+
+`数组` `排序`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/56/Solution.h](./cpp/include/leetcode/56/Solution.h) | 2023年8月27日 |
+|      |                                                              |               |
+
 **[69. x 的平方根 ](https://leetcode.cn/problems/sqrtx/)**
 
 `数学` `二分查找`
@@ -101,7 +110,14 @@ C++：[cpp/include/leetcode/145/Solution.h](./cpp/include/leetcode/145/Solution.
 
 C++：[cpp/include/leetcode/206/Solution.h](./cpp/include/leetcode/206/Solution.h) （2023年8月9日）
 
+**[209. 长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum/)**
 
+`数组` `二分查找` `前缀和` `滑动窗口`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/209/Solution.h](./cpp/include/leetcode/209/Solution.h) | 2023年8月26日 |
+|      |                                                              |               |
 
 **[210. 课程表 II](https://leetcode.cn/problems/course-schedule-ii/)**
 
@@ -184,6 +200,15 @@ C++：[./cpp/include/leetcode/743/Solution.h](./cpp/include/leetcode/743/Solutio
 | 语言 | 题解                                                         | 最后修改日期  |
 | ---- | ------------------------------------------------------------ | ------------- |
 | C++  | [cpp/include/leetcode/844/Solution.h](./cpp/include/leetcode/844/Solution.h) | 2023年8月26日 |
+|      |                                                              |               |
+
+**[904. 水果成篮](https://leetcode.cn/problems/fruit-into-baskets/)**
+
+`数组` `哈希表` `滑动窗口`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/904/Solution.h](./cpp/include/leetcode/904/Solution.h) | 2023年8月26日 |
 |      |                                                              |               |
 
 **[977. 有序数组的平方](https://leetcode.cn/problems/squares-of-a-sorted-array/)**
