@@ -67,6 +67,15 @@
 | C++  | [cpp/include/leetcode/56/Solution.h](./cpp/include/leetcode/56/Solution.h) | 2023年8月27日 |
 |      |                                                              |               |
 
+**[57. 插入区间](https://leetcode.cn/problems/insert-interval/)**
+
+`数组`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/57/Solution.h](./cpp/include/leetcode/57/Solution.h) | 2023年8月27日 |
+|      |                                                              |               |
+
 **[69. x 的平方根 ](https://leetcode.cn/problems/sqrtx/)**
 
 `数学` `二分查找`
