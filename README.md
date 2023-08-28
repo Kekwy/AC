@@ -80,9 +80,18 @@
 
 `数学` `二分查找`
 
-| 语言 | 题解                                                         | 最后修改日期  |
+| 语言 | 题解                                                         | 最后修改      |
 | ---- | ------------------------------------------------------------ | ------------- |
 | C++  | [cpp/include/leetcode/69/Solution.h](./cpp/include/leetcode/69/Solution.h) | 2023年8月13日 |
+|      |                                                              |               |
+
+**[76. 最小覆盖子串](https://leetcode.cn/problems/minimum-window-substring/)**
+
+`哈希表` `字符串` `滑动窗口`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/76/Solution.h](./cpp/include/leetcode/76/Solution.h) | 2023年8月28日 |
 |      |                                                              |               |
 
 **[94. 二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/)**
