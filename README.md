@@ -333,7 +333,12 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 
 ### 剑指 Offer
 
+#### [剑指 Offer 05. 替换空格](https://leetcode.cn/problems/ti-huan-kong-ge-lcof/)
 
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/offer-05/Solution.h](./cpp/include/leetcode/offer-05/Solution.h) | 2023年8月29日 |
+|      |                                                              |               |
 
 ## Nowcoder 牛客
 
