@@ -23,25 +23,25 @@ public:
         int m = n / 2;
         while (loop < m) {
             for (int j = loop; j < n - loop - 1; j++) {
-                res[loop][j] = i * i;
+                res[loop][j] = i;
                 i++;
             }
             for (int j = loop; j < n - loop - 1; j++) {
-                res[j][n - loop - 1] = i * i;
+                res[j][n - loop - 1] = i;
                 i++;
             }
             for (int j = n - loop - 1; j > loop; j--) {
-                res[n - loop - 1][j] = i * i;
+                res[n - loop - 1][j] = i;
                 i++;
             }
             for (int j = n - loop - 1; j > loop; j--) {
-                res[j][loop] = i * i;
+                res[j][loop] = i;
                 i++;
             }
             loop++;
         }
         if (n % 2 == 1) {
-            res[m][m] = i * i;
+            res[m][m] = i;
         }
         return res;
     }
