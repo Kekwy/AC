@@ -1,5 +1,5 @@
 //
-// Created by Kekwy on 2023/8/13.
+// Created by Kekwy on 2023/8/29.
 //
 
 #ifndef CPP_BINARYSEARCH_H
@@ -9,15 +9,33 @@
 
 using namespace std;
 
-int search(vector<int> &nums, int target) {
-    int low = 0, high = (int) nums.size() - 1;
-    while (low <= high) {
-        int mid = (low + high) / 2;
-        if (target == nums[mid]) return mid;
-        else if (target < nums[mid]) high = mid - 1;
-        else low = mid + 1;
+void quickSort(vector<int>& arr, int begin, int end) {
+        if (begin >= end) return;
+        int pivot = arr[begin];
+        int lPtr = begin, rPtr = end - 1;
+        bool flag = true;
+        while(lPtr < rPtr) {
+            if (flag) {
+                if (arr[rPtr] <= pivot) {
+                    arr[lPtr] = arr[rPtr];
+                    lPtr++;
+                    flag = false;
+                } else {
+                    rPtr--;
+                }
+            } else {
+                if (arr[lPtr] > pivot) {
+                    arr[rPtr] = arr[lPtr];
+                    rPtr--;
+                    flag = true;
+                } else {
+                    lPtr++;
+                }
+            }
+        }
+        arr[lPtr] = pivot;
+        quickSort(arr, begin, lPtr);
+        quickSort(arr, lPtr + 1, end);
     }
-    return -1;
-}
 
 #endif //CPP_BINARYSEARCH_H
