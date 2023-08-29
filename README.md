@@ -3,13 +3,13 @@
 
 ## 复习题单
 
-力扣：823
+力扣：823, 904
 
 
 
 ## Leetcode 力扣
 
-**[19. 删除链表的倒数第 N 个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)**
+##### [19. 删除链表的倒数第 N 个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)
 
 `链表` `双指针`
 
@@ -18,14 +18,14 @@
 | C++  | [cpp/include/leetcode/19/Solution.h](./cpp/include/leetcode/19/Solution.h) | 2023年8月29日 |
 |      |                                                              |               |
 
-**[20. 有效的括号](https://leetcode.cn/problems/valid-parentheses/)**
+##### [20. 有效的括号](https://leetcode.cn/problems/valid-parentheses/)
 
 | 语言 | 题解                                                         | 最后修改     |
 | ---- | ------------------------------------------------------------ | ------------ |
 | C++  | [cpp/include/leetcode/20/Solution.h](./cpp/include/leetcode/20/Solution.h) | 2023年8月8日 |
 |      |                                                              |              |
 
-**[24. 两两交换链表中的节点](https://leetcode.cn/problems/swap-nodes-in-pairs/)**
+##### [24. 两两交换链表中的节点](https://leetcode.cn/problems/swap-nodes-in-pairs/)
 
 `递归`  `链表`
 
@@ -34,7 +34,7 @@
 | C++  | [cpp/include/leetcode/24/Solution.h](./cpp/include/leetcode/24/Solution.h) | 2023年8月29日 |
 |      |                                                              |               |
 
-**[26. 删除有序数组中的重复项](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/)**
+##### [26. 删除有序数组中的重复项](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/)
 
 `数组` `双指针`
 
@@ -43,7 +43,7 @@
 | C++  | [cpp/include/leetcode/26/Solution.h](./cpp/include/leetcode/26/Solution.h) | 2023年8月26日 |
 |      |                                                              |               |
 
-**[27. 移除元素](https://leetcode.cn/problems/remove-element/)**
+##### [27. 移除元素](https://leetcode.cn/problems/remove-element/)
 
 `数组` `双指针`
 
@@ -52,7 +52,7 @@
 | C++  | [cpp/include/leetcode/27/Solution.h](./cpp/include/leetcode/27/Solution.h) | 2023年8月21日 |
 |      |                                                              |               |
 
-**[34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/)**
+##### [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/)
 
 `数组` `二分查找`
 
@@ -61,7 +61,7 @@
 | C++  | [cpp/include/leetcode/34/Solution.h](./cpp/include/leetcode/34/Solution.h) | 2023年8月13日 |
 |      |                                                              |               |
 
-**[35. 搜索插入位置](https://leetcode.cn/problems/search-insert-position/)**
+##### [35. 搜索插入位置](https://leetcode.cn/problems/search-insert-position/)
 
 `数组` `二分查找`
 
@@ -70,7 +70,7 @@
 | C++  | [cpp/include/leetcode/35/Solution.h](./cpp/include/leetcode/35/Solution.h) | 2023年8月13日 |
 |      |                                                              |               |
 
-**[54. 螺旋矩阵](https://leetcode.cn/problems/spiral-matrix/)**
+##### [54. 螺旋矩阵](https://leetcode.cn/problems/spiral-matrix/)
 
 `数组` `矩阵` `模拟`
 
@@ -79,7 +79,7 @@
 | C++  | [cpp/include/leetcode/54/Solution.h](./cpp/include/leetcode/54/Solution.h) | 2023年8月29日 |
 |      |                                                              |               |
 
-**[56. 合并区间](https://leetcode.cn/problems/merge-intervals/)**
+##### [56. 合并区间](https://leetcode.cn/problems/merge-intervals/)
 
 `数组` `排序`
 
@@ -88,7 +88,7 @@
 | C++  | [cpp/include/leetcode/56/Solution.h](./cpp/include/leetcode/56/Solution.h) | 2023年8月27日 |
 |      |                                                              |               |
 
-**[57. 插入区间](https://leetcode.cn/problems/insert-interval/)**
+##### [57. 插入区间](https://leetcode.cn/problems/insert-interval/)
 
 `数组`
 
@@ -97,7 +97,7 @@
 | C++  | [cpp/include/leetcode/57/Solution.h](./cpp/include/leetcode/57/Solution.h) | 2023年8月27日 |
 |      |                                                              |               |
 
-**[59. 螺旋矩阵 II](https://leetcode.cn/problems/spiral-matrix-ii/)**
+##### [59. 螺旋矩阵 II](https://leetcode.cn/problems/spiral-matrix-ii/)
 
 `数组` `矩阵` `模拟`
 
@@ -106,7 +106,7 @@
 | C++  | [cpp/include/leetcode/59/Solution.h](./cpp/include/leetcode/59/Solution.h) | 2023年8月29日 |
 |      |                                                              |               |
 
-**[69. x 的平方根 ](https://leetcode.cn/problems/sqrtx/)**
+##### [69. x 的平方根 ](https://leetcode.cn/problems/sqrtx/)
 
 `数学` `二分查找`
 
@@ -115,7 +115,7 @@
 | C++  | [cpp/include/leetcode/69/Solution.h](./cpp/include/leetcode/69/Solution.h) | 2023年8月13日 |
 |      |                                                              |               |
 
-**[76. 最小覆盖子串](https://leetcode.cn/problems/minimum-window-substring/)**
+##### [76. 最小覆盖子串](https://leetcode.cn/problems/minimum-window-substring/)
 
 `哈希表` `字符串` `滑动窗口`
 
@@ -124,7 +124,7 @@
 | C++  | [cpp/include/leetcode/76/Solution.h](./cpp/include/leetcode/76/Solution.h) | 2023年8月28日 |
 |      |                                                              |               |
 
-**[94. 二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/)**
+##### [94. 二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/)
 
 `栈` `树` `深度优先搜索` `二叉树`
 
@@ -132,25 +132,25 @@ C++：[cpp/include/leetcode/94/Solution.h](./cpp/include/leetcode/94/Solution.h)
 
 
 
-**[105. 从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)**
+##### [105. 从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 
 C++：[./cpp/include/leetcode/105/Solution.h](./cpp/include/leetcode/105/Solution.h) （2023年8月6日）
 
 
 
-**[144. 二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorder-traversal/)**
+##### [144. 二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorder-traversal/)
 
 C++：[./cpp/include/leetcode/144/Solution.h](./cpp/include/leetcode/144/Solution.h) （2023年8月5日）
 
 
 
-**[145. 二叉树的后序遍历](https://leetcode.cn/problems/binary-tree-postorder-traversal/)**
+##### [145. 二叉树的后序遍历](https://leetcode.cn/problems/binary-tree-postorder-traversal/)
 
 `栈` `树` `深度优先搜索` `二叉树`
 
 C++：[cpp/include/leetcode/145/Solution.h](./cpp/include/leetcode/145/Solution.h) （2023年8月9日）
 
-**[203. 移除链表元素](https://leetcode.cn/problems/remove-linked-list-elements/)**
+##### [203. 移除链表元素](https://leetcode.cn/problems/remove-linked-list-elements/)
 
 `递归` `链表`
 
@@ -159,7 +159,7 @@ C++：[cpp/include/leetcode/145/Solution.h](./cpp/include/leetcode/145/Solution.
 | C++  | [cpp/include/leetcode/203/Solution.h](./cpp/include/leetcode/203/Solution.h) | 2023年8月29日 |
 |      |                                                              |               |
 
-**[206. 反转链表](https://leetcode.cn/problems/reverse-linked-list/)**
+##### [206. 反转链表](https://leetcode.cn/problems/reverse-linked-list/)
 
 `递归` `链表`
 
@@ -168,7 +168,7 @@ C++：[cpp/include/leetcode/145/Solution.h](./cpp/include/leetcode/145/Solution.
 | C++  | [cpp/include/leetcode/206/Solution.h](./cpp/include/leetcode/206/Solution.h) | 2023年8月9日 |
 |      |                                                              |              |
 
-**[209. 长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum/)**
+##### [209. 长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum/)
 
 `数组` `二分查找` `前缀和` `滑动窗口`
 
@@ -177,23 +177,23 @@ C++：[cpp/include/leetcode/145/Solution.h](./cpp/include/leetcode/145/Solution.
 | C++  | [cpp/include/leetcode/209/Solution.h](./cpp/include/leetcode/209/Solution.h) | 2023年8月26日 |
 |      |                                                              |               |
 
-**[210. 课程表 II](https://leetcode.cn/problems/course-schedule-ii/)**
+##### [210. 课程表 II](https://leetcode.cn/problems/course-schedule-ii/)
 
 C++：[./cpp/include/leetcode/210/Solution.h](./cpp/include/leetcode/210/Solution.h) （2023年8月6日）
 
 
 
-**[217. 存在重复元素](https://leetcode.cn/problems/contains-duplicate/)**
+##### [217. 存在重复元素](https://leetcode.cn/problems/contains-duplicate/)
 
 C++：[./cpp/include/leetcode/217/Solution.h](./cpp/include/leetcode/217/Solution.h) （2023年8月7日）
 
 
 
-**[232. 用栈实现队列](https://leetcode.cn/problems/implement-queue-using-stacks/)**
+##### [232. 用栈实现队列](https://leetcode.cn/problems/implement-queue-using-stacks/)
 
 C++：[cpp/include/leetcode/232/MyQueue.h](cpp/include/leetcode/232/MyQueue.h) （2023年8月8日）
 
-**[228. 汇总区间](https://leetcode.cn/problems/summary-ranges/)**
+##### [228. 汇总区间](https://leetcode.cn/problems/summary-ranges/)
 
 `数组`
 
@@ -202,7 +202,7 @@ C++：[cpp/include/leetcode/232/MyQueue.h](cpp/include/leetcode/232/MyQueue.h) �
 | C++  | [cpp/include/leetcode/228/Solution.h](./cpp/include/leetcode/228/Solution.h) | 2023年8月26日 |
 |      |                                                              |               |
 
-**[283. 移动零](https://leetcode.cn/problems/move-zeroes/)**
+##### [283. 移动零](https://leetcode.cn/problems/move-zeroes/)
 
 `数组` `双指针`
 
@@ -211,7 +211,7 @@ C++：[cpp/include/leetcode/232/MyQueue.h](cpp/include/leetcode/232/MyQueue.h) �
 | C++  | [cpp/include/leetcode/283/Solution.h](./cpp/include/leetcode/283/Solution.h) | 2023年8月26日 |
 |      |                                                              |               |
 
-**[367. 有效的完全平方数](https://leetcode.cn/problems/valid-perfect-square/)**
+##### [367. 有效的完全平方数](https://leetcode.cn/problems/valid-perfect-square/)
 
 `数学` `二分查找`
 
@@ -220,7 +220,7 @@ C++：[cpp/include/leetcode/232/MyQueue.h](cpp/include/leetcode/232/MyQueue.h) �
 | C++  | [cpp/include/leetcode/367/Solution.h](./cpp/include/leetcode/367/Solution.h) | 2023年8月13日 |
 |      |                                                              |               |
 
-**[684. 冗余连接](https://leetcode.cn/problems/redundant-connection/)**
+##### [684. 冗余连接](https://leetcode.cn/problems/redundant-connection/)
 
 `深度优先搜索` `广度优先搜索` `并查集` `图`
 
@@ -229,7 +229,7 @@ C++：[cpp/include/leetcode/232/MyQueue.h](cpp/include/leetcode/232/MyQueue.h) �
 | C++  | [cpp/include/leetcode/684/Solution.h](./cpp/include/leetcode/684/Solution.h) | 2023年8月25日 |
 |      |                                                              |               |
 
-**[703. 数据流中的第 K 大元素](https://leetcode.cn/problems/kth-largest-element-in-a-stream/)**
+##### [703. 数据流中的第 K 大元素](https://leetcode.cn/problems/kth-largest-element-in-a-stream/)
 
 `树` `设计` `二叉搜索树` `二叉树` `数据流` `堆（优先队列）`
 
@@ -238,7 +238,7 @@ C++：[cpp/include/leetcode/232/MyQueue.h](cpp/include/leetcode/232/MyQueue.h) �
 | C++  | [cpp/include/leetcode/703/KthLargest.h](cpp/include/leetcode/703/KthLargest.h) | 2023年8月10日 |
 |      |                                                              |               |
 
-**[704. 二分查找](https://leetcode.cn/problems/binary-search/)**
+##### [704. 二分查找](https://leetcode.cn/problems/binary-search/)
 
 `数组` `二分查找`
 
@@ -247,7 +247,7 @@ C++：[cpp/include/leetcode/232/MyQueue.h](cpp/include/leetcode/232/MyQueue.h) �
 | C++  | [cpp/include/leetcode/704/Solution.h](./cpp/include/leetcode/704/Solution.h) | 2023年8月13日 |
 |      |                                                              |               |
 
-**[707. 设计链表](https://leetcode.cn/problems/design-linked-list/)**
+##### [707. 设计链表](https://leetcode.cn/problems/design-linked-list/)
 
 `设计` `链表`
 
@@ -256,11 +256,20 @@ C++：[cpp/include/leetcode/232/MyQueue.h](cpp/include/leetcode/232/MyQueue.h) �
 | C++  | [cpp/include/leetcode/707/MyLinkedList.h](./cpp/include/leetcode/707/MyLinkedList.h) | 2023年8月29日 |
 |      |                                                              |               |
 
-**[743. 网络延迟时间](https://leetcode.cn/problems/network-delay-time/)**
+##### [743. 网络延迟时间](https://leetcode.cn/problems/network-delay-time/)
 
 C++：[./cpp/include/leetcode/743/Solution.h](./cpp/include/leetcode/743/Solution.h) （2023年8月6日）
 
-**[844. 比较含退格的字符串](https://leetcode.cn/problems/backspace-string-compare/)**
+##### [823. 带因子的二叉树](https://leetcode.cn/problems/binary-trees-with-factors/)
+
+`数组` `哈希表` `动态规划` `排序`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/823/Solution.h](./cpp/include/leetcode/823/Solution.h) | 2023年8月29日 |
+|      |                                                              |               |
+
+##### [844. 比较含退格的字符串](https://leetcode.cn/problems/backspace-string-compare/)
 
 `栈` `双指针` `字符串` `模拟`
 
@@ -269,7 +278,7 @@ C++：[./cpp/include/leetcode/743/Solution.h](./cpp/include/leetcode/743/Solutio
 | C++  | [cpp/include/leetcode/844/Solution.h](./cpp/include/leetcode/844/Solution.h) | 2023年8月26日 |
 |      |                                                              |               |
 
-**[904. 水果成篮](https://leetcode.cn/problems/fruit-into-baskets/)**
+##### [904. 水果成篮](https://leetcode.cn/problems/fruit-into-baskets/)
 
 `数组` `哈希表` `滑动窗口`
 
@@ -278,7 +287,7 @@ C++：[./cpp/include/leetcode/743/Solution.h](./cpp/include/leetcode/743/Solutio
 | C++  | [cpp/include/leetcode/904/Solution.h](./cpp/include/leetcode/904/Solution.h) | 2023年8月26日 |
 |      |                                                              |               |
 
-**[977. 有序数组的平方](https://leetcode.cn/problems/squares-of-a-sorted-array/)**
+##### [977. 有序数组的平方](https://leetcode.cn/problems/squares-of-a-sorted-array/)
 
 `数组` `双指针` `排序`
 
@@ -287,13 +296,13 @@ C++：[./cpp/include/leetcode/743/Solution.h](./cpp/include/leetcode/743/Solutio
 | C++  | [cpp/include/leetcode/977/Solution.h](./cpp/include/leetcode/977/Solution.h) | 2023年8月26日 |
 |      |                                                              |               |
 
-**[1135. 最低成本联通所有城市](https://leetcode.cn/problems/connecting-cities-with-minimum-cost/)**
+##### [1135. 最低成本联通所有城市](https://leetcode.cn/problems/connecting-cities-with-minimum-cost/)
 
 C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solution.h) （2023年8月6日）
 
 
 
-**[1267. 统计参与通信的服务器](https://leetcode.cn/problems/count-servers-that-communicate/)**
+##### [1267. 统计参与通信的服务器](https://leetcode.cn/problems/count-servers-that-communicate/)
 
 `深度优先搜索` `广度优先搜索` `并查集` `数组` `计数` `矩阵`
 
@@ -302,7 +311,7 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/1267/README.md](./cpp/include/leetcode/1267/README.md) | 2023年8月24日 |
 |      |                                                              |               |
 
-**[1448. 统计二叉树中好节点的数目](https://leetcode.cn/problems/count-good-nodes-in-binary-tree/)**
+##### [1448. 统计二叉树中好节点的数目](https://leetcode.cn/problems/count-good-nodes-in-binary-tree/)
 
 `树` `深度优先搜索` `广度优先搜索` `二叉树`
 
@@ -311,7 +320,7 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/1448/Solution.h](./cpp/include/leetcode/1448/Solution.h) | 2023年8月25日 |
 |      |                                                              |               |
 
-**[1572. 矩阵对角线元素的和](https://leetcode.cn/problems/matrix-diagonal-sum/)**
+##### [1572. 矩阵对角线元素的和](https://leetcode.cn/problems/matrix-diagonal-sum/)
 
 `数组` `矩阵`
 
