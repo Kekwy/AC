@@ -3,11 +3,20 @@
 
 ## 复习题单
 
-力扣：
+力扣：823
 
 
 
 ## Leetcode 力扣
+
+**[19. 删除链表的倒数第 N 个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)**
+
+`链表` `双指针`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/19/Solution.h](./cpp/include/leetcode/19/Solution.h) | 2023年8月29日 |
+|      |                                                              |               |
 
 **[20. 有效的括号](https://leetcode.cn/problems/valid-parentheses/)**
 
@@ -244,7 +253,7 @@ C++：[cpp/include/leetcode/232/MyQueue.h](cpp/include/leetcode/232/MyQueue.h) �
 
 | 语言 | 题解                                                         | 最后修改      |
 | ---- | ------------------------------------------------------------ | ------------- |
-| C++  | [cpp/include/leetcode/707/Solution.h](./cpp/include/leetcode/707/Solution.h) | 2023年8月29日 |
+| C++  | [cpp/include/leetcode/707/MyLinkedList.h](./cpp/include/leetcode/707/MyLinkedList.h) | 2023年8月29日 |
 |      |                                                              |               |
 
 **[743. 网络延迟时间](https://leetcode.cn/problems/network-delay-time/)**
