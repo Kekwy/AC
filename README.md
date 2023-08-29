@@ -76,6 +76,15 @@
 | C++  | [cpp/include/leetcode/57/Solution.h](./cpp/include/leetcode/57/Solution.h) | 2023年8月27日 |
 |      |                                                              |               |
 
+**[59. 螺旋矩阵 II](https://leetcode.cn/problems/spiral-matrix-ii/)**
+
+`数组` `矩阵` `模拟`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/59/Solution.h](./cpp/include/leetcode/59/Solution.h) | 2023年8月28日 |
+|      |                                                              |               |
+
 **[69. x 的平方根 ](https://leetcode.cn/problems/sqrtx/)**
 
 `数学` `二分查找`
