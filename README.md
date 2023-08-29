@@ -58,6 +58,15 @@
 | C++  | [cpp/include/leetcode/35/Solution.h](./cpp/include/leetcode/35/Solution.h) | 2023年8月13日 |
 |      |                                                              |               |
 
+**[54. 螺旋矩阵](https://leetcode.cn/problems/spiral-matrix/)**
+
+`数组` `矩阵` `模拟`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/54/Solution.h](./cpp/include/leetcode/54/Solution.h) | 2023年8月29日 |
+|      |                                                              |               |
+
 **[56. 合并区间](https://leetcode.cn/problems/merge-intervals/)**
 
 `数组` `排序`
