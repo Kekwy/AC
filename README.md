@@ -331,7 +331,16 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/1572/Solution.h](./cpp/include/leetcode/1572/Solution.h) | 2023年8月11日 |
 |      |                                                              |               |
 
-### 剑指 Offer
+#### [1654. 到家的最少跳跃次数](https://leetcode.cn/problems/minimum-jumps-to-reach-home/)
+
+`广度优先搜索` `数组` `动态规划`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/1654/Solution.h](./cpp/include/leetcode/1654/Solution.h) | 2023年8月30日 |
+|      |                                                              |               |
+
+### 剑指 Offer（第 2 版）
 
 #### [剑指 Offer 05. 替换空格](https://leetcode.cn/problems/ti-huan-kong-ge-lcof/)
 
@@ -339,6 +348,10 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | ---- | ------------------------------------------------------------ | ------------- |
 | C++  | [cpp/include/leetcode/offer-05/Solution.h](./cpp/include/leetcode/offer-05/Solution.h) | 2023年8月29日 |
 |      |                                                              |               |
+
+### 程序员面试金典（第 6 版）
+
+
 
 ## Nowcoder 牛客
 
