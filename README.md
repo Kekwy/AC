@@ -138,7 +138,14 @@ C++：[cpp/include/leetcode/94/Solution.h](./cpp/include/leetcode/94/Solution.h)
 
 C++：[./cpp/include/leetcode/105/Solution.h](./cpp/include/leetcode/105/Solution.h) （2023年8月6日）
 
+#### [142. 环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/)
 
+`哈希表` `链表` `双指针`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/142/Solution.h](./cpp/include/leetcode/142/Solution.h) | 2023年8月30日 |
+|      |                                                              |               |
 
 #### [144. 二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorder-traversal/)
 
