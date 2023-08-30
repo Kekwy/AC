@@ -36,8 +36,6 @@ public:
                     state = STATE_DOT;
                 } else if (s[i] >= '0' && s[i] <= '9') {
                     state = STATE_NUM;
-                } else if (s[i] == 'e' || s[i] == 'E') {
-                    state = STATE_E;
                 } else {
                     return false;
                 }
@@ -105,7 +103,7 @@ public:
         if (state == STATE_NUM || state == STATE_TAILSPACE || (state == STATE_DOT && num)) {
             return true;
         }
-        return true;
+        return false;
     }
 };
 
