@@ -337,7 +337,7 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 
 | 语言 | 题解                                                         | 最后修改      |
 | ---- | ------------------------------------------------------------ | ------------- |
-| C++  | [cpp/include/leetcode/1654/Solution.h](./cpp/include/leetcode/1654/Solution.h) | 2023年8月30日 |
+| C++  | [cpp/include/leetcode/1654/README.md](./cpp/include/leetcode/1654/README.md) | 2023年8月30日 |
 |      |                                                              |               |
 
 ### 剑指 Offer（第 2 版）
@@ -347,6 +347,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | 语言 | 题解                                                         | 最后修改      |
 | ---- | ------------------------------------------------------------ | ------------- |
 | C++  | [cpp/include/leetcode/offer-05/Solution.h](./cpp/include/leetcode/offer-05/Solution.h) | 2023年8月29日 |
+|      |                                                              |               |
+
+#### [剑指 Offer 58 - II. 左旋转字符串](https://leetcode.cn/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)
+
+`数学` `双指针` `字符串`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/offer-58/Solution.h](./cpp/include/leetcode/offer-58/Solution.h) | 2023年8月30日 |
 |      |                                                              |               |
 
 ### 程序员面试金典（第 6 版）
