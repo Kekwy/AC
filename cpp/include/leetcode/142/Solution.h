@@ -23,7 +23,7 @@ public:
     ListNode *detectCycle(ListNode *head) {
         ListNode *slow = head, *quick = head;
 
-        while(quick != nullptr && quick->next != nullptr) { // quick 指针判空
+        while (quick != nullptr && quick->next != nullptr) { // quick 指针判空
             slow = slow->next;
             quick = quick->next->next;
             if (slow == quick) {
