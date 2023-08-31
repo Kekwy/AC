@@ -5,35 +5,46 @@
 #ifndef CPP_SOLUTION_H
 #define CPP_SOLUTION_H
 
-#include <string>
+#include <vector>
 
 using namespace std;
 
-/**
- * Definition for singly-linked list.
- */
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode(int x) : val(x), next(NULL) {}
-};
-
 class Solution {
 public:
-    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-        int lenA = 0, lenB = 0;
-        for (ListNode *p = headA; p != nullptr; p = p->next) lenA++;
-        for (ListNode *p = headB; p != nullptr; p = p->next) lenB++;
-        ListNode *ptrA = headA, *ptrB = headB;
-        if (lenA > lenB) {
-            for (int i = 0, skip = lenA - lenB; i < skip; i++, ptrA = ptrA->next);
-        } else if (lenA < lenB) {
-            for (int i = 0, skip = lenB - lenA; i < skip; i++, ptrB = ptrB->next);
+    vector<int> twoSum(vector<int> &nums, int target) {
+        // 通过二分查找找到与 target / 2 最接近的数的下标，以该下标为中心向两边查找
+        int begin = 0, end = nums.size();
+        int pos = -1;
+        int tmp = target / 2;
+        while (begin < end) {
+            pos = (begin + end) / 2;
+            if (nums[pos] > tmp) end = pos;
+            else if (nums[pos] < tmp) begin = pos + 1;
+            else break;
         }
-        for (; ptrA != nullptr; ptrA = ptrA->next, ptrB = ptrB->next) {
-            if (ptrA == ptrB) return ptrA;
+        int lp, rp;
+        if (2 * nums[pos] > target) {
+            rp = pos;
+            lp = pos - 1;
+        } else if (2 * nums[pos] < target) {
+            rp = pos + 1;
+            lp = pos;
+        } else {
+            rp = pos + 1;
+            lp = pos - 1;
         }
-        return nullptr;
+        auto res = vector<int>();
+        while (lp >= 0 && rp < nums.size()) {
+            int sum = nums[lp] + nums[rp];
+            if (sum < target) rp++;
+            else if (sum > target) lp--;
+            else {
+                res.push_back(nums[lp]);
+                res.push_back(nums[rp]);
+                break; // 
+            }
+        }
+        return res;
     }
 };
 
