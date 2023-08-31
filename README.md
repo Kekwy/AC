@@ -385,6 +385,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/offer-06/Solution.h](./cpp/include/leetcode/offer-06/Solution.h) | 2023年8月31日 |
 |      |                                                              |               |
 
+#### [剑指 Offer 18. 删除链表的节点](https://leetcode.cn/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
+
+`链表`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/offer-18/Solution.h](./cpp/include/leetcode/offer-18/Solution.h) | 2023年8月31日 |
+|      |                                                              |               |
+
 #### [剑指 Offer 20. 表示数值的字符串](https://leetcode.cn/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/)
 
 `字符串`
