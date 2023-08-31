@@ -20,18 +20,19 @@ struct ListNode {
 
 class Solution {
 public:
-    ListNode *deleteNode(ListNode *head, int val) {
-        auto 怕 = new ListNode(-1);
-        怕->next = head;
-        for (ListNode *指针 = 怕; 指针->next != nullptr; 指针 = 指针->next) {
-            if (指针->next->val == val) {
-                指针->next = 指针->next->next;
-                break;
+    ListNode *getKthFromEnd(ListNode *head, int k) {
+        if (head == nullptr) return head;
+        ListNode *p = head, *q = head;
+        int winSize = 0;
+        for (; p != nullptr; p = p->next) {
+            if (winSize < k) {
+                winSize++;
+            } else {
+                q = q->next;
             }
         }
-        head = 怕->next;
-        delete 怕;
-        return head;
+        if (winSize < k) return nullptr;
+        else return q;
     }
 };
 
