@@ -198,12 +198,6 @@ C++：[./cpp/include/leetcode/210/Solution.h](./cpp/include/leetcode/210/Solutio
 
 C++：[./cpp/include/leetcode/217/Solution.h](./cpp/include/leetcode/217/Solution.h) （2023年8月7日）
 
-
-
-#### [232. 用栈实现队列](https://leetcode.cn/problems/implement-queue-using-stacks/)
-
-C++：[cpp/include/leetcode/232/MyQueue.h](cpp/include/leetcode/232/MyQueue.h) （2023年8月8日）
-
 #### [228. 汇总区间](https://leetcode.cn/problems/summary-ranges/)
 
 `数组`
@@ -211,6 +205,19 @@ C++：[cpp/include/leetcode/232/MyQueue.h](cpp/include/leetcode/232/MyQueue.h) �
 | 语言 | 题解                                                         | 最后修改      |
 | ---- | ------------------------------------------------------------ | ------------- |
 | C++  | [cpp/include/leetcode/228/Solution.h](./cpp/include/leetcode/228/Solution.h) | 2023年8月26日 |
+|      |                                                              |               |
+
+#### [232. 用栈实现队列](https://leetcode.cn/problems/implement-queue-using-stacks/)
+
+C++：[cpp/include/leetcode/232/MyQueue.h](cpp/include/leetcode/232/MyQueue.h) （2023年8月8日）
+
+#### [242. 有效的字母异位词](https://leetcode.cn/problems/valid-anagram/)
+
+`哈希表` `字符串` `排序`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/242/Solution.h](./cpp/include/leetcode/242/Solution.h) | 2023年8月31日 |
 |      |                                                              |               |
 
 #### [283. 移动零](https://leetcode.cn/problems/move-zeroes/)
@@ -349,6 +356,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/1654/README.md](./cpp/include/leetcode/1654/README.md) | 2023年8月30日 |
 |      |                                                              |               |
 
+#### [1761. 一个图中连通三元组的最小度数](https://leetcode.cn/problems/minimum-degree-of-a-connected-trio-in-a-graph/)
+
+`图`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/1761/Solution.h](./cpp/include/leetcode/1761/Solution.h) | 2023年8月31日 |
+|      |                                                              |               |
+
 ### 剑指 Offer（第 2 版）
 
 #### [剑指 Offer 05. 替换空格](https://leetcode.cn/problems/ti-huan-kong-ge-lcof/)
@@ -358,6 +374,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | 语言 | 题解                                                         | 最后修改      |
 | ---- | ------------------------------------------------------------ | ------------- |
 | C++  | [cpp/include/leetcode/offer-05/Solution.h](./cpp/include/leetcode/offer-05/Solution.h) | 2023年8月29日 |
+|      |                                                              |               |
+
+#### [剑指 Offer 06. 从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)
+
+`栈` `递归` `链表` `双指针`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/offer-06/Solution.h](./cpp/include/leetcode/offer-06/Solution.h) | 2023年8月31日 |
 |      |                                                              |               |
 
 #### [剑指 Offer 20. 表示数值的字符串](https://leetcode.cn/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/)
