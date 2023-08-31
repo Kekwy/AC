@@ -7,7 +7,7 @@
 
 ## 复习题单
 
-力扣：142, 823, 904, 1654
+力扣：142, 823, 904, 1654, 1761
 
 ## Leetcode 力扣
 
@@ -401,6 +401,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | 语言 | 题解                                                         | 最后修改      |
 | ---- | ------------------------------------------------------------ | ------------- |
 | C++  | [cpp/include/leetcode/offer-24/Solution.h](./cpp/include/leetcode/offer-24/Solution.h) | 2023年8月31日 |
+|      |                                                              |               |
+
+#### [剑指 Offer 35. 复杂链表的复制](https://leetcode.cn/problems/fu-za-lian-biao-de-fu-zhi-lcof/)
+
+`哈希表` `链表`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/offer-35/Solution.h](./cpp/include/leetcode/offer-35/Solution.h) | 2023年8月31日 |
 |      |                                                              |               |
 
 #### [剑指 Offer 58 - II. 左旋转字符串](https://leetcode.cn/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)
