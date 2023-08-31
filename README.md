@@ -394,6 +394,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/offer-20/Solution.h](./cpp/include/leetcode/offer-20/Solution.h) | 2023年8月30日 |
 |      |                                                              |               |
 
+#### [剑指 Offer 24. 反转链表](https://leetcode.cn/problems/fan-zhuan-lian-biao-lcof/)
+
+`递归` `链表`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/offer-24/Solution.h](./cpp/include/leetcode/offer-24/Solution.h) | 2023年8月31日 |
+|      |                                                              |               |
+
 #### [剑指 Offer 58 - II. 左旋转字符串](https://leetcode.cn/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)
 
 `数学` `双指针` `字符串`
