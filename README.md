@@ -7,7 +7,7 @@
 
 ## 复习题单
 
-力扣：142, 823, 904, 1654, 1761
+力扣：142, 823, 904, 1654, 1761, 57
 
 ## Leetcode 力扣
 
@@ -403,6 +403,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/offer-20/Solution.h](./cpp/include/leetcode/offer-20/Solution.h) | 2023年8月30日 |
 |      |                                                              |               |
 
+#### [剑指 Offer 21. 调整数组顺序使奇数位于偶数前面](https://leetcode.cn/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/)
+
+`数组` `双指针` `排序`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/offer-21/Solution.h](./cpp/include/leetcode/offer-21/Solution.h) | 2023年8月31日 |
+|      |                                                              |               |
+
 #### [剑指 Offer 22. 链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)
 
 `链表` `双指针`
@@ -448,13 +457,22 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/offer-52/Solution.h](./cpp/include/leetcode/offer-52/Solution.h) | 2023年8月31日 |
 |      |                                                              |               |
 
+#### [剑指 Offer 57. 和为s的两个数字](https://leetcode.cn/problems/he-wei-sde-liang-ge-shu-zi-lcof/)
+
+`数组` `双指针` `二分查找`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/offer-57/Solution.h](./cpp/include/leetcode/offer-57/Solution.h) | 2023年8月31日 |
+|      |                                                              |               |
+
 #### [剑指 Offer 58 - II. 左旋转字符串](https://leetcode.cn/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)
 
 `数学` `双指针` `字符串`
 
 | 语言 | 题解                                                         | 最后修改      |
 | ---- | ------------------------------------------------------------ | ------------- |
-| C++  | [cpp/include/leetcode/offer-58/Solution.h](./cpp/include/leetcode/offer-58/Solution.h) | 2023年8月30日 |
+| C++  | [cpp/include/leetcode/offer-58-II/Solution.h](./cpp/include/leetcode/offer-58-II/Solution.h) | 2023年8月30日 |
 |      |                                                              |               |
 
 #### [剑指 Offer 67. 把字符串转换成整数](https://leetcode.cn/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/)
