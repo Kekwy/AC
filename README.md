@@ -466,6 +466,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/offer-57/Solution.h](./cpp/include/leetcode/offer-57/Solution.h) | 2023年8月31日 |
 |      |                                                              |               |
 
+#### [剑指 Offer 58 - I. 翻转单词顺序](https://leetcode.cn/problems/fan-zhuan-dan-ci-shun-xu-lcof/)
+
+`双指针` `字符串`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/offer-58-I/Solution.h](./cpp/include/leetcode/offer-58-I/Solution.h) | 2023年8月31日 |
+|      |                                                              |               |
+
 #### [剑指 Offer 58 - II. 左旋转字符串](https://leetcode.cn/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)
 
 `数学` `双指针` `字符串`
