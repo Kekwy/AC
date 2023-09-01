@@ -126,7 +126,7 @@ class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
         auto heap = Heap<int>(true);
-        auto rmHeap = Heap<int>(true);
+        auto rmHeap = Heap<int>(true); // 可以通过存储二元组的方式将该堆优化掉
         for (int i = 0; i < nums.size() && i < k; i++) {
             heap.push(nums[i]);
         }
