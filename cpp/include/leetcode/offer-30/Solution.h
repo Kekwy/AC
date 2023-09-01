@@ -9,46 +9,53 @@
 
 using namespace std;
 
-class CQueue {
+class MinStack {
 
-    stack<int> input;
+    stack<int> dataStack;
 
-    stack<int> output;
+    stack<int> minStack;
 
-    void update() {
-        if (output.empty()) {
-            while (!input.empty()) {
-                output.push(input.top());
-                input.pop();
-            }
+    int minNum;
+
+public:
+    /** initialize your data structure here. */
+    MinStack() : minNum(0) {
+
+    }
+
+    void push(int x) {
+        if (dataStack.empty() || x <= minNum) {
+            minStack.push(minNum);
+            minNum = x;
+        }
+        dataStack.push(x);
+    }
+
+    void pop() {
+        int p = dataStack.top();
+        dataStack.pop();
+        if (p == minNum) {
+            minNum = minStack.top();
+            minStack.pop();
         }
     }
 
-public:
-
-    CQueue() {
-
+    int top() {
+        return dataStack.top();
     }
 
-    void appendTail(int value) {
-        input.push(value);
+    int min() {
+        return minNum;
     }
-
-    int deleteHead() {
-        update();
-        if (output.empty()) return -1;
-        int front = output.top();
-        output.pop();
-        return front;
-    }
-
 };
 
 /**
- * Your CQueue object will be instantiated and called as such:
- * CQueue* obj = new CQueue();
- * obj->appendTail(value);
- * int param_2 = obj->deleteHead();
+ * Your MinStack object will be instantiated and called as such:
+ * MinStack* obj = new MinStack();
+ * obj->push(x);
+ * obj->pop();
+ * int param_3 = obj->top();
+ * int param_4 = obj->min();
  */
 
 #endif //CPP_SOLUTION_H
