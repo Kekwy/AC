@@ -133,7 +133,7 @@ public:
         int lp = 0, rp = k;
         auto res = vector<int>();
         res.push_back(heap.top());
-        for (; rp < nums.size(); lp++, rp++) { // 忘记移动做指针了
+        for (; rp < nums.size(); lp++, rp++) { // 忘记移动左指针了
             rmHeap.push(nums[lp]);
             heap.push(nums[rp]);
             while (!rmHeap.empty() && rmHeap.top() == heap.top()) {
