@@ -457,6 +457,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/offer-25/Solution.h](./cpp/include/leetcode/offer-25/Solution.h) | 2023年8月31日 |
 |      |                                                              |               |
 
+#### [剑指 Offer 30. 包含min函数的栈](https://leetcode.cn/problems/bao-han-minhan-shu-de-zhan-lcof/)
+
+`栈` `设计`
+
+| 语言 | 题解                                                         | 最后修改     |
+| ---- | ------------------------------------------------------------ | ------------ |
+| C++  | [cpp/include/leetcode/offer-30/Solution.h](./cpp/include/leetcode/offer-30/Solution.h) | 2023年9月1日 |
+|      |                                                              |              |
+
 #### [剑指 Offer 35. 复杂链表的复制](https://leetcode.cn/problems/fu-za-lian-biao-de-fu-zhi-lcof/)
 
 `哈希表` `链表`
