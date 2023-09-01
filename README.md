@@ -365,6 +365,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/1761/Solution.h](./cpp/include/leetcode/1761/Solution.h) | 2023年8月31日 |
 |      |                                                              |               |
 
+#### [2240. 买钢笔和铅笔的方案数](https://leetcode.cn/problems/number-of-ways-to-buy-pens-and-pencils/)
+
+`数学` `枚举` 
+
+| 语言 | 题解                                                         | 最后修改     |
+| ---- | ------------------------------------------------------------ | ------------ |
+| C++  | [cpp/include/leetcode/2240/Solution.h](./cpp/include/leetcode/2240/Solution.h) | 2023年9月1日 |
+|      |                                                              |              |
+
 ### 剑指 Offer（第 2 版）
 
 #### [剑指 Offer 05. 替换空格](https://leetcode.cn/problems/ti-huan-kong-ge-lcof/)
