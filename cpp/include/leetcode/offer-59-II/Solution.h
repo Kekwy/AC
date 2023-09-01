@@ -5,57 +5,52 @@
 #ifndef CPP_SOLUTION_H
 #define CPP_SOLUTION_H
 
-#include <stack>
+#include <queue>
 
 using namespace std;
 
-class MinStack {
+class MaxQueue {
 
-    stack<int> dataStack;
+    queue<int> data;
 
-    stack<int> minStack;
-
-    int minNum;
+    deque<int> moque;
 
 public:
-    /** initialize your data structure here. */
-    MinStack() : minNum(0) {
+    MaxQueue() {
 
     }
-
-    void push(int x) {
-        if (dataStack.empty() || x <= minNum) {
-            minStack.push(minNum);
-            minNum = x;
+    
+    int max_value() {
+        if (data.empty()) return -1;
+        return moque.front();
+    }
+    
+    void push_back(int value) {
+        data.push(value);
+        // if (!moque.empty() && moque.back() < value) { // while 写成 if 了还半天看不出来
+        while (!moque.empty() && moque.back() < value) {
+            moque.pop_back();
         }
-        dataStack.push(x);
+        moque.push_back(value);
     }
-
-    void pop() {
-        int p = dataStack.top();
-        dataStack.pop();
-        if (p == minNum) {
-            minNum = minStack.top();
-            minStack.pop();
+    
+    int pop_front() {
+        if (data.empty()) return -1;
+        int front = data.front();
+        data.pop();
+        if (front == moque.front()) {
+            moque.pop_front();
         }
-    }
-
-    int top() {
-        return dataStack.top();
-    }
-
-    int min() {
-        return minNum;
+        return front;
     }
 };
 
 /**
- * Your MinStack object will be instantiated and called as such:
- * MinStack* obj = new MinStack();
- * obj->push(x);
- * obj->pop();
- * int param_3 = obj->top();
- * int param_4 = obj->min();
+ * Your MaxQueue object will be instantiated and called as such:
+ * MaxQueue* obj = new MaxQueue();
+ * int param_1 = obj->max_value();
+ * obj->push_back(value);
+ * int param_3 = obj->pop_front();
  */
 
 #endif //CPP_SOLUTION_H
