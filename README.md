@@ -367,7 +367,7 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 
 #### [2240. 买钢笔和铅笔的方案数](https://leetcode.cn/problems/number-of-ways-to-buy-pens-and-pencils/)
 
-`数学` `枚举` 
+`数学` `枚举`
 
 | 语言 | 题解                                                         | 最后修改     |
 | ---- | ------------------------------------------------------------ | ------------ |
@@ -393,6 +393,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | ---- | ------------------------------------------------------------ | ------------- |
 | C++  | [cpp/include/leetcode/offer-06/Solution.h](./cpp/include/leetcode/offer-06/Solution.h) | 2023年8月31日 |
 |      |                                                              |               |
+
+#### [剑指 Offer 09. 用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)
+
+`栈` `设计` `队列`
+
+| 语言 | 题解                                                         | 最后修改     |
+| ---- | ------------------------------------------------------------ | ------------ |
+| C++  | [cpp/include/leetcode/offer-09/Solution.h](./cpp/include/leetcode/offer-09/Solution.h) | 2023年9月1日 |
+|      |                                                              |              |
 
 #### [剑指 Offer 18. 删除链表的节点](https://leetcode.cn/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
 
