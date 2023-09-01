@@ -511,6 +511,24 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/offer-58-II/Solution.h](./cpp/include/leetcode/offer-58-II/Solution.h) | 2023年8月30日 |
 |      |                                                              |               |
 
+#### [剑指 Offer 59 - I. 滑动窗口的最大值](https://leetcode.cn/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/)
+
+`队列` `滑动窗口` `单调队列` `堆（优先级队列）`
+
+| 语言 | 题解                                                         | 最后修改     |
+| ---- | ------------------------------------------------------------ | ------------ |
+| C++  | [cpp/include/leetcode/offer-59-I/Solution.h](./cpp/include/leetcode/offer-59-I/Solution.h) | 2023年9月1日 |
+|      |                                                              |              |
+
+#### [剑指 Offer 59 - II. 队列的最大值](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof/)
+
+`设计` `队列` `单调队列`
+
+| 语言 | 题解                                                         | 最后修改     |
+| ---- | ------------------------------------------------------------ | ------------ |
+| C++  | [cpp/include/leetcode/offer-59-II/Solution.h](./cpp/include/leetcode/offer-59-II/Solution.h) | 2023年9月1日 |
+|      |                                                              |              |
+
 #### [剑指 Offer 67. 把字符串转换成整数](https://leetcode.cn/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/)
 
 `字符串`
