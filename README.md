@@ -670,7 +670,16 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 
 | 语言 | 题解                                                         | 最后修改     |
 | ---- | ------------------------------------------------------------ | ------------ |
-| C++  | [cpp/include/leetcode/offer-55/Solution.h](./cpp/include/leetcode/offer-55/Solution.h) | 2023年9月2日 |
+| C++  | [cpp/include/leetcode/offer-55-I/Solution.h](./cpp/include/leetcode/offer-55-I/Solution.h) | 2023年9月2日 |
+|      |                                                              |              |
+
+#### [剑指 Offer 55 - II. 平衡二叉树](https://leetcode.cn/problems/ping-heng-er-cha-shu-lcof/)
+
+`树` `深度优先搜索` `二叉树`
+
+| 语言 | 题解                                                         | 最后修改     |
+| ---- | ------------------------------------------------------------ | ------------ |
+| C++  | [cpp/include/leetcode/offer-55-II/Solution.h](./cpp/include/leetcode/offer-55-II/Solution.h) | 2023年9月2日 |
 |      |                                                              |              |
 
 #### [剑指 Offer 57. 和为s的两个数字](https://leetcode.cn/problems/he-wei-sde-liang-ge-shu-zi-lcof/)
