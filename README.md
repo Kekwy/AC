@@ -7,7 +7,7 @@
 
 ## 复习题单
 
-力扣：142, 823, 904, 1654, 1761, 57
+力扣：142, 823, 904, 1654, 1761, offer-57, offer-11
 
 ## Leetcode 力扣
 
@@ -392,6 +392,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | 语言 | 题解                                                         | 最后修改     |
 | ---- | ------------------------------------------------------------ | ------------ |
 | C++  | [cpp/include/leetcode/offer-03/Solution.h](./cpp/include/leetcode/offer-03/Solution.h) | 2023年9月1日 |
+|      |                                                              |              |
+
+#### [剑指 Offer 04. 二维数组中的查找](https://leetcode.cn/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/)
+
+`数组` `二分查找` `分治` `矩阵`
+
+| 语言 | 题解                                                         | 最后修改     |
+| ---- | ------------------------------------------------------------ | ------------ |
+| C++  | [cpp/include/leetcode/offer-04/Solution.h](./cpp/include/leetcode/offer-04/Solution.h) | 2023年9月2日 |
 |      |                                                              |              |
 
 #### [剑指 Offer 05. 替换空格](https://leetcode.cn/problems/ti-huan-kong-ge-lcof/)
