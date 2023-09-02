@@ -5,20 +5,21 @@
 #ifndef CPP_SOLUTION_H
 #define CPP_SOLUTION_H
 
-#include <vector>
+#include <string>
 
 using namespace std;
 
 class Solution {
 public:
-    int missingNumber(vector<int>& nums) {
-        int begin = 0, end = nums.size();
-        while(begin < end) {
-            int mid = (begin + end) / 2;
-            if (nums[mid] == mid) begin = mid + 1;
-            else end = mid;
+    char firstUniqChar(string s) {
+        int hashTable[26] = { 0 };
+        for (int i = 0; i < s.length(); i++) {
+            hashTable[s[i] - 'a']++;
         }
-        return begin;
+        for (int i = 0; i < s.length(); i++) {
+            if (hashTable[s[i] - 'a'] == 1) return s[i];
+        }
+        return ' ';
     }
 };
 

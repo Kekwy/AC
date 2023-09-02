@@ -421,6 +421,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/offer-09/Solution.h](./cpp/include/leetcode/offer-09/Solution.h) | 2023年9月1日 |
 |      |                                                              |              |
 
+#### [剑指 Offer 11. 旋转数组的最小数字](https://leetcode.cn/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)
+
+`数组` `二分查找`
+
+| 语言 | 题解                                                         | 最后修改     |
+| ---- | ------------------------------------------------------------ | ------------ |
+| C++  | [cpp/include/leetcode/offer-11/Solution.h](./cpp/include/leetcode/offer-11/Solution.h) | 2023年9月2日 |
+|      |                                                              |              |
+
 #### [剑指 Offer 18. 删除链表的节点](https://leetcode.cn/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
 
 `链表`
