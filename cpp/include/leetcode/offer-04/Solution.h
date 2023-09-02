@@ -14,14 +14,14 @@ class Solution {
     bool findNumberInPartial2DArray(vector<vector<int>>& matrix, int beginRow, int beginCol, int endRow, int endCol, int target) {
         if (beginRow >= endRow || beginCol >= endCol) return false;
         int midR = beginRow + (endRow - beginRow) / 2;
-        int midC = beginCol + (endCol - endRow) / 2;
-        if (matrix[midR][midC] > target) {
-            return findNumberInPartial2DArray(matrix, midR + 1, beginCol, endRow - midR - 1, midC + 1, target) 
-                || findNumberInPartial2DArray(matrix, beginRow, midC + 1, midR + 1, endCol - midC - 1, target)
-                || findNumberInPartial2DArray(matrix, midR + 1, midC + 1, endRow - midR - 1, endCol - midC - 1, target);
-        } else if (matrix[midR][midC] < target) {
-            return findNumberInPartial2DArray(matrix, midR, beginCol, endRow - midR, midC, target) 
-                || findNumberInPartial2DArray(matrix, beginRow, midC, midR, endCol - midC, target)
+        int midC = beginCol + (endCol - endCol) / 2;
+        if (matrix[midR][midC] < target) {
+            return findNumberInPartial2DArray(matrix, midR + 1, beginCol, endRow, midC + 1, target) 
+                || findNumberInPartial2DArray(matrix, beginRow, midC + 1, midR + 1, endCol, target)
+                || findNumberInPartial2DArray(matrix, midR + 1, midC + 1, endRow, endCol, target);
+        } else if (matrix[midR][midC] > target) {
+            return findNumberInPartial2DArray(matrix, midR, beginCol, endRow, midC, target) 
+                || findNumberInPartial2DArray(matrix, beginRow, midC, midR, endCol, target)
                 || findNumberInPartial2DArray(matrix, beginRow, beginCol, midR, midC, target);
         } else {
             return true;
