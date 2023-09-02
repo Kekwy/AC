@@ -448,6 +448,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/offer-12/Solution.h](./cpp/include/leetcode/offer-12/Solution.h) | 2023年9月2日 |
 |      |                                                              |              |
 
+#### [剑指 Offer 13. 机器人的运动范围](https://leetcode.cn/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/)
+
+`深度优先搜索` `广度优先搜索` `动态规划`
+
+| 语言 | 题解                                                         | 最后修改     |
+| ---- | ------------------------------------------------------------ | ------------ |
+| C++  | [cpp/include/leetcode/offer-13/Solution.h](./cpp/include/leetcode/offer-13/Solution.h) | 2023年9月2日 |
+|      |                                                              |              |
+
 #### [剑指 Offer 18. 删除链表的节点](https://leetcode.cn/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
 
 `链表`
