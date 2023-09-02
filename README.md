@@ -374,6 +374,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/2240/Solution.h](./cpp/include/leetcode/2240/Solution.h) | 2023年9月1日 |
 |      |                                                              |              |
 
+#### [2511. 最多可以摧毁的敌人城堡数目](https://leetcode.cn/problems/maximum-enemy-forts-that-can-be-captured/)
+
+`数组` `双指针`
+
+| 语言 | 题解                                                         | 最后修改     |
+| ---- | ------------------------------------------------------------ | ------------ |
+| C++  | [cpp/include/leetcode/2511/Solution.h](./cpp/include/leetcode/2511/Solution.h) | 2023年9月2日 |
+|      |                                                              |              |
+
 ### 剑指 Offer（第 2 版）
 
 #### [剑指 Offer 03. 数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)
