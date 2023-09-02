@@ -21,20 +21,15 @@ struct TreeNode {
 };
 
 class Solution {
-
-    void visit(TreeNode *root) {
-        TreeNode *tmp = root->left;
-        root->left = root->right;
-        root->right = tmp;
+    bool isSymmetricEqual(TreeNode *a, TreeNode *b) {
+        if (a == nullptr && b == nullptr) return true;
+        else if (a == nullptr || b == nullptr || a->val != b->val) return false;
+        return isSymmetricEqual(a->left, b->right) && isSymmetricEqual(a->right, b->left);
     }
-
 public:
-    TreeNode *mirrorTree(TreeNode *root) {
-        if (root == nullptr) return nullptr;
-        root->left = mirrorTree(root->left);
-        root->right = mirrorTree(root->right);
-        visit(root);
-        return root;
+    bool isSymmetric(TreeNode *root) {
+        if (root == nullptr) return true;
+        return isSymmetricEqual(root->left, root->right);
     }
 };
 

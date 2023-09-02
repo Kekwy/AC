@@ -439,6 +439,10 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/offer-11/Solution.h](./cpp/include/leetcode/offer-11/Solution.h) | 2023年9月2日 |
 |      |                                                              |              |
 
+#### [剑指 Offer 12. 矩阵中的路径](https://leetcode.cn/problems/ju-zhen-zhong-de-lu-jing-lcof/)
+
+``
+
 #### [剑指 Offer 18. 删除链表的节点](https://leetcode.cn/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
 
 `链表`
