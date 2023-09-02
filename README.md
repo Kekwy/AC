@@ -511,6 +511,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/offer-35/Solution.h](./cpp/include/leetcode/offer-35/Solution.h) | 2023年8月31日 |
 |      |                                                              |               |
 
+#### [剑指 Offer 50. 第一个只出现一次的字符](https://leetcode.cn/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/)
+
+`队列` `哈希表` `字符串` `计数`
+
+| 语言 | 题解                                                         | 最后修改     |
+| ---- | ------------------------------------------------------------ | ------------ |
+| C++  | [cpp/include/leetcode/offer-50/Solution.h](./cpp/include/leetcode/offer-50/Solution.h) | 2023年9月2日 |
+|      |                                                              |              |
+
 #### [剑指 Offer 52. 两个链表的第一个公共节点](https://leetcode.cn/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)
 
 `哈希表` `链表` `双指针`
@@ -527,6 +536,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | 语言 | 题解                                                         | 最后修改     |
 | ---- | ------------------------------------------------------------ | ------------ |
 | C++  | [cpp/include/leetcode/offer-53-I/Solution.h](./cpp/include/leetcode/offer-53-I/Solution.h) | 2023年9月1日 |
+|      |                                                              |              |
+
+#### [剑指 Offer 53 - II. 0～n-1中缺失的数字](https://leetcode.cn/problems/que-shi-de-shu-zi-lcof/)
+
+`位运算` `数组` `哈希表` `数学` `二分查找`
+
+| 语言 | 题解                                                         | 最后修改     |
+| ---- | ------------------------------------------------------------ | ------------ |
+| C++  | [cpp/include/leetcode/offer-53-II/Solution.h](./cpp/include/leetcode/offer-53-II/Solution.h) | 2023年9月2日 |
 |      |                                                              |              |
 
 #### [剑指 Offer 57. 和为s的两个数字](https://leetcode.cn/problems/he-wei-sde-liang-ge-shu-zi-lcof/)
