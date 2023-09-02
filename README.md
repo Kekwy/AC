@@ -655,6 +655,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/offer-53-II/Solution.h](./cpp/include/leetcode/offer-53-II/Solution.h) | 2023年9月2日 |
 |      |                                                              |              |
 
+#### [剑指 Offer 54. 二叉搜索树的第k大节点](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/)
+
+`树` `深度优先搜索` `二叉搜索树` `二叉树`
+
+| 语言 | 题解                                                         | 最后修改     |
+| ---- | ------------------------------------------------------------ | ------------ |
+| C++  | [cpp/include/leetcode/offer-54/Solution.h](./cpp/include/leetcode/offer-54/Solution.h) | 2023年9月2日 |
+|      |                                                              |              |
+
 #### [剑指 Offer 57. 和为s的两个数字](https://leetcode.cn/problems/he-wei-sde-liang-ge-shu-zi-lcof/)
 
 `数组` `双指针` `二分查找`
