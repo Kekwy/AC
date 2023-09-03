@@ -628,6 +628,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/offer-36/Solution.h](./cpp/include/leetcode/offer-36/Solution.h) | 2023年9月2日 |
 |      |                                                              |              |
 
+#### [剑指 Offer 37. 序列化二叉树](https://leetcode.cn/problems/xu-lie-hua-er-cha-shu-lcof/)
+
+`树` `深度优先搜索` `广度优先搜索` `设计` `字符串` `二叉树`
+
+| 语言 | 题解                                                         | 最后修改     |
+| ---- | ------------------------------------------------------------ | ------------ |
+| C++  | [cpp/include/leetcode/offer-37/Codec.h](./cpp/include/leetcode/offer-37/Codec.h) | 2023年9月3日 |
+|      |                                                              |              |
+
 #### [剑指 Offer 50. 第一个只出现一次的字符](https://leetcode.cn/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/)
 
 `队列` `哈希表` `字符串` `计数`
