@@ -13,6 +13,15 @@
 
 ### 全部题目
 
+#### [1. 两数之和](https://leetcode.cn/problems/two-sum/)
+
+`数组` `哈希表`
+
+| 语言 | 题解                                                         | 最后修改     |
+| ---- | ------------------------------------------------------------ | ------------ |
+| C++  | [cpp/include/leetcode/1/Solution.h](./cpp/include/leetcode/1/Solution.h) | 2023年9月3日 |
+|      |                                                              |              |
+
 #### [19. 删除链表的倒数第 N 个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)
 
 `链表` `双指针`
