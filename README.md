@@ -7,7 +7,7 @@
 
 ## 复习题单
 
-力扣：142, 823, 904, 1654, 1761, offer-57, offer-11
+力扣：142, 823, 904, 1654, 1761, offer-57, offer-11, 202
 
 ## Leetcode 力扣
 
@@ -160,6 +160,15 @@ C++：[./cpp/include/leetcode/144/Solution.h](./cpp/include/leetcode/144/Solutio
 `栈` `树` `深度优先搜索` `二叉树`
 
 C++：[cpp/include/leetcode/145/Solution.h](./cpp/include/leetcode/145/Solution.h) （2023年8月9日）
+
+#### [202. 快乐数](https://leetcode.cn/problems/happy-number/)
+
+`哈希表` `数学` `双指针`
+
+| 语言 | 题解                                                         | 最后修改     |
+| ---- | ------------------------------------------------------------ | ------------ |
+| C++  | [cpp/include/leetcode/202/Solution.h](./cpp/include/leetcode/202/Solution.h) | 2023年9月2日 |
+|      |                                                              |              |
 
 #### [203. 移除链表元素](https://leetcode.cn/problems/remove-linked-list-elements/)
 
