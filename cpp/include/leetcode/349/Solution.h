@@ -2,8 +2,8 @@
 // Created by Kekwy on 2023/9/3.
 //
 
-#ifndef CPP_CODEC_H
-#define CPP_CODEC_H
+#ifndef CPP_SOLUTION_H
+#define CPP_SOLUTION_H
 
 using namespace std;
 
@@ -27,4 +27,4 @@ public:
     }
 };
 
-#endif //CPP_CODEC_H
+#endif //CPP_SOLUTION_H
