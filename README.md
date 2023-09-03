@@ -229,6 +229,15 @@ C++：[cpp/include/leetcode/232/MyQueue.h](cpp/include/leetcode/232/MyQueue.h) �
 | C++  | [cpp/include/leetcode/283/Solution.h](./cpp/include/leetcode/283/Solution.h) | 2023年8月26日 |
 |      |                                                              |               |
 
+#### [349. 两个数组的交集](https://leetcode.cn/problems/intersection-of-two-arrays/)
+
+`数组` `哈希表` `双指针` `二分查找` `排序`
+
+| 语言 | 题解                                                         | 最后修改     |
+| ---- | ------------------------------------------------------------ | ------------ |
+| C++  | [cpp/include/leetcode/349/Solution.h](./cpp/include/leetcode/349/Solution.h) | 2023年9月3日 |
+|      |                                                              |              |
+
 #### [367. 有效的完全平方数](https://leetcode.cn/problems/valid-perfect-square/)
 
 `数学` `二分查找`
