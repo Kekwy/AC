@@ -763,6 +763,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/offer-68-I/Solution.h](./cpp/include/leetcode/offer-68-I/Solution.h) | 2023年9月3日 |
 |      |                                                              |              |
 
+#### [剑指 Offer 68 - II. 二叉树的最近公共祖先](https://leetcode.cn/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/)
+
+`树` `深度优先搜索` `二叉树`
+
+| 语言 | 题解                                                         | 最后修改     |
+| ---- | ------------------------------------------------------------ | ------------ |
+| C++  | [cpp/include/leetcode/offer-68-II/Solution.h](./cpp/include/leetcode/offer-68-II/Solution.h) | 2023年9月3日 |
+|      |                                                              |              |
+
 ### 程序员面试金典（第 6 版）
 
 #### [面试题 02.07. 链表相交](https://leetcode.cn/problems/intersection-of-two-linked-lists-lcci/)
