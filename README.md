@@ -365,6 +365,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/1761/Solution.h](./cpp/include/leetcode/1761/Solution.h) | 2023年8月31日 |
 |      |                                                              |               |
 
+#### [1921. 消灭怪物的最大数量](https://leetcode.cn/problems/eliminate-maximum-number-of-monsters/)
+
+`贪心` `数组` `排序`
+
+| 语言 | 题解                                                         | 最后修改     |
+| ---- | ------------------------------------------------------------ | ------------ |
+| C++  | [cpp/include/leetcode/1921/Solution.h](./cpp/include/leetcode/1921/Solution.h) | 2023年9月3日 |
+|      |                                                              |              |
+
 #### [2240. 买钢笔和铅笔的方案数](https://leetcode.cn/problems/number-of-ways-to-buy-pens-and-pencils/)
 
 `数学` `枚举`
