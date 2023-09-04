@@ -7,7 +7,7 @@
 
 ## 复习题单
 
-力扣：142, 823, 904, 1654, 1761, offer-57, offer-11, 202
+力扣：142, 823, 904, 1654, 1761, offer-57, offer-11, 202, 449
 
 ## Leetcode 力扣
 
@@ -264,6 +264,15 @@ C++：[cpp/include/leetcode/232/MyQueue.h](cpp/include/leetcode/232/MyQueue.h) �
 | ---- | ------------------------------------------------------------ | ------------- |
 | C++  | [cpp/include/leetcode/367/Solution.h](./cpp/include/leetcode/367/Solution.h) | 2023年8月13日 |
 |      |                                                              |               |
+
+#### [449. 序列化和反序列化二叉搜索树](https://leetcode.cn/problems/serialize-and-deserialize-bst/)
+
+`树` `深度优先搜索` `广度优先搜索` `设计` `二叉搜索树` `字符串` `二叉树`
+
+| 语言 | 题解                                                         | 最后修改     |
+| ---- | ------------------------------------------------------------ | ------------ |
+| C++  | [cpp/include/leetcode/449/Solution.h](./cpp/include/leetcode/449/Solution.h) | 2023年9月4日 |
+|      |                                                              |              |
 
 #### [684. 冗余连接](https://leetcode.cn/problems/redundant-connection/)
 
