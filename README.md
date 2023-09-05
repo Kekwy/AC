@@ -455,6 +455,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/2511/Solution.h](./cpp/include/leetcode/2511/Solution.h) | 2023年9月2日 |
 |      |                                                              |              |
 
+#### [2605. 从两个数字数组里生成最小数字](https://leetcode.cn/problems/form-smallest-number-from-two-digit-arrays/)
+
+`数组` `哈希表` `枚举`
+
+| 语言 | 题解                                                         | 最后修改     |
+| ---- | ------------------------------------------------------------ | ------------ |
+| C++  | [cpp/include/leetcode/2605/Solution.h](./cpp/include/leetcode/2605/Solution.h) | 2023年9月5日 |
+|      |                                                              |              |
+
 ### 剑指 Offer（第 2 版）
 
 #### [剑指 Offer 03. 数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)
