@@ -377,6 +377,15 @@ C++：[./cpp/include/leetcode/743/Solution.h](./cpp/include/leetcode/743/Solutio
 | C++  | [cpp/include/leetcode/977/Solution.h](./cpp/include/leetcode/977/Solution.h) | 2023年8月26日 |
 |      |                                                              |               |
 
+#### [1123. 最深叶节点的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-deepest-leaves/)
+
+`树` `深度优先搜索` `广度优先搜索` `哈希表` `二叉树`
+
+| 语言 | 题解                                                         | 最后修改     |
+| ---- | ------------------------------------------------------------ | ------------ |
+| C++  | [cpp/include/leetcode/1123/Solution.h](./cpp/include/leetcode/1123/Solution.h) | 2023年9月6日 |
+|      |                                                              |              |
+
 #### [1135. 最低成本联通所有城市](https://leetcode.cn/problems/connecting-cities-with-minimum-cost/)
 
 C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solution.h) （2023年8月6日）
