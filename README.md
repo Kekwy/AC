@@ -464,6 +464,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/2511/Solution.h](./cpp/include/leetcode/2511/Solution.h) | 2023年9月2日 |
 |      |                                                              |              |
 
+#### [2594. 修车的最少时间](https://leetcode.cn/problems/minimum-time-to-repair-cars/)
+
+`数组` `二分查找`
+
+| 语言 | 题解                                                         | 最后修改     |
+| ---- | ------------------------------------------------------------ | ------------ |
+| C++  | [cpp/include/leetcode/2594/Solution.h](./cpp/include/leetcode/2594/Solution.h) | 2023年9月7日 |
+|      |                                                              |              |
+
 #### [2605. 从两个数字数组里生成最小数字](https://leetcode.cn/problems/form-smallest-number-from-two-digit-arrays/)
 
 `数组` `哈希表` `枚举`
