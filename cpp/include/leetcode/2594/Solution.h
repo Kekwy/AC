@@ -14,18 +14,18 @@ using namespace std;
 class Solution {
 public:
     long long repairCars(vector<int> &ranks, int cars) {
-        long long begin = 0, end = ranks[0] * cars * cars;
+        long long begin = 0, end = ranks[0] * (long long)cars * cars;
         while (begin < end) {
-            int mid = begin + (end - begin) / 2;
-            int sum = 0;
+            long long mid = begin + (end - begin) / 2;
+            long long sum = 0;
             for (int r : ranks) {
-                sum += (int)sqrt(mid / r);
+                sum += sqrt(mid / r);
             }
-            if (sum > cars) {
+            if (sum >= cars) {
                 end = mid;
             } else if (sum < cars) {
                 begin = mid + 1;
-            } else return mid;
+            }
         }
         return end;
     }
