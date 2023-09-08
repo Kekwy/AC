@@ -482,6 +482,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/2605/Solution.h](./cpp/include/leetcode/2605/Solution.h) | 2023年9月5日 |
 |      |                                                              |              |
 
+#### [2651. 计算列车到站时间](https://leetcode.cn/problems/calculate-delayed-arrival-time/)
+
+`数学`
+
+| 语言 | 题解                                                         | 最后修改     |
+| ---- | ------------------------------------------------------------ | ------------ |
+| C++  | [cpp/include/leetcode/2651/Solution.h](./cpp/include/leetcode/2651/Solution.h) | 2023年9月8日 |
+|      |                                                              |              |
+
 ### 剑指 Offer（第 2 版）
 
 #### [剑指 Offer 03. 数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)
