@@ -206,6 +206,15 @@ C++：[cpp/include/leetcode/145/Solution.h](./cpp/include/leetcode/145/Solution.
 | C++  | [cpp/include/leetcode/206/Solution.h](./cpp/include/leetcode/206/Solution.h) | 2023年8月9日 |
 |      |                                                              |              |
 
+#### [207. 课程表](https://leetcode.cn/problems/course-schedule/)
+
+`深度优先搜索` `广度优先搜索` `图` `拓扑排序`
+
+| 语言 | 题解                                                         | 最后修改     |
+| ---- | ------------------------------------------------------------ | ------------ |
+| C++  | [cpp/include/leetcode/207/Solution.h](./cpp/include/leetcode/207/Solution.h) | 2023年9月9日 |
+|      |                                                              |              |
+
 #### [209. 长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum/)
 
 `数组` `二分查找` `前缀和` `滑动窗口`
