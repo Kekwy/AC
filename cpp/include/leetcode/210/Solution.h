@@ -1,5 +1,5 @@
 //
-// Created by Kekwy on 2023/9/9.
+// Created by Kekwy on 2023/9/10.
 //
 
 #ifndef CPP_SOLUTION_H
@@ -12,8 +12,9 @@ using namespace std;
 
 class Solution {
 public:
-    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+    vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
         auto inDegree = vector<int> (numCourses);
+        auto res = vector<int>();
         auto graph = vector<vector<int>> (numCourses, vector<int>());
         for (vector<int> edge : prerequisites) {
             inDegree[edge[0]]++;
@@ -29,6 +30,7 @@ public:
         while (!s.empty()) {
             int v = s.top();
             s.pop();
+            res.push_back(v);
             count++;
             for (int &u : graph[v]) {
                 if (--inDegree[u] == 0) {
@@ -36,7 +38,8 @@ public:
                 }
             }
         }
-        return count == numCourses;
+        if (count != numCourses) res.clear();
+        return res;
     }
 };
 

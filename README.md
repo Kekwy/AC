@@ -226,9 +226,12 @@ C++：[cpp/include/leetcode/145/Solution.h](./cpp/include/leetcode/145/Solution.
 
 #### [210. 课程表 II](https://leetcode.cn/problems/course-schedule-ii/)
 
-C++：[./cpp/include/leetcode/210/Solution.h](./cpp/include/leetcode/210/Solution.h) （2023年8月6日）
+`深度优先搜索` `广度优先搜索` `图` `拓扑排序`
 
-
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/210/Solution.h](./cpp/include/leetcode/210/Solution.h) | 2023年9月10日 |
+|      |                                                              |               |
 
 #### [217. 存在重复元素](https://leetcode.cn/problems/contains-duplicate/)
 
