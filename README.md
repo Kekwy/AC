@@ -313,6 +313,15 @@ C++：[cpp/include/leetcode/232/MyQueue.h](cpp/include/leetcode/232/MyQueue.h) �
 | C++  | [cpp/include/leetcode/454/Solution.h](./cpp/include/leetcode/454/Solution.h) | 2023年9月4日 |
 |      |                                                              |              |
 
+#### [630. 课程表 III](https://leetcode.cn/problems/course-schedule-iii/)
+
+`贪心` `数组` `排序` `堆（优先队列）`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/630/Solution.h](./cpp/include/leetcode/630/Solution.h) | 2023年9月11日 |
+|      |                                                              |               |
+
 #### [684. 冗余连接](https://leetcode.cn/problems/redundant-connection/)
 
 `深度优先搜索` `广度优先搜索` `并查集` `图`
@@ -411,6 +420,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | 语言 | 题解                                                         | 最后修改      |
 | ---- | ------------------------------------------------------------ | ------------- |
 | C++  | [cpp/include/leetcode/1267/README.md](./cpp/include/leetcode/1267/README.md) | 2023年8月24日 |
+|      |                                                              |               |
+
+#### [1462. 课程表 IV](https://leetcode.cn/problems/course-schedule-iv/description/?envType=daily-question&envId=2023-09-12)
+
+`深度优先搜索` `广度优先搜索` `图` `拓扑排序`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/1462/Solution.h](./cpp/include/leetcode/1462/Solution.h) | 2023年9月14日 |
 |      |                                                              |               |
 
 #### [1448. 统计二叉树中好节点的数目](https://leetcode.cn/problems/count-good-nodes-in-binary-tree/)
