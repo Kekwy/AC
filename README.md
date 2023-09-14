@@ -939,5 +939,18 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/interview-02.07/Solution.h](./cpp/include/leetcode/interview-02.07/Solution.h) | 2023年8月30日 |
 |      |                                                              |               |
 
+###  力扣杯 - 竞赛合集
+
+#### [LCP 50. 宝石补给](https://leetcode.cn/problems/WHnhjV/)
+
+`数组` `模拟`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/lcp-50/Solution.h](./cpp/include/leetcode/lcp-50/Solution.h) | 2023年9月15日 |
+|      |                                                              |               |
+
+
+
 ## Nowcoder 牛客
 
