@@ -7,7 +7,7 @@
 
 ## 复习题单
 
-力扣：142, 823, 904, 1654, 1761, offer-57, offer-11, 202, 449, 15
+力扣：142, 823, 904, 1654, 1761, offer-57, offer-11, 202, 449, 15, 1462
 
 ## Leetcode 力扣
 
@@ -396,6 +396,15 @@ C++：[./cpp/include/leetcode/743/Solution.h](./cpp/include/leetcode/743/Solutio
 | 语言 | 题解                                                         | 最后修改      |
 | ---- | ------------------------------------------------------------ | ------------- |
 | C++  | [cpp/include/leetcode/977/Solution.h](./cpp/include/leetcode/977/Solution.h) | 2023年8月26日 |
+|      |                                                              |               |
+
+#### [1222. 可以攻击国王的皇后](https://leetcode.cn/problems/queens-that-can-attack-the-king/description/)
+
+`数组` `矩阵` `模拟`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/1222/Solution.h](./cpp/include/leetcode/1222/Solution.h) | 2023年9月14日 |
 |      |                                                              |               |
 
 #### [1123. 最深叶节点的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-deepest-leaves/)
