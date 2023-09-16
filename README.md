@@ -780,6 +780,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/offer-32-III/Solution.h](./cpp/include/leetcode/offer-32-III/Solution.h) | 2023年9月2日 |
 |      |                                                              |              |
 
+#### [剑指 Offer 33. 二叉搜索树的后序遍历序列](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/)
+
+`栈` `树` `二叉搜索树` `递归` `二叉树` `单调栈`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/offer-33/Solution.h](./cpp/include/leetcode/offer-33/Solution.h) | 2023年9月16日 |
+|      |                                                              |               |
+
 #### [剑指 Offer 34. 二叉树中和为某一值的路径](https://leetcode.cn/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/)
 
 `树` `深度优先搜索` `回溯` `二叉树`
