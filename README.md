@@ -165,7 +165,12 @@ C++：[cpp/include/leetcode/94/Solution.h](./cpp/include/leetcode/94/Solution.h)
 
 #### [105. 从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 
-C++：[./cpp/include/leetcode/105/Solution.h](./cpp/include/leetcode/105/Solution.h) （2023年8月6日）
+
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [./cpp/include/leetcode/105/Solution.h](./cpp/include/leetcode/105/Solution.h) | 2023年9月16日 |
+|      |                                                              |               |
 
 #### [142. 环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/)
 
@@ -584,6 +589,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | 语言 | 题解                                                         | 最后修改      |
 | ---- | ------------------------------------------------------------ | ------------- |
 | C++  | [cpp/include/leetcode/offer-06/Solution.h](./cpp/include/leetcode/offer-06/Solution.h) | 2023年8月31日 |
+|      |                                                              |               |
+
+#### [剑指 Offer 07. 重建二叉树](https://leetcode.cn/problems/zhong-jian-er-cha-shu-lcof/)
+
+`树` `数组` `哈希表` `分治` `二叉树`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/offer-07/Solution.h](./cpp/include/leetcode/offer-07/Solution.h) | 2023年7月16日 |
 |      |                                                              |               |
 
 #### [剑指 Offer 09. 用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)
