@@ -7,7 +7,7 @@
 
 ## 复习题单
 
-力扣：142, 823, 904, 1654, 1761, offer-57, offer-11, 202, 449, 15, 1462, offer-38, 31, offer-17
+力扣：142, 823, 904, 1654, 1761, offer-57, offer-11, 202, 449, 15, 1462, offer-38, 31, offer-17, offer-51
 
 ## Leetcode 力扣
 
@@ -647,7 +647,7 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 
 #### [剑指 Offer 17. 打印从1到最大的n位数](https://leetcode.cn/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)
 
-
+`数组` `数学`
 
 | 语言 | 题解                                                         | 最后修改      |
 | ---- | ------------------------------------------------------------ | ------------- |
@@ -851,6 +851,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | ---- | ------------------------------------------------------------ | ------------ |
 | C++  | [cpp/include/leetcode/offer-50/Solution.h](./cpp/include/leetcode/offer-50/Solution.h) | 2023年9月2日 |
 |      |                                                              |              |
+
+#### [剑指 Offer 51. 数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/)
+
+`树状数组` `线段树` `数组` `二分查找` `分治` `有序集合` `归并排序`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/offer-51/Solution.h](./cpp/include/leetcode/offer-51/Solution.h) | 2023年9月16日 |
+|      |                                                              |               |
 
 #### [剑指 Offer 52. 两个链表的第一个公共节点](https://leetcode.cn/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)
 
