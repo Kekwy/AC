@@ -7,7 +7,7 @@
 
 ## 复习题单
 
-力扣：142, 823, 904, 1654, 1761, offer-57, offer-11, 202, 449, 15, 1462, offer-38, 31
+力扣：142, 823, 904, 1654, 1761, offer-57, offer-11, 202, 449, 15, 1462, offer-38, 31, offer-17
 
 ## Leetcode 力扣
 
@@ -644,6 +644,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | ---- | ------------------------------------------------------------ | ------------ |
 | C++  | [cpp/include/leetcode/offer-16/Solution.h](./cpp/include/leetcode/offer-16/Solution.h) | 2023年9月2日 |
 |      |                                                              |              |
+
+#### [剑指 Offer 17. 打印从1到最大的n位数](https://leetcode.cn/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)
+
+
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/offer-17/Solution.h](./cpp/include/leetcode/offer-17/Solution.h) | 2023年9月16日 |
+|      |                                                              |               |
 
 #### [剑指 Offer 18. 删除链表的节点](https://leetcode.cn/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
 
