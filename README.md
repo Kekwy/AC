@@ -7,7 +7,7 @@
 
 ## 复习题单
 
-力扣：142, 823, 904, 1654, 1761, offer-57, offer-11, 202, 449, 15, 1462
+力扣：142, 823, 904, 1654, 1761, offer-57, offer-11, 202, 449, 15, 1462, offer-38, 31
 
 ## Leetcode 力扣
 
@@ -72,6 +72,15 @@
 | 语言 | 题解                                                         | 最后修改      |
 | ---- | ------------------------------------------------------------ | ------------- |
 | C++  | [cpp/include/leetcode/27/Solution.h](./cpp/include/leetcode/27/Solution.h) | 2023年8月21日 |
+|      |                                                              |               |
+
+#### [31. 下一个排列](https://leetcode.cn/problems/next-permutation/)
+
+`数组` `双指针`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/31/Solution.h](./cpp/include/leetcode/31/Solution.h) | 2023年9月16日 |
 |      |                                                              |               |
 
 #### [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/)
@@ -783,6 +792,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | ---- | ------------------------------------------------------------ | ------------ |
 | C++  | [cpp/include/leetcode/offer-37/Codec.h](./cpp/include/leetcode/offer-37/Codec.h) | 2023年9月3日 |
 |      |                                                              |              |
+
+#### [剑指 Offer 38. 字符串的排列](https://leetcode.cn/problems/zi-fu-chuan-de-pai-lie-lcof/)
+
+`字符串` `回溯`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/offer-38/Solution.h](./cpp/include/leetcode/offer-38/Solution.h) | 2023年9月16日 |
+|      |                                                              |               |
 
 #### [剑指 Offer 50. 第一个只出现一次的字符](https://leetcode.cn/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/)
 
