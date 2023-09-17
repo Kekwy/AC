@@ -618,6 +618,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [leetcode/cpp/剑指 Offer 10- I.cpp](leetcode/cpp/剑指 Offer 10- I.cpp) | 2023年9月17日 |
 |      |                                                              |               |
 
+#### [剑指 Offer 10- II. 青蛙跳台阶问题](https://leetcode.cn/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/)
+
+`记忆` `数学` `动态规划`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [leetcode/cpp/剑指 Offer 10- II.cpp](leetcode/cpp/剑指 Offer 10- II.cpp) | 2023年9月17日 |
+|      |                                                              |               |
+
 #### [剑指 Offer 11. 旋转数组的最小数字](https://leetcode.cn/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)
 
 `数组` `二分查找`
@@ -994,6 +1003,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | 语言 | 题解                                                         | 最后修改      |
 | ---- | ------------------------------------------------------------ | ------------- |
 | C++  | [leetcode/cpp/剑指 Offer 61.cpp](leetcode/cpp/剑指 Offer 61.cpp) | 2023年9月16日 |
+|      |                                                              |               |
+
+#### [剑指 Offer 63. 股票的最大利润](https://leetcode.cn/problems/gu-piao-de-zui-da-li-run-lcof/)
+
+
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [leetcode/cpp/剑指 Offer 63.cpp](leetcode/cpp/剑指 Offer 63.cpp) | 2023年9月17日 |
 |      |                                                              |               |
 
 #### [剑指 Offer 64. 求1+2+…+n](https://leetcode.cn/problems/qiu-12n-lcof/)
