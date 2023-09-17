@@ -6,7 +6,6 @@
  */
 
  // @lc code=start
-
 template<typename T>
 class Heap {
 
