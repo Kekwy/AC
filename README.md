@@ -7,7 +7,7 @@
 
 ## 复习题单
 
-力扣：142, 823, 904, 1654, 1761, offer-57, offer-11, 202, 449, 15, 1462, offer-38, 31, offer-17, offer-51, offer-19
+力扣：142, 823, 904, 1654, 1761, offer-57, offer-11, 202, 449, 15, 1462, offer-38, 31, offer-17, offer-51, offer-19, offer-49
 
 ## Leetcode 力扣
 
@@ -922,6 +922,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | 语言 | 题解                                                         | 最后修改      |
 | ---- | ------------------------------------------------------------ | ------------- |
 | C++  | [leetcode/cpp/剑指 Offer 48.cpp](leetcode/cpp/剑指 Offer 48.cpp) | 2023年9月17日 |
+|      |                                                              |               |
+
+#### [剑指 Offer 49. 丑数](https://leetcode.cn/problems/chou-shu-lcof/)
+
+哈希表 | 数学 | 动态规划 | 优先级队列
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [leetcode/cpp/剑指 Offer 49.cpp](leetcode/cpp/剑指 Offer 49.cpp) | 2023年9月17日 |
 |      |                                                              |               |
 
 #### [剑指 Offer 50. 第一个只出现一次的字符](https://leetcode.cn/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/)
