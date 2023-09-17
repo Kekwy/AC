@@ -872,11 +872,20 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 
 #### [剑指 Offer 41. 数据流中的中位数](https://leetcode.cn/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/)
 
-`设计` `双指针` `数据流 `排序` `优先级队列`
+`设计` `双指针` `数据流 ` `排序` `优先级队列`
 
 | 语言 | 题解                                                         | 最后修改      |
 | ---- | ------------------------------------------------------------ | ------------- |
 | C++  | [leetcode/cpp/剑指 Offer 41.cpp](leetcode/cpp/剑指 Offer 41.cpp) | 2023年9月17日 |
+|      |                                                              |               |
+
+#### [剑指 Offer 42. 连续子数组的最大和](https://leetcode.cn/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/)
+
+数组 | 分治 | 动态规划
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [leetcode/cpp/剑指 Offer 42.cpp](leetcode/cpp/剑指 Offer 42.cpp) | 2023年9月17日 |
 |      |                                                              |               |
 
 #### [剑指 Offer 50. 第一个只出现一次的字符](https://leetcode.cn/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/)
