@@ -611,11 +611,11 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 
 #### [剑指 Offer 10- I. 斐波那契数列](https://leetcode.cn/problems/fei-bo-na-qi-shu-lie-lcof/)
 
-
+`记忆` `数学` `动态规划`
 
 | 语言 | 题解                                                         | 最后修改      |
 | ---- | ------------------------------------------------------------ | ------------- |
-| C++  | [leetcode/cpp/剑指 Offer 10.cpp](leetcode/cpp/剑指 Offer 10.cpp) | 2023年9月17日 |
+| C++  | [leetcode/cpp/剑指 Offer 10- I.cpp](leetcode/cpp/剑指 Offer 10- I.cpp) | 2023年9月17日 |
 |      |                                                              |               |
 
 #### [剑指 Offer 11. 旋转数组的最小数字](https://leetcode.cn/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)
