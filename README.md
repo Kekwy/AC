@@ -912,7 +912,7 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 
 | 语言 | 题解                                                         | 最后修改      |
 | ---- | ------------------------------------------------------------ | ------------- |
-| C++  | [leetcode/cpp/剑指 Offer 47.cpp](leetcode/cpp/剑指 Offer 47.cpp) | 2023年9月17日 |
+| C++  | [leetcode/cpp/剑指 Offer 47.cpp](leetcode/cpp/剑指%20Offer%2047.cpp) | 2023年9月17日 |
 |      |                                                              |               |
 
 #### [剑指 Offer 48. 最长不含重复字符的子字符串](https://leetcode.cn/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/)
