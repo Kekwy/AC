@@ -888,6 +888,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [leetcode/cpp/剑指 Offer 42.cpp](leetcode/cpp/剑指 Offer 42.cpp) | 2023年9月17日 |
 |      |                                                              |               |
 
+#### [剑指 Offer 46. 把数字翻译成字符串](https://leetcode.cn/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/)
+
+字符串 | 动态规划
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [leetcode/cpp/剑指 Offer 46.cpp](leetcode/cpp/剑指 Offer 46.cpp) | 2023年9月17日 |
+|      |                                                              |               |
+
 #### [剑指 Offer 47. 礼物的最大价值](https://leetcode.cn/problems/li-wu-de-zui-da-jie-zhi-lcof/)
 
 数组 | 动态规划 | 矩阵
