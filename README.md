@@ -845,11 +845,20 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 
 #### [剑指 Offer 40. 最小的k个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/)
 
+`数组` `分治` `快速选择` `排序` `优先级队列`
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [leetcode/cpp/剑指 Offer 40.cpp](leetcode/cpp/剑指 Offer 40.cpp) | 2023年9月17日 |
+|      |                                                              |               |
+
+#### [剑指 Offer 41. 数据流中的中位数](https://leetcode.cn/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/)
+
 
 
 | 语言 | 题解                                                         | 最后修改      |
 | ---- | ------------------------------------------------------------ | ------------- |
-| C++  | [cpp/include/leetcode/offer-38/Solution.h](./cpp/include/leetcode/offer-38/Solution.h) | 2023年9月17日 |
+| C++  | [leetcode/cpp/剑指 Offer 41.cpp](leetcode/cpp/剑指 Offer 41.cpp) | 2023年9月17日 |
 |      |                                                              |               |
 
 #### [剑指 Offer 50. 第一个只出现一次的字符](https://leetcode.cn/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/)
@@ -971,12 +980,12 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 
 #### [剑指 Offer 61. 扑克牌中的顺子](https://leetcode.cn/problems/bu-ke-pai-zhong-de-shun-zi-lcof/)
 
+`数组` `排序`
 
-
-| 语言 | 题解                                                         | 最后修改     |
-| ---- | ------------------------------------------------------------ | ------------ |
-| C++  | [leetcode\cpp\剑指 Offer 61.扑克牌中的顺子-lcof.cpp](leetcode\cpp\剑指 Offer 61.扑克牌中的顺子-lcof.cpp) | 2023年9月1日 |
-|      |                                                              |              |
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [leetcode/cpp/剑指 Offer 61.cpp](leetcode/cpp/剑指 Offer 61.cpp) | 2023年9月16日 |
+|      |                                                              |               |
 
 #### [剑指 Offer 64. 求1+2+…+n](https://leetcode.cn/problems/qiu-12n-lcof/)
 
