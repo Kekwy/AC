@@ -926,6 +926,33 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [leetcode/cpp/剑指 Offer 42.cpp](leetcode/cpp/剑指 Offer 42.cpp) | 2023年9月17日 |
 |      |                                                              |               |
 
+#### [剑指 Offer 43. 1～n 整数中 1 出现的次数](https://leetcode.cn/problems/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof/)
+
+递归 | 数学 | 动态规划
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [leetcode/cpp/剑指 Offer 43.cpp](leetcode/cpp/剑指%20Offer%2043.cpp) | 2023年9月18日 |
+|      |                                                              |               |
+
+#### [剑指 Offer 44. 数字序列中某一位的数字](https://leetcode.cn/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof/)
+
+数学 | 二分搜索
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [leetcode/cpp/剑指 Offer 44.cpp](leetcode/cpp/剑指%20Offer%2044.cpp) | 2023年9月18日 |
+|      |                                                              |               |
+
+#### [剑指 Offer 45. 把数组排成最小的数](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/)
+
+贪心 | 字符串 | 排序
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [leetcode/cpp/剑指 Offer 45.cpp](leetcode/cpp/剑指%20Offer%2045.cpp) | 2023年9月17日 |
+|      |                                                              |               |
+
 #### [剑指 Offer 46. 把数字翻译成字符串](https://leetcode.cn/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/)
 
 字符串 | 动态规划
