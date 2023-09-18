@@ -1016,11 +1016,20 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 
 #### [剑指 Offer 56 - I. 数组中数字出现的次数](https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/)
 
-
+位操作 | 数组
 
 | 语言 | 题解                                                         | 最后修改      |
 | ---- | ------------------------------------------------------------ | ------------- |
 | C++  | [leetcode/cpp/剑指 Offer 56 - I.cpp](leetcode/cpp/剑指%20Offer%2056%20-%20I.cpp) | 2023年9月17日 |
+|      |                                                              |               |
+
+#### [剑指 Offer 56 - II. 数组中数字出现的次数 II](https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/)
+
+位操作 | 数组
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [leetcode/cpp/剑指 Offer 56 - II.cpp](leetcode/cpp/剑指%20Offer%2056%20-%20II.cpp) | 2023年9月18日 |
 |      |                                                              |               |
 
 #### [剑指 Offer 57. 和为s的两个数字](https://leetcode.cn/problems/he-wei-sde-liang-ge-shu-zi-lcof/)
