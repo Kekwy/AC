@@ -5,6 +5,8 @@
 
 快速判断一个元素是否出现集合里的时候，就要考虑哈希法；
 
+剑指 Offer 57 - II：vector 的部分拷贝；
+
 ## 复习题单
 
 力扣：142, 823, 904, 1654, 1761, offer-57, offer-11, 202, 449, 15, 1462, offer-38, 31, offer-17, offer-51, offer-19, offer-49, offer-60
@@ -654,6 +656,24 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/offer-13/Solution.h](./cpp/include/leetcode/offer-13/Solution.h) | 2023年9月2日 |
 |      |                                                              |              |
 
+#### [剑指 Offer 14- I. 剪绳子](https://leetcode.cn/problems/jian-sheng-zi-lcof/)
+
+数学 | 动态规划
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [leetcode/cpp/剑指 Offer 15.cpp](leetcode/cpp/剑指%20Offer%2014-%20I.cpp) | 2023年9月18日 |
+|      |                                                              |               |
+
+#### [剑指 Offer 14- II. 剪绳子 II](https://leetcode.cn/problems/jian-sheng-zi-ii-lcof/)
+
+数学 | 动态规划
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [leetcode/cpp/剑指 Offer 15.cpp](leetcode/cpp/剑指%20Offer%2014-%20I.cpp) | 2023年9月18日 |
+|      |                                                              |               |
+
 #### [剑指 Offer 15. 二进制中1的个数](https://leetcode.cn/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/)
 
 位操作
@@ -1039,6 +1059,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | 语言 | 题解                                                         | 最后修改      |
 | ---- | ------------------------------------------------------------ | ------------- |
 | C++  | [cpp/include/leetcode/offer-57/Solution.h](./cpp/include/leetcode/offer-57/Solution.h) | 2023年8月31日 |
+|      |                                                              |               |
+
+#### [剑指 Offer 57 - II. 和为s的连续正数序列](https://leetcode.cn/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/)
+
+数学 | 双指针 | 枚举
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [leetcode/cpp/剑指 Offer 57 - II.cpp](leetcode/cpp/剑指%20Offer%2057%20-%20II.cpp) | 2023年9月18日 |
 |      |                                                              |               |
 
 #### [剑指 Offer 58 - I. 翻转单词顺序](https://leetcode.cn/problems/fan-zhuan-dan-ci-shun-xu-lcof/)
