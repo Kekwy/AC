@@ -33,7 +33,7 @@ public:
         int sum = 0;
         for (; rp < target; rp++) {
             sum += array[rp];
-            while (sum - array[lp]>= target) {
+            while (sum - array[lp] >= target) {
                 sum -= array[lp++];
             }
             if (sum == target) {
