@@ -7,7 +7,7 @@
 
 ## 复习题单
 
-力扣：142, 823, 904, 1654, 1761, offer-57, offer-11, 202, 449, 15, 1462, offer-38, 31, offer-17, offer-51, offer-19, offer-49
+力扣：142, 823, 904, 1654, 1761, offer-57, offer-11, 202, 449, 15, 1462, offer-38, 31, offer-17, offer-51, offer-19, offer-49, offer-60
 
 ## Leetcode 力扣
 
@@ -1049,6 +1049,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | ---- | ------------------------------------------------------------ | ------------ |
 | C++  | [cpp/include/leetcode/offer-59-II/Solution.h](./cpp/include/leetcode/offer-59-II/Solution.h) | 2023年9月1日 |
 |      |                                                              |              |
+
+#### [剑指 Offer 60. n个骰子的点数](https://leetcode.cn/problems/nge-tou-zi-de-dian-shu-lcof/)
+
+数学 | 动态规划 | 概率和统计
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [leetcode/cpp/剑指 Offer 60.cpp](leetcode/cpp/剑指%20Offer%2060.cpp) | 2023年9月18日 |
+|      |                                                              |               |
 
 #### [剑指 Offer 61. 扑克牌中的顺子](https://leetcode.cn/problems/bu-ke-pai-zhong-de-shun-zi-lcof/)
 
