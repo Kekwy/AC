@@ -1124,7 +1124,7 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 
 #### [剑指 Offer 66. 构建乘积数组](https://leetcode.cn/problems/gou-jian-cheng-ji-shu-zu-lcof/)
 
-
+数组 | 前缀和
 
 | 语言 | 题解                                                         | 最后修改      |
 | ---- | ------------------------------------------------------------ | ------------- |
