@@ -1122,6 +1122,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [leetcode/cpp/剑指 Offer 65.cpp](leetcode/cpp/剑指%20Offer%2065.cpp) | 2023年9月18日 |
 |      |                                                              |               |
 
+#### [剑指 Offer 66. 构建乘积数组](https://leetcode.cn/problems/gou-jian-cheng-ji-shu-zu-lcof/)
+
+
+
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [leetcode/cpp/剑指 Offer 66.cpp](leetcode/cpp/剑指%20Offer%2066.cpp) | 2023年9月18日 |
+|      |                                                              |               |
+
 #### [剑指 Offer 67. 把字符串转换成整数](https://leetcode.cn/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/)
 
 `字符串`
