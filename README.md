@@ -402,9 +402,12 @@ C++：[./cpp/include/leetcode/743/Solution.h](./cpp/include/leetcode/743/Solutio
 
 #### [802. 找到最终的安全状态](https://leetcode.cn/problems/find-eventual-safe-states/)
 
+深度优先搜索 | 广度优先搜索 | 图 | 拓扑排序
 
-
-
+| 语言 | 题解                                         | 最后修改      |
+| ---- | -------------------------------------------- | ------------- |
+| C++  | [leetcode\cpp\802.cpp](leetcode\cpp\802.cpp) | 2023年9月19日 |
+|      |                                              |               |
 
 #### [823. 带因子的二叉树](https://leetcode.cn/problems/binary-trees-with-factors/)
 
