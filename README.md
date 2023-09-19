@@ -400,6 +400,12 @@ C++：[cpp/include/leetcode/232/MyQueue.h](cpp/include/leetcode/232/MyQueue.h) �
 
 C++：[./cpp/include/leetcode/743/Solution.h](./cpp/include/leetcode/743/Solution.h) （2023年8月6日）
 
+#### [802. 找到最终的安全状态](https://leetcode.cn/problems/find-eventual-safe-states/)
+
+
+
+
+
 #### [823. 带因子的二叉树](https://leetcode.cn/problems/binary-trees-with-factors/)
 
 `数组` `哈希表` `动态规划` `排序`
