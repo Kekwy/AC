@@ -107,6 +107,15 @@
 | C++  | [cpp/include/leetcode/35/Solution.h](./cpp/include/leetcode/35/Solution.h) | 2023年8月13日 |
 |      |                                                              |               |
 
+#### [49. 字母异位词分组](https://leetcode.cn/problems/group-anagrams/)
+
+数组 | 哈希表 | 字符串 | 排序
+
+| 语言 | 题解                                       | 最后修改      |
+| ---- | ------------------------------------------ | ------------- |
+| C++  | [leetcode/cpp/49.cpp](leetcode/cpp/49.cpp) | 2023年9月20日 |
+|      |                                            |               |
+
 #### [54. 螺旋矩阵](https://leetcode.cn/problems/spiral-matrix/)
 
 `数组` `矩阵` `模拟`
