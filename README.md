@@ -418,6 +418,15 @@ C++：[./cpp/include/leetcode/743/Solution.h](./cpp/include/leetcode/743/Solutio
 | C++  | [cpp/include/leetcode/823/Solution.h](./cpp/include/leetcode/823/Solution.h) | 2023年8月29日 |
 |      |                                                              |               |
 
+#### [841. 钥匙和房间](https://leetcode.cn/problems/keys-and-rooms/)
+
+深度优先搜索 | 广度优先搜索 | 图
+
+| 语言 | 题解                                         | 最后修改      |
+| ---- | -------------------------------------------- | ------------- |
+| C++  | [leetcode\cpp\841.cpp](leetcode\cpp\841.cpp) | 2023年9月20日 |
+|      |                                              |               |
+
 #### [844. 比较含退格的字符串](https://leetcode.cn/problems/backspace-string-compare/)
 
 `栈` `双指针` `字符串` `模拟`
@@ -1275,6 +1284,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 |      |                                                              |               |
 
 ###  力扣杯 - 竞赛合集
+
+#### [LCP 06. 拿硬币](https://leetcode.cn/problems/na-ying-bi/)
+
+数组 | 数学
+
+| 语言 | 题解                                                 | 最后修改      |
+| ---- | ---------------------------------------------------- | ------------- |
+| C++  | [leetcode/cpp/LCP 06.cpp](leetcode/cpp/LCP%2006.cpp) | 2023年9月20日 |
+|      |                                                      |               |
 
 #### [LCP 50. 宝石补给](https://leetcode.cn/problems/WHnhjV/)
 
