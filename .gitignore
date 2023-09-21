@@ -1,2 +1,4 @@
 /.vscode/**
 **/.lcpr_data/**
+**.iml
+**/.idea/**

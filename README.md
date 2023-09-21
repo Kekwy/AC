@@ -23,10 +23,11 @@
 
 `数组` `哈希表`
 
-| 语言 | 题解                                                         | 最后修改     |
-| ---- | ------------------------------------------------------------ | ------------ |
-| C++  | [cpp/include/leetcode/1/Solution.h](./cpp/include/leetcode/1/Solution.h) | 2023年9月3日 |
-|      |                                                              |              |
+| 语言 | 题解                                                         | 最后修改      |
+| ---- | ------------------------------------------------------------ | ------------- |
+| C++  | [cpp/include/leetcode/1/Solution.h](./cpp/include/leetcode/1/Solution.h) | 2023年9月3日  |
+| Java | [leetcode/java/src/main/java/com/kekwy/leetcode/p1/Solution.java](leetcode/java/src/main/java/com/kekwy/leetcode/p1/Solution.java) | 2023年9月21日 |
+|      |                                                              |               |
 
 #### [15. 三数之和](https://leetcode.cn/problems/3sum/)
 
