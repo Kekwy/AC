@@ -13,7 +13,7 @@
 
 ## 复习题单
 
-力扣：142, 823, 904, 1654, 1761, offer-57, offer-11, 202, 449, 15, 1462, offer-38, 31, offer-17, offer-51, offer-19, offer-49, offer-60, 2560
+力扣：142, 823, 904, 1654, 1761, offer-57, offer-11, 202, 449, 15, 1462, offer-38, 31, offer-17, offer-51, offer-19, offer-49, offer-60, 2560, 2603
 
 ## Leetcode 力扣
 
@@ -576,6 +576,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | 语言 | 题解                                           | 最后修改      |
 | ---- | ---------------------------------------------- | ------------- |
 | C++  | [leetcode/cpp/2560.cpp](leetcode/cpp/2560.cpp) | 2023年9月19日 |
+|      |                                                |               |
+
+#### [2591. 将钱分给最多的儿童](https://leetcode.cn/problems/distribute-money-to-maximum-children/)
+
+贪心 | 数学
+
+| 语言 | 题解                                           | 最后修改      |
+| ---- | ---------------------------------------------- | ------------- |
+| C++  | [leetcode/cpp/2591.cpp](leetcode/cpp/2591.cpp) | 2023年9月22日 |
 |      |                                                |               |
 
 #### [2594. 修车的最少时间](https://leetcode.cn/problems/minimum-time-to-repair-cars/)
