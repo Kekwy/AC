@@ -595,6 +595,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/2596/Solution.h](./cpp/include/leetcode/2596/Solution.h) | 2023年9月14日 |
 |      |                                                              |               |
 
+#### [2603. 收集树中金币](https://leetcode.cn/problems/collect-coins-in-a-tree/)
+
+树 | 图 | 拓扑排序 | 数组
+
+| 语言 | 题解                                           | 最后修改      |
+| ---- | ---------------------------------------------- | ------------- |
+| C++  | [leetcode/cpp/2603.cpp](leetcode/cpp/2603.cpp) | 2023年9月21日 |
+|      |                                                |               |
+
 #### [2605. 从两个数字数组里生成最小数字](https://leetcode.cn/problems/form-smallest-number-from-two-digit-arrays/)
 
 `数组` `哈希表` `枚举`
