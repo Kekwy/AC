@@ -551,6 +551,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/1921/Solution.h](./cpp/include/leetcode/1921/Solution.h) | 2023年9月3日 |
 |      |                                                              |              |
 
+#### [1993. 树上的操作](https://leetcode.cn/problems/operations-on-tree/)
+
+树 | 深度优先搜索 | 广度优先搜索 | 设计 | 哈希表
+
+| 语言 | 题解                                           | 最后修改      |
+| ---- | ---------------------------------------------- | ------------- |
+| C++  | [leetcode\cpp\1993.cpp](leetcode\cpp\1993.cpp) | 2023年9月23日 |
+|      |                                                |               |
+
 #### [2240. 买钢笔和铅笔的方案数](https://leetcode.cn/problems/number-of-ways-to-buy-pens-and-pencils/)
 
 `数学` `枚举`
