@@ -2,3 +2,4 @@
 **/.lcpr_data/**
 **.iml
 **/.idea/**
+**/target/**

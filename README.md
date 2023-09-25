@@ -13,7 +13,7 @@
 
 ## 复习题单
 
-力扣：142, 823, 904, 1654, 1761, offer-57, offer-11, 202, 449, 15, 1462, offer-38, 31, offer-17, offer-51, offer-19, offer-49, offer-60, 2560, 2603
+力扣：142, 823, 904, 1654, 1761, offer-57, offer-11, 202, 449, 15, 1462, offer-38, 31, offer-17, offer-51, offer-19, offer-49, offer-60, 2560, 2603, 146
 
 ## Leetcode 力扣
 
@@ -208,6 +208,15 @@ C++：[./cpp/include/leetcode/144/Solution.h](./cpp/include/leetcode/144/Solutio
 `栈` `树` `深度优先搜索` `二叉树`
 
 C++：[cpp/include/leetcode/145/Solution.h](./cpp/include/leetcode/145/Solution.h) （2023年8月9日）
+
+#### [146. LRU 缓存](https://leetcode.cn/problems/lru-cache/)
+
+设计 | 哈希表 | 链表 | 双向链表
+
+| 语言 | 题解                                         | 最后修改      |
+| ---- | -------------------------------------------- | ------------- |
+| C++  | [leetcode/cpp/146.cpp](leetcode/cpp/146.cpp) | 2023年9月25日 |
+|      |                                              |               |
 
 #### [202. 快乐数](https://leetcode.cn/problems/happy-number/)
 
