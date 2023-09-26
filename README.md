@@ -596,6 +596,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [leetcode/cpp/2560.cpp](leetcode/cpp/2560.cpp) | 2023年9月19日 |
 |      |                                                |               |
 
+#### [2582. 递枕头](https://leetcode.cn/problems/pass-the-pillow/)
+
+数学 | 模拟
+
+| 语言 | 题解                                           | 最后修改      |
+| ---- | ---------------------------------------------- | ------------- |
+| C++  | [leetcode/cpp/2582.cpp](leetcode/cpp/2582.cpp) | 2023年9月26日 |
+|      |                                                |               |
+
 #### [2591. 将钱分给最多的儿童](https://leetcode.cn/problems/distribute-money-to-maximum-children/)
 
 贪心 | 数学
