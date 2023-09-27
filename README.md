@@ -506,6 +506,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/1267/README.md](./cpp/include/leetcode/1267/README.md) | 2023年8月24日 |
 |      |                                                              |               |
 
+#### [1333. 餐厅过滤器](https://leetcode.cn/problems/filter-restaurants-by-vegan-friendly-price-and-distance/)
+
+数组 | 排序
+
+| 语言 | 题解                                           | 最后修改      |
+| ---- | ---------------------------------------------- | ------------- |
+| C++  | [leetcode\cpp\1333.cpp](leetcode\cpp\1333.cpp) | 2023年9月27日 |
+|      |                                                |               |
+
 #### [1462. 课程表 IV](https://leetcode.cn/problems/course-schedule-iv/description/?envType=daily-question&envId=2023-09-12)
 
 `深度优先搜索` `广度优先搜索` `图` `拓扑排序`
