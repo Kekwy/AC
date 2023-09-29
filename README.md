@@ -370,6 +370,15 @@ C++：[cpp/include/leetcode/232/MyQueue.h](cpp/include/leetcode/232/MyQueue.h) �
 | C++  | [leetcode/cpp/547.cpp](leetcode/cpp/547.cpp) | 2023年9月19日 |
 |      |                                              |               |
 
+#### [605. 种花问题](https://leetcode.cn/problems/can-place-flowers/)
+
+贪心 | 数组
+
+| 语言 | 题解                                         | 最后修改      |
+| ---- | -------------------------------------------- | ------------- |
+| C++  | [leetcode/cpp/605.cpp](leetcode/cpp/605.cpp) | 2023年9月29日 |
+|      |                                              |               |
+
 #### [630. 课程表 III](https://leetcode.cn/problems/course-schedule-iii/)
 
 `贪心` `数组` `排序` `堆（优先队列）`
