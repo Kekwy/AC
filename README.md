@@ -188,6 +188,15 @@ C++：[cpp/include/leetcode/94/Solution.h](./cpp/include/leetcode/94/Solution.h)
 | C++  | [./cpp/include/leetcode/105/Solution.h](./cpp/include/leetcode/105/Solution.h) | 2023年9月16日 |
 |      |                                                              |               |
 
+#### [121. 买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/)
+
+数组 | 动态规划
+
+| 语言 | 题解                                         | 最后修改      |
+| ---- | -------------------------------------------- | ------------- |
+| C++  | [leetcode/cpp/121.cpp](leetcode/cpp/121.cpp) | 2023年10月1日 |
+|      |                                              |               |
+
 #### [142. 环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/)
 
 `哈希表` `链表` `双指针`
