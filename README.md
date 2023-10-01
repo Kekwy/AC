@@ -7,13 +7,13 @@
 
 剑指 Offer 57 - II：vector 的部分拷贝；
 
-看到「最大化最小值」或者「最小化最大值」就要想到**二分答案**，这是一个固定的套路;
+看到「最大化最小值」或者「最小化最大值」就要想到**二分查找**，这是一个固定的套路;
 
 
 
 ## 复习题单
 
-力扣：142, 823, 904, 1654, 1761, offer-57, offer-11, 202, 449, 15, 1462, offer-38, 31, offer-17, offer-51, offer-19, offer-49, offer-60, 2560, 2603, 146
+力扣：142, 823, 904, 1654, 1761, offer-57, offer-11, 202, 449, 15, 1462, offer-38, 31, offer-17, offer-51, offer-19, offer-49, offer-60, 2560, 2603, 146, 2251
 
 ## Leetcode 力扣
 
@@ -604,6 +604,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | ---- | ------------------------------------------------------------ | ------------ |
 | C++  | [cpp/include/leetcode/2240/Solution.h](./cpp/include/leetcode/2240/Solution.h) | 2023年9月1日 |
 |      |                                                              |              |
+
+#### [2251. 花期内花的数目](https://leetcode.cn/problems/number-of-flowers-in-full-bloom/)
+
+数组 | 哈希表 | 二分搜索 | 有序集 | 前缀和 | 排序
+
+| 语言 | 题解                                           | 最后修改      |
+| ---- | ---------------------------------------------- | ------------- |
+| C++  | [leetcode/cpp/2251.cpp](leetcode/cpp/2251.cpp) | 2023年9月28日 |
+|      |                                                |               |
 
 #### [2511. 最多可以摧毁的敌人城堡数目](https://leetcode.cn/problems/maximum-enemy-forts-that-can-be-captured/)
 
