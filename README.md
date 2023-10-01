@@ -26,7 +26,7 @@
 | 语言 | 题解                                                         | 最后修改      |
 | ---- | ------------------------------------------------------------ | ------------- |
 | C++  | [cpp/include/leetcode/1/Solution.h](./cpp/include/leetcode/1/Solution.h) | 2023年9月3日  |
-| Java | [leetcode/java/src/main/java/com/kekwy/leetcode/p1/Solution.java](leetcode/java/src/main/java/com/kekwy/leetcode/p1/Solution.java) | 2023年9月21日 |
+| Java | [leetcode/java/p1](leetcode/java/src/main/java/com/kekwy/leetcode/p1/Solution.java) | 2023年9月21日 |
 |      |                                                              |               |
 
 #### [15. 三数之和](https://leetcode.cn/problems/3sum/)
@@ -37,6 +37,15 @@
 | ---- | ------------------------------------------------------------ | ------------ |
 | C++  | [cpp/include/leetcode/15/Solution.h](./cpp/include/leetcode/15/Solution.h) | 2023年9月4日 |
 |      |                                                              |              |
+
+#### [18. 四数之和](https://leetcode.cn/problems/4sum/)
+
+数组 | 双指针 | 排序
+
+| 语言 | 题解                                       | 最后修改      |
+| ---- | ------------------------------------------ | ------------- |
+| C++  | [leetcode/cpp/18.cpp](leetcode/cpp/18.cpp) | 2023年10月1日 |
+|      |                                            |               |
 
 #### [19. 删除链表的倒数第 N 个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)
 
