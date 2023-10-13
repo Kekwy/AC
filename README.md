@@ -206,6 +206,15 @@ C++：[cpp/include/leetcode/94/Solution.h](./cpp/include/leetcode/94/Solution.h)
 | C++  | [leetcode/cpp/121.cpp](leetcode/cpp/121.cpp) | 2023年10月1日 |
 |      |                                              |               |
 
+#### [136. 只出现一次的数字](https://leetcode.cn/problems/single-number/)
+
+位操作 | 数组
+
+| 语言 | 题解                                         | 最后修改       |
+| ---- | -------------------------------------------- | -------------- |
+| C++  | [leetcode/cpp/136.cpp](leetcode/cpp/136.cpp) | 2023年10月14日 |
+|      |                                              |                |
+
 #### [142. 环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/)
 
 `哈希表` `链表` `双指针`
@@ -640,6 +649,15 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | ---- | ---------------------------------------------- | ------------- |
 | C++  | [leetcode/cpp/2560.cpp](leetcode/cpp/2560.cpp) | 2023年9月19日 |
 |      |                                                |               |
+
+#### [2562. 找出数组的串联值](https://leetcode.cn/problems/find-the-array-concatenation-value/)
+
+数组 | 双指针 | 模拟
+
+| 语言 | 题解                                           | 最后修改       |
+| ---- | ---------------------------------------------- | -------------- |
+| C++  | [leetcode/cpp/2562.cpp](leetcode/cpp/2562.cpp) | 2023年10月12日 |
+|      |                                                |                |
 
 #### [2582. 递枕头](https://leetcode.cn/problems/pass-the-pillow/)
 
