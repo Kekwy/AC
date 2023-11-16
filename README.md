@@ -437,10 +437,11 @@ C++：[cpp/include/leetcode/232/MyQueue.h](cpp/include/leetcode/232/MyQueue.h) �
 
 `数组` `二分查找`
 
-| 语言 | 题解                                                         | 最后修改      |
-| ---- | ------------------------------------------------------------ | ------------- |
-| C++  | [cpp/include/leetcode/704/Solution.h](./cpp/include/leetcode/704/Solution.h) | 2023年8月13日 |
-|      |                                                              |               |
+| 语言 | 题解                                                         | 最后修改       |
+| ---- | ------------------------------------------------------------ | -------------- |
+| C++  | [cpp/include/leetcode/704/Solution.h](./cpp/include/leetcode/704/Solution.h) | 2023年8月13日  |
+| Java | [leetcode/java/p704](leetcode/java/src/main/java/com/kekwy/leetcode/p704/Solution.java) | 2023年11月16日 |
+|      |                                                              |                |
 
 #### [707. 设计链表](https://leetcode.cn/problems/design-linked-list/)
 
