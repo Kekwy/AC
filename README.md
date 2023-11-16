@@ -286,10 +286,11 @@ C++：[cpp/include/leetcode/145/Solution.h](./cpp/include/leetcode/145/Solution.
 
 `数组` `二分查找` `前缀和` `滑动窗口`
 
-| 语言 | 题解                                                         | 最后修改      |
-| ---- | ------------------------------------------------------------ | ------------- |
-| C++  | [cpp/include/leetcode/209/Solution.h](./cpp/include/leetcode/209/Solution.h) | 2023年8月26日 |
-|      |                                                              |               |
+| 语言 | 题解                                                         | 最后修改       |
+| ---- | ------------------------------------------------------------ | -------------- |
+| C++  | [cpp/include/leetcode/209/Solution.h](./cpp/include/leetcode/209/Solution.h) | 2023年8月26日  |
+| Java | [leetcode/java/p209](leetcode/java/src/main/java/com/kekwy/leetcode/p209/Solution.java) | 2023年11月16日 |
+|      |                                                              |                |
 
 #### [210. 课程表 II](https://leetcode.cn/problems/course-schedule-ii/)
 
