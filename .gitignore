@@ -1,5 +1,5 @@
-/.vscode/**
-**/.lcpr_data/**
+/.vscode/
+**/.lcpr_data/
 **.iml
-**/.idea/**
-**/target/**
+**/.idea/
+**/target/

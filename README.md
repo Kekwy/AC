@@ -506,10 +506,11 @@ C++：[./cpp/include/leetcode/743/Solution.h](./cpp/include/leetcode/743/Solutio
 
 `数组` `双指针` `排序`
 
-| 语言 | 题解                                                         | 最后修改      |
-| ---- | ------------------------------------------------------------ | ------------- |
-| C++  | [cpp/include/leetcode/977/Solution.h](./cpp/include/leetcode/977/Solution.h) | 2023年8月26日 |
-|      |                                                              |               |
+| 语言 | 题解                                                         | 最后修改       |
+| ---- | ------------------------------------------------------------ | -------------- |
+| C++  | [cpp/include/leetcode/977/Solution.h](./cpp/include/leetcode/977/Solution.h) | 2023年8月26日  |
+| Java | [leetcode/java/p977](leetcode/java/src/main/java/com/kekwy/leetcode/p977/Solution.java) | 2023年11月16日 |
+|      |                                                              |                |
 
 #### [1222. 可以攻击国王的皇后](https://leetcode.cn/problems/queens-that-can-attack-the-king/description/)
 
