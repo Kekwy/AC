@@ -85,10 +85,11 @@
 
 `数组` `双指针`
 
-| 语言 | 题解                                                         | 最后修改      |
-| ---- | ------------------------------------------------------------ | ------------- |
-| C++  | [cpp/include/leetcode/27/Solution.h](./cpp/include/leetcode/27/Solution.h) | 2023年8月21日 |
-|      |                                                              |               |
+| 语言 | 题解                                                         | 最后修改       |
+| ---- | ------------------------------------------------------------ | -------------- |
+| C++  | [cpp/include/leetcode/27/Solution.h](./cpp/include/leetcode/27/Solution.h) | 2023年8月21日  |
+| Java | [leetcode/java/p27](leetcode/java/src/main/java/com/kekwy/leetcode/p27/Solution.java) | 2023年11月16日 |
+|      |                                                              |                |
 
 #### [31. 下一个排列](https://leetcode.cn/problems/next-permutation/)
 
