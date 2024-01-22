@@ -29,6 +29,12 @@
 | Java | [leetcode/java/p1](leetcode/java/src/main/java/com/kekwy/leetcode/p1/Solution.java) | 2023年9月21日 |
 |      |                                                              |               |
 
+#### [2. 两数相加](https://leetcode.cn/problems/add-two-numbers/)
+
+`递归` `链表` `数学`
+
+Java：[leetcode/java/p2](leetcode/java/src/main/java/com/kekwy/leetcode/problems/P2.java)
+
 #### [15. 三数之和](https://leetcode.cn/problems/3sum/)
 
 `数组` `双指针` `排序`
