@@ -723,6 +723,12 @@ C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solut
 | C++  | [cpp/include/leetcode/2605/Solution.h](./cpp/include/leetcode/2605/Solution.h) | 2023年9月5日 |
 |      |                                                              |              |
 
+#### [2641. 二叉树的堂兄弟节点 II](https://leetcode.cn/problems/cousins-in-binary-tree-ii/)
+
+`树` `深度优先搜索` `广度优先搜索` `哈希表` `二叉树`
+
+Java：[leetcode/java/p2641](leetcode/java/src/main/java/com/kekwy/leetcode/problems/P2641.java)
+
 #### [2651. 计算列车到站时间](https://leetcode.cn/problems/calculate-delayed-arrival-time/)
 
 `数学`
