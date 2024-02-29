@@ -17,6 +17,13 @@ https://programmercarl.com/0222.%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E7
 
 list.stream().mapToInt(Integer::intValue).toArray();
 
+前缀树
+
+指向子节点的指针数组 children\textit{children}children。对于本题而言，数组长度为 262626，即小写英文字母的数量。此时 children[0]\textit{children}[0]children[0] 对应小写字母 aaa，children[1]\textit{children}[1]children[1] 对应小写字母 bbb，…，children[25]\textit{children}[25]children[25] 对应小写字母 zzz。
+布尔字段 isEnd\textit{isEnd}isEnd，表示该节点是否为字符串的结尾。
+
+LinkedList 中有 removeLast 方法，而 List 接口中没有。
+
 ## 复习题单
 
 力扣：142, 823, 904, 1654, 1761, offer-57, offer-11, 202, 449, 15, 1462, offer-38, 31, offer-17, offer-51, offer-19, offer-49, offer-60, 2560, 2603, 146, 2251
