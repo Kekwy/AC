@@ -15,7 +15,7 @@ https://leetcode.cn/problems/subtree-of-another-tree/solutions/233896/ling-yi-ge
 
 https://programmercarl.com/0222.%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E8%8A%82%E7%82%B9%E4%B8%AA%E6%95%B0.html#%E7%AE%97%E6%B3%95%E5%85%AC%E5%BC%80%E8%AF%BE 对于完全二叉树应用分治法
 
-
+list.stream().mapToInt(Integer::intValue).toArray();
 
 ## 复习题单
 
