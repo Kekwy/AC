@@ -396,9 +396,23 @@ class P70 {
 class P131 {
 
     class Solution {
-        public List<List<String>> partition(String s) {
 
+        private List<List<String>> res = new LinkedList<>();
+
+        private LinkedList<String> strings = new LinkedList<>();
+
+
+        private void helper(String s, int index) {
+            return
         }
+
+        public List<List<String>> partition(String s) {
+            helper(s, 0);
+            return res;
+        }
+
+
+
     }
 
 }
