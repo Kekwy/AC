@@ -154,26 +154,37 @@ class LCCI_16_25 {
 
         private static class Node {
             int val;
-
+            Node next;
             Node prev;
 
-            Node(int val, Node next, Node prev) {
-                this.val = val;
-                this.next = next;
-                this.prev = prev;
+            public Node() {
+                val = 0;
+                next = null;
+                prev = null;
             }
 
             Node(int val) {
                 this.val = val;
+                next = null;
+                prev = null;
             }
         }
 
-
-        private Map<Integer, Node> keyMap;
-        private Node dummyHead;
-        private Node dummyTail;
-        private int capacity;
+        private final Map<Integer, Node> keyMap;
+        private final Node dummyHead;
+        private final Node dummyTail;
+        private final int capacity;
         private int size;
+
+        public LRUCache(int capacity) {
+            dummyHead = new Node();
+            dummyTail = new Node();
+            keyMap = new HashMap<>();
+            dummyHead.next = dummyTail;
+            dummyTail.prev = dummyHead;
+            size = 0;
+            this.capacity = capacity;
+        }
 
         private void deleteNode(Node node) {
             node.prev.next = node.next;
@@ -188,28 +199,99 @@ class LCCI_16_25 {
             node.prev = prev;
         }
 
-        public LRUCache(int capacity) {
-            dummyHead = new Node(0, null, null);
-            size = 0;
-            this.capacity = capacity;
-        }
-
         public int get(int key) {
             if (keyMap.containsKey(key)) {
                 Node node = keyMap.get(key);
                 deleteNode(node);
                 insertNode(dummyHead, node);
+                return node.val;
+            } else {
+                return -1;
             }
         }
 
         public void put(int key, int value) {
-
+//            if (keyMap.containsKey())
+//                if (size > capacity) {
+//
+//                } else {
+//
+//                }
         }
     }
 
 }
 
+class P46 {
+    class Solution {
 
+        private List<List<Integer>> res = new LinkedList<>();
+        private LinkedList<Integer> permutation = new LinkedList<>();
+        private boolean[] used;
+
+        private void helper(int[] nums) {
+            if (permutation.size() >= nums.length) {
+                res.add(List.copyOf(permutation));
+            } else {
+                for (int i = 0; i < nums.length; i++) {
+                    if (!used[i]) {
+                        used[i] = true;
+                        permutation.add(nums[i]);
+                        helper(nums);
+                        permutation.removeLast();
+                        used[i] = false;
+                    }
+                }
+            }
+        }
+
+        public List<List<Integer>> permute(int[] nums) {
+            used = new boolean[nums.length];
+            helper(nums);
+            return res;
+        }
+    }
+}
+
+class P47 {
+    class Solution {
+
+        private List<List<Integer>> res = new LinkedList<>();
+        private LinkedList<Integer> permutation = new LinkedList<>();
+        private boolean[] used;
+
+        private void helper(int[] nums) {
+            if (permutation.size() >= nums.length) {
+                res.add(List.copyOf(permutation));
+            } else {
+                for (int i = 0; i < nums.length; i++) {
+                    if (i > 0 && nums[i] == nums[i - 1] && !used[i - 1]) continue;
+                    if (!used[i]) {
+                        used[i] = true;
+                        permutation.add(nums[i]);
+                        helper(nums);
+                        permutation.removeLast();
+                        used[i] = false;
+                    }
+                }
+            }
+        }
+
+        public List<List<Integer>> permuteUnique(int[] nums) {
+            int[] array = Arrays.stream(nums).sorted().toArray();
+            used = new boolean[array.length];
+            helper(array);
+            return res;
+        }
+    }
+
+    @Test
+    public void test() {
+        Solution solution = new Solution();
+        System.out.println(solution.permuteUnique(new int[]{1, 2, 2}));
+    }
+
+}
 
 
 
