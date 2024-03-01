@@ -2,10 +2,7 @@ package com.kekwy.leetcode;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 class P93 {
 
@@ -81,21 +78,140 @@ class P90 {
 
         private void helper(int[] nums, int index) {
             res.add(List.copyOf(subSet));
-            Set<Integer> used = new HashSet<>();
             for (int i = index; i < nums.length; i++) {
-                if (!used.contains(nums[i])) {
-                    used.add(i);
-                    subSet.add(nums[i]);
-                    helper(nums, i + 1);
-                    subSet.removeLast();
+                if (i > index && nums[i] == nums[i - 1]) {
+                    continue;
                 }
+                subSet.add(nums[i]);
+                helper(nums, i + 1);
+                subSet.removeLast();
             }
         }
 
+        private void quickSort(int[] nums, int begin, int end) {
+            if (begin >= end) return;
+            int pivot = nums[begin];
+            int lp = begin;
+            int rp = end - 1;
+            while (lp < rp) {
+                while (lp < rp && nums[rp] >= pivot) rp--;
+                if (lp < rp) nums[lp++] = nums[rp];
+                while (lp < rp && nums[lp] <= pivot) lp++;
+                if (lp < rp) nums[rp--] = nums[lp];
+            }
+            nums[lp] = pivot;
+            quickSort(nums, begin, lp);
+            quickSort(nums, lp + 1, end);
+        }
+
         public List<List<Integer>> subsetsWithDup(int[] nums) {
+            quickSort(nums, 0, nums.length);
             helper(nums, 0);
             return res;
         }
     }
 
+    @Test
+    public void test() {
+        Solution solution = new Solution();
+        System.out.println(solution.subsetsWithDup(new int[]{1, 2, 2}));
+    }
+
 }
+
+class P491 {
+    class Solution {
+
+        private List<List<Integer>> res = new LinkedList<>();
+        private LinkedList<Integer> subSequence = new LinkedList<>();
+
+        private void helper(int[] nums, int index) {
+            if (subSequence.size() >= 2) res.add(List.copyOf(subSequence));
+            Set<Integer> set = new HashSet<>();
+            for (int i = index; i < nums.length; i++) {
+                if (set.contains(nums[i])) {
+                    continue;
+                }
+                set.add(nums[i]);
+                if (subSequence.isEmpty() || nums[i] >= subSequence.getLast()) {
+                    subSequence.add(nums[i]);
+                    helper(nums, i + 1);
+                    subSequence.removeLast();
+                }
+            }
+        }
+
+        public List<List<Integer>> findSubsequences(int[] nums) {
+            helper(nums, 0);
+            return res;
+        }
+    }
+}
+
+class LCCI_16_25 {
+
+    class LRUCache {
+
+        private static class Node {
+            int val;
+
+            Node prev;
+
+            Node(int val, Node next, Node prev) {
+                this.val = val;
+                this.next = next;
+                this.prev = prev;
+            }
+
+            Node(int val) {
+                this.val = val;
+            }
+        }
+
+
+        private Map<Integer, Node> keyMap;
+        private Node dummyHead;
+        private Node dummyTail;
+        private int capacity;
+        private int size;
+
+        private void deleteNode(Node node) {
+            node.prev.next = node.next;
+            if (node.next != null) {
+                node.next.prev = node.prev;
+            }
+        }
+
+        private void insertNode(Node prev, Node node) {
+            node.next = prev.next;
+            prev.next = node;
+            node.prev = prev;
+        }
+
+        public LRUCache(int capacity) {
+            dummyHead = new Node(0, null, null);
+            size = 0;
+            this.capacity = capacity;
+        }
+
+        public int get(int key) {
+            if (keyMap.containsKey(key)) {
+                Node node = keyMap.get(key);
+                deleteNode(node);
+                insertNode(dummyHead, node);
+            }
+        }
+
+        public void put(int key, int value) {
+
+        }
+    }
+
+}
+
+
+
+
+
+
+
