@@ -402,15 +402,43 @@ class P131 {
         private LinkedList<String> strings = new LinkedList<>();
 
 
+        private boolean[][] isPartition;
+
+        private void findPartition(String s) {
+            isPartition = new boolean[s.length()][s.length()];
+            // dp
+            for (int i = s.length() - 1; i >= 0; i--) {
+                for (int j = i; j < s.length(); j++) {
+                    if (i == j) {
+                        isPartition[i][j] = true; // a
+                    } else if (j - i == 1) {
+                        isPartition[i][j] = s.charAt(i) == s.charAt(j); // aa
+                    } else {
+                        isPartition[i][j] = s.charAt(i) == s.charAt(j) && isPartition[i + 1][j - 1]; // abba
+                    }
+                }
+            }
+        }
+
         private void helper(String s, int index) {
-            return
+            if (index >= s.length()) {
+                res.add(List.copyOf(strings));
+            } else {
+                for (int i = index; i < s.length(); i++) {
+                    if (isPartition[index][i]) {
+                        strings.add(s.substring(index, i + 1));
+                        helper(s, i + 1);
+                        strings.removeLast();
+                    }
+                }
+            }
         }
 
         public List<List<String>> partition(String s) {
+            findPartition(s);
             helper(s, 0);
             return res;
         }
-
 
 
     }
