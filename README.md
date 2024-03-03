@@ -1,4 +1,5 @@
 # AC
+
 > 自己进行刷题练习时的一些题解
 
 ## 笔记
@@ -11,15 +12,19 @@
 
 - Java 可用 `Character.isDigit` 方法判断字符是否为数字。
 
-https://leetcode.cn/problems/subtree-of-another-tree/solutions/233896/ling-yi-ge-shu-de-zi-shu-by-leetcode-solution/ 深度优先加左右子树空值的前中后序遍历可以唯一确定一个二叉树。
+https://leetcode.cn/problems/subtree-of-another-tree/solutions/233896/ling-yi-ge-shu-de-zi-shu-by-leetcode-solution/
+深度优先加左右子树空值的前中后序遍历可以唯一确定一个二叉树。
 
-https://programmercarl.com/0222.%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E8%8A%82%E7%82%B9%E4%B8%AA%E6%95%B0.html#%E7%AE%97%E6%B3%95%E5%85%AC%E5%BC%80%E8%AF%BE 对于完全二叉树应用分治法
+https://programmercarl.com/0222.%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E8%8A%82%E7%82%B9%E4%B8%AA%E6%95%B0.html#%E7%AE%97%E6%B3%95%E5%85%AC%E5%BC%80%E8%AF%BE
+对于完全二叉树应用分治法
 
 list.stream().mapToInt(Integer::intValue).toArray();
 
 前缀树
 
-指向子节点的指针数组 children\textit{children}children。对于本题而言，数组长度为 262626，即小写英文字母的数量。此时 children[0]\textit{children}[0]children[0] 对应小写字母 aaa，children[1]\textit{children}[1]children[1] 对应小写字母 bbb，…，children[25]\textit{children}[25]children[25] 对应小写字母 zzz。
+指向子节点的指针数组 children\textit{children}children。对于本题而言，数组长度为 262626，即小写英文字母的数量。此时 children[0]\textit{children}[0]
+children[0] 对应小写字母 aaa，children[1]\textit{children}[1]children[1] 对应小写字母 bbb，…，children[25]\textit{children}[25]
+children[25] 对应小写字母 zzz。
 布尔字段 isEnd\textit{isEnd}isEnd，表示该节点是否为字符串的结尾。
 
 LinkedList 中有 removeLast 方法，而 List 接口中没有。
@@ -28,9 +33,20 @@ https://leetcode.cn/problems/subsets-ii/
 
 树层剪枝与树枝剪枝
 
+List 设置容量
+List<List<Integer>> edgeList = new ArrayList<>(123);
+
+List 初始化
+https://blog.csdn.net/qq_39101581/article/details/88393876
+
+List<List<Integer>> edgeList = new ArrayList<>(Collections.nCopies(n, new ArrayList<>())); 注意，此处复制的是指针（浅拷贝）
+
+当使用邻接矩阵超出内存限制时，可以考虑使用邻接表。
+
 ## 复习题单
 
-力扣：142, 823, 904, 1654, 1761, offer-57, offer-11, 202, 449, 15, 1462, offer-38, 31, offer-17, offer-51, offer-19, offer-49, offer-60, 2560, 2603, 146, 2251
+力扣：142, 823, 904, 1654, 1761, offer-57, offer-11, 202, 449, 15, 1462, offer-38, 31, offer-17, offer-51, offer-19,
+offer-49, offer-60, 2560, 2603, 146, 2251
 
 ## Leetcode 力扣
 
@@ -210,11 +226,7 @@ Java：[leetcode/java/p2](leetcode/java/src/main/java/com/kekwy/leetcode/problem
 
 C++：[cpp/include/leetcode/94/Solution.h](./cpp/include/leetcode/94/Solution.h) （2023年8月9日）
 
-
-
 #### [105. 从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
-
-
 
 | 语言 | 题解                                                         | 最后修改      |
 | ---- | ------------------------------------------------------------ | ------------- |
@@ -251,8 +263,6 @@ C++：[cpp/include/leetcode/94/Solution.h](./cpp/include/leetcode/94/Solution.h)
 #### [144. 二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorder-traversal/)
 
 C++：[./cpp/include/leetcode/144/Solution.h](./cpp/include/leetcode/144/Solution.h) （2023年8月5日）
-
-
 
 #### [145. 二叉树的后序遍历](https://leetcode.cn/problems/binary-tree-postorder-traversal/)
 
@@ -557,8 +567,6 @@ C++：[./cpp/include/leetcode/743/Solution.h](./cpp/include/leetcode/743/Solutio
 #### [1135. 最低成本联通所有城市](https://leetcode.cn/problems/connecting-cities-with-minimum-cost/)
 
 C++：[./cpp/include/leetcode/1135/Solution.h](./cpp/include/leetcode/1135/Solution.h) （2023年8月6日）
-
-
 
 #### [1267. 统计参与通信的服务器](https://leetcode.cn/problems/count-servers-that-communicate/)
 
@@ -1434,7 +1442,7 @@ Java：[leetcode/java/p2641](leetcode/java/src/main/java/com/kekwy/leetcode/prob
 | C++  | [cpp/include/leetcode/interview-02.07/Solution.h](./cpp/include/leetcode/interview-02.07/Solution.h) | 2023年8月30日 |
 |      |                                                              |               |
 
-###  力扣杯 - 竞赛合集
+### 力扣杯 - 竞赛合集
 
 #### [LCP 06. 拿硬币](https://leetcode.cn/problems/na-ying-bi/)
 
@@ -1453,8 +1461,6 @@ Java：[leetcode/java/p2641](leetcode/java/src/main/java/com/kekwy/leetcode/prob
 | ---- | ------------------------------------------------------------ | ------------- |
 | C++  | [cpp/include/leetcode/lcp-50/Solution.h](./cpp/include/leetcode/lcp-50/Solution.h) | 2023年9月15日 |
 |      |                                                              |               |
-
-
 
 ## Nowcoder 牛客
 

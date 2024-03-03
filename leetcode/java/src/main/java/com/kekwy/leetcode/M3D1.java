@@ -294,6 +294,50 @@ class P47 {
 }
 
 
+class P2368 {
 
+    class Solution {
+
+        private int res = 0;
+
+        private void helper(int n, int node, List<List<Integer>> edges, boolean[] isRestricted) {
+            res++;
+            isRestricted[node] = true;
+            for (Integer i : edges.get(node)) {
+                if (!isRestricted[i]) {
+                    helper(n, i, edges, isRestricted);
+                }
+            }
+        }
+
+        public int reachableNodes(int n, int[][] edges, int[] restricted) {
+            boolean[] isRestricted = new boolean[n];
+            List<List<Integer>> edgeList = new ArrayList<>();
+            for (int i = 0; i < n; i++) {
+                edgeList.add(new ArrayList<>());
+            }
+            for (int i : restricted) {
+                isRestricted[i] = true;
+            }
+            for (int[] edge : edges) {
+                edgeList.get(edge[0]).add(edge[1]);
+                edgeList.get(edge[1]).add(edge[0]);
+            }
+            helper(n, 0, edgeList, isRestricted);
+            return res;
+        }
+    }
+
+    @Test
+    public void test() {
+        Solution solution = new Solution();
+        System.out.println(
+                solution.reachableNodes(
+                        7, new int[][]{{0, 1}, {1, 2}, {3, 1}, {4, 0}, {0, 5}, {5, 6}}, new int[]{4, 5}
+                )
+        );
+    }
+
+}
 
 
