@@ -131,3 +131,43 @@ class P380 {
 
 
 }
+
+/**
+ * star
+ */
+class P295 {
+
+    /**
+     * 对顶堆
+     */
+    class MedianFinder {
+
+        public MedianFinder() {
+
+        }
+
+        public void addNum(int num) {
+            return;
+        }
+
+        public double findMedian() {
+            return 0;
+        }
+    }
+
+}
+
+class P332 {
+
+    class Solution {
+
+        private List<String> res = new ArrayList<>();
+        private Map<String, Set<String>> edges = new HashMap<>();
+
+        public List<String> findItinerary(List<List<String>> tickets) {
+
+            return res;
+        }
+    }
+
+}
