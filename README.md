@@ -43,6 +43,30 @@ List<List<Integer>> edgeList = new ArrayList<>(Collections.nCopies(n, new ArrayL
 
 当使用邻接矩阵超出内存限制时，可以考虑使用邻接表。
 
+MySQL:
+
+各种连表仔细体会一下
+
+mod(x, 2)
+
+avg(x)
+
+count: https://blog.csdn.net/Chenftli/article/details/92411239
+
+count 带条件：https://blog.csdn.net/Baby_lucy/article/details/120747237
+
+有 null 参与的表达式，其计算结果为 null
+
+日期处理：
+- 选取日期中的年月：https://blog.csdn.net/weixin_43697585/article/details/109620585
+- 分组：https://blog.csdn.net/qq_24909089/article/details/94467001
+- 需要了解其中的含义：'%Y-%m'
+- DATEDIFF(x, y): x 比 y 晚多少天
+- 关于日期的常用函数：https://blog.csdn.net/sinat_28505133/article/details/75088451
+
+排序：
+- 返回指定列数据最小的行：ORDER BY xxx LIMIT 1;
+
 ## 复习题单
 
 力扣：142, 823, 904, 1654, 1761, offer-57, offer-11, 202, 449, 15, 1462, offer-38, 31, offer-17, offer-51, offer-19,
