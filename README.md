@@ -36,12 +36,12 @@ https://leetcode.cn/problems/subsets-ii/
 树层剪枝与树枝剪枝
 
 List 设置容量
-List<List<Integer>> edgeList = new ArrayList<>(123);
+List<List\<Integer>> edgeList = new ArrayList<>(123);
 
 List 初始化
 https://blog.csdn.net/qq_39101581/article/details/88393876
 
-List<List<Integer>> edgeList = new ArrayList<>(Collections.nCopies(n, new ArrayList<>())); 注意，此处复制的是指针（浅拷贝）
+List<List\<Integer>> edgeList = new ArrayList<>(Collections.nCopies(n, new ArrayList<>())); 注意，此处复制的是指针（浅拷贝）
 
 当使用邻接矩阵超出内存限制时，可以考虑使用邻接表。
 
@@ -73,6 +73,21 @@ count 带条件：https://blog.csdn.net/Baby_lucy/article/details/120747237
 排序：
 
 - 返回指定列数据最小的行：ORDER BY xxx LIMIT 1;
+
+COUNT(DISTINCT xxx)：可以直接计算指定列中不同值的数量。
+
+分类之后进行筛选：
+
+```sql
+GROUP BY class
+HAVING COUNT(student) >= 5
+```
+
+连续 n：https://leetcode.cn/problems/consecutive-numbers/solutions/675274/mysql-jie-fa-tong-jie-ren-yi-lian-xu-nwe-hxg4/?envType=study-plan-v2&envId=sql-free-50
+
+OVER（PARTITION BY：https://blog.csdn.net/weixin_45003816/article/details/103721121
+
+遇到需要保留 NULL 值的情况，想连表
 
 ## 复习题单
 

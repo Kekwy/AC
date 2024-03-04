@@ -293,6 +293,46 @@ class P47 {
 
 }
 
+class P2369 {
+
+    class Solution {
+
+        private boolean[] dp;
+
+        private boolean[] finish;
+
+        private void helper(int[] nums, int index) {
+            finish[index] = true;
+            if (index + 1 < nums.length && nums[index] == nums[index + 1]) {
+                if (!finish[index + 2]) helper(nums, index + 2);
+                if (dp[index + 2]) {
+                    dp[index] = true;
+                    return;
+                }
+            }
+            if (index + 2 < nums.length) {
+                if (nums[index] == nums[index + 1] && nums[index] == nums[index + 2]
+                    || nums[index] + 1 == nums[index + 1] && nums[index] + 2 == nums[index + 2]) {
+                    if (!finish[index + 3]) helper(nums, index + 3);
+                    if (dp[index + 3]) {
+                        dp[index] = true;
+                        return;
+                    }
+                }
+            }
+        }
+
+        public boolean validPartition(int[] nums) {
+            dp = new boolean[nums.length + 1];
+            finish = new boolean[nums.length + 1];
+            dp[nums.length] = true;
+            finish[nums.length] = true;
+            helper(nums, 0);
+            return dp[0];
+        }
+    }
+
+}
 
 class P2368 {
 
