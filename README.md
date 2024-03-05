@@ -83,6 +83,12 @@ GROUP BY class
 HAVING COUNT(student) >= 5
 ```
 
+COALESCE() 函数
+
+UNION 与 UNION ALL
+
+WITH: https://blog.csdn.net/u010520724/article/details/106498870
+
 连续 n：https://leetcode.cn/problems/consecutive-numbers/solutions/675274/mysql-jie-fa-tong-jie-ren-yi-lian-xu-nwe-hxg4/?envType=study-plan-v2&envId=sql-free-50
 
 OVER（PARTITION BY：https://blog.csdn.net/weixin_45003816/article/details/103721121
