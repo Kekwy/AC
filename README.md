@@ -95,6 +95,12 @@ OVER（PARTITION BY：https://blog.csdn.net/weixin_45003816/article/details/1037
 
 遇到需要保留 NULL 值的情况，想连表
 
+MySQL CTE: Common table expression https://zhuanlan.zhihu.com/p/103180385
+
+当过程中带有乘法且目标是得到余数的中间值过大时，可以考虑利用同余减小中间值的大小而不影响最终得到的余数。
+
+同余：(a × 10 + b) mod m = (a mod m × 10 + b) mod m
+
 ## 复习题单
 
 力扣：142, 823, 904, 1654, 1761, offer-57, offer-11, 202, 449, 15, 1462, offer-38, 31, offer-17, offer-51, offer-19,
