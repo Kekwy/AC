@@ -101,6 +101,58 @@ MySQL CTE: Common table expression https://zhuanlan.zhihu.com/p/103180385
 
 同余：(a × 10 + b) mod m = (a mod m × 10 + b) mod m
 
+开窗+自连接：https://leetcode.cn/problems/last-person-to-fit-in-the-bus/solutions/229666/zui-hou-yi-ge-neng-jin-ru-dian-ti-de-ren-by-leetco/?envType=study-plan-v2&envId=sql-free-50
+
+CASE WHEN：https://blog.csdn.net/helloxiaozhe/article/details/78124138
+
+- -- ON i1.tiv_2015 = i2.tiv_2015
+
+  -- ON i1.pid <> i2.pid AND i1.tiv_2015 = i2.tiv_2015
+
+注意读题，留意题目中需要输出的列名，以及按什么排序。
+
+rank：1 2 2 4（而非 1 2 2 3）
+
+SUBSTRING(column_name, start, length)：这将从列的值中提取一个子字符串，从指定的起始位置开始，直到指定的长度。
+
+UPPER(expression)：这会将字符串表达式转换为大写。
+
+LOWER(expression)：这会将字符串表达式转换为小写。
+
+CONCAT(string1, string2, ...)：这会将两个或多个字符串连接成一个字符串。
+
+正则表达式：
+
+单词边界 \b
+
+在正则表达式中，\b 是一个特殊的元字符，表示单词边界。它匹配一个单词的开始或结束的位置，而不匹配任何实际的字符。
+
+具体来说，\b 匹配以下三种情况之一：
+
+- 单词的开头：如果 \b 出现在一个字母或数字之前，或者在字符串的开头，它会匹配一个单词的开始位置。
+
+- 单词的结尾：如果 \b 出现在一个字母或数字之后，或者在字符串的末尾，它会匹配一个单词的结束位置。
+
+- 单词的内部：如果 \b 出现在两个连续的字母或数字之间，它不会匹配任何内容，因为没有单词边界。
+
+WHERE conditions REGEXP '\\bDIAB1.*';
+
+(user_id,type) in ((568,6),(569,6),(600,8));
+
+You can‘t specify target table for update in FROM clause：https://leetcode.cn/problems/delete-duplicate-emails/?envType=study-plan-v2&envId=sql-free-50
+
+从有序表中选取第几项可以考虑使用 limit 和 offset 子句
+
+GROUP_CONCAT(
+DISTINCT expression1
+ORDER BY expression2
+SEPARATOR sep
+);
+
+正则式：https://leetcode.cn/problems/find-users-with-valid-e-mails/solutions/2366182/cha-zhao-yong-you-you-xiao-you-xiang-de-gn7ym/?envType=study-plan-v2&envId=sql-free-50
+
+使用 ^ 限制从字符串开头开始匹配，$ 限制结尾。
+
 ## 复习题单
 
 力扣：142, 823, 904, 1654, 1761, offer-57, offer-11, 202, 449, 15, 1462, offer-38, 31, offer-17, offer-51, offer-19,
