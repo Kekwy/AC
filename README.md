@@ -48,6 +48,10 @@ List<List\<Integer>> edgeList = new ArrayList<>(Collections.nCopies(n, new Array
 private final Random random; 不要在使用随机数的地方反复创建 random 对象，可能会导致每次调用方法返回的随机数相同，应当对提前创建好的同一个
 random 对象多次调用 nextInt 方法；
 
+三大余数定理：https://www.cnblogs.com/TWS-YIFEI/p/5771586.html
+
+对于大数处理时，应尽量减少不必要的以和形式出现的中间值（减少加法运算）
+
 MySQL:
 
 各种连表仔细体会一下
