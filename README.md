@@ -48,6 +48,8 @@ List<List\<Integer>> edgeList = new ArrayList<>(Collections.nCopies(n, new Array
 private final Random random; 不要在使用随机数的地方反复创建 random 对象，可能会导致每次调用方法返回的随机数相同，应当对提前创建好的同一个
 random 对象多次调用 nextInt 方法；
 
+将负数转化为正数的处理方法：https://leetcode.cn/problems/find-the-k-sum-of-an-array/
+
 MySQL:
 
 各种连表仔细体会一下
@@ -152,6 +154,29 @@ SEPARATOR sep
 正则式：https://leetcode.cn/problems/find-users-with-valid-e-mails/solutions/2366182/cha-zhao-yong-you-you-xiao-you-xiang-de-gn7ym/?envType=study-plan-v2&envId=sql-free-50
 
 使用 ^ 限制从字符串开头开始匹配，$ 限制结尾。
+
+先通过 WHERE 子句进行过滤，再执行聚合函数
+
+MySQL 不支持 FULL JOIN（CROSS JOIN 实际上是 INNER JOIN）
+
+但是可以用 LEFT JOIN 与 RIGHT JOIN 模拟实现：
+
+```sql
+select employee_id from (
+    select e.employee_id employee_id from Employees e left join Salaries s on e.employee_id=s.employee_id where salary is null
+    union all
+    select s.employee_id employee_id from Employees e right join Salaries s on e.employee_id=s.employee_id where name is null
+) x order by employee_id;
+```
+
+DATE(day), 可以从 DATETIME 类型中提取其 DATE 的部分。
+
+MySQL 如何生成连续的数字/字符/时间序列：https://blog.csdn.net/horses/article/details/107349305
+
+MySQL CTE 递归：https://www.yiibai.com/mysql/recursive-cte.html
+
+- https://leetcode.cn/problems/find-the-subtasks-that-did-not-execute/
+
 
 ## 复习题单
 
