@@ -50,6 +50,10 @@ random 对象多次调用 nextInt 方法；
 
 将负数转化为正数的处理方法：https://leetcode.cn/problems/find-the-k-sum-of-an-array/
 
+三大余数定理：https://www.cnblogs.com/TWS-YIFEI/p/5771586.html
+
+对于大数处理时，应尽量减少不必要的以和形式出现的中间值（减少加法运算）
+
 MySQL:
 
 各种连表仔细体会一下
