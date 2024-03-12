@@ -311,7 +311,7 @@ class P28 {
             int[] next = new int[pattern.length()];
             int p = 0, q = -1;
             next[p] = q;
-            while(p < pattern.length() - 1) {
+            while (p < pattern.length() - 1) {
                 if (q == -1 || pattern.charAt(p) == pattern.charAt(q)) {
                     next[++p] = ++q;
                 } else {
@@ -354,7 +354,7 @@ class P68 {
             while (i < words.length) {
                 String word = words[i];
                 int temp = width + word.length() + 1;
-                if (temp - 1> maxWidth) {
+                if (temp - 1 > maxWidth) {
                     if (number == 1) {
                         res.add(words[begin] + " ".repeat(maxWidth - (width - 1)));
                     } else {
@@ -395,6 +395,212 @@ class P68 {
 
             return res;
 
+        }
+    }
+}
+
+class P125 {
+    class Solution {
+        public boolean isPalindrome(String s) {
+            StringBuilder builder = new StringBuilder();
+            for (int i = 0; i < s.length(); i++) {
+                char c = s.charAt(i);
+                if (Character.isAlphabetic(c) || Character.isDigit(c)) {
+                    builder.append(Character.toLowerCase(c));
+                }
+            }
+            String str = builder.toString();
+            int lp = 0, rp = str.length() - 1;
+            while (lp < rp) {
+                if (str.charAt(lp) == str.charAt(rp)) {
+                    lp++;
+                    rp--;
+                } else {
+                    return false;
+                }
+            }
+            return true;
+        }
+    }
+}
+
+class P392 {
+
+    class Solution {
+        public boolean isSubsequence(String s, String t) {
+            int sp = 0, tp = 0;
+            while (sp < s.length() && tp < t.length()) {
+                if (s.charAt(sp) == t.charAt(tp)) {
+                    sp++;
+                }
+                tp++;
+            }
+            return sp == s.length();
+        }
+    }
+
+}
+
+class P167 {
+    class Solution {
+        public int[] twoSum(int[] numbers, int target) {
+            int lp = 0, rp = numbers.length - 1;
+            while (lp < rp) {
+                int tmp = numbers[lp] + numbers[rp];
+                if (tmp > target) rp--;
+                else if (tmp < target) lp++;
+                else break;
+            }
+            return new int[]{lp + 1, rp + 1};
+        }
+    }
+}
+
+class P11 {
+    class Solution {
+        public int maxArea(int[] height) {
+            int lp = 0, rp = height.length - 1;
+            int res = 0;
+            while (lp < rp) {
+                if (height[lp] < height[rp]) {
+                    int tmp = height[lp] * (rp - lp);
+                    if (tmp > res) res = tmp;
+                    lp++;
+                } else if (height[lp] > height[rp]) {
+                    int tmp = height[rp] * (rp - lp);
+                    if (tmp > res) res = tmp;
+                    rp--;
+                } else {
+                    int tmp = height[lp] * (rp - lp);
+                    if (tmp > res) res = tmp;
+                    if (height[lp + 1] >= height[rp - 1]) {
+                        lp++;
+                    } else {
+                        rp--;
+                    }
+                }
+            }
+            return res;
+        }
+    }
+}
+
+class P15 {
+    class Solution {
+        /**
+         * 可转化为两数之和
+         */
+        public List<List<Integer>> threeSum(int[] nums) {
+            List<List<Integer>> res = new LinkedList<>();
+            int[] array = Arrays.stream(nums).sorted().toArray();
+            for (int i = 0; i < array.length; i++) {
+                if (i > 0 && array[i] == array[i - 1]) continue;
+                int target = -array[i];
+                int lp = i + 1, rp = array.length - 1;
+                while (lp < rp) {
+                    int tmp = array[lp] + array[rp];
+                    if (tmp > target) {
+                        rp--;
+                    } else if (tmp < target) {
+                        lp++;
+                    } else {
+                        res.add(List.of(array[i], array[lp], array[rp]));
+                        while (lp + 1 < rp && array[lp + 1] == array[lp]) lp++;
+                        while (rp - 1 > lp && array[rp - 1] == array[rp]) rp--;
+                        lp++;
+                        rp--;
+                    }
+                }
+            }
+            return res;
+        }
+    }
+
+}
+
+class P3 {
+
+    class Solution {
+        public int lengthOfLongestSubstring(String s) {
+            Set<Character> set = new HashSet<>();
+            int res = 0;
+            int lp = 0, rp = 0;
+            while (rp < s.length()) {
+                char c = s.charAt(rp);
+                while (set.contains(c)) {
+                    set.remove(s.charAt(lp++));
+                }
+                set.add(c);
+                rp++;
+                int len = rp - lp;
+                if (len > res) res = len;
+            }
+            return res;
+        }
+    }
+}
+
+class P30 {
+    class Solution {
+        /**
+         * 注意每个单词的长度相等，故我们可以先将原始字符串进行分割，将分割之后的每段与单词等长的子字符串
+         * 当作一个整体，与单词列表中的单词进行匹配。
+         */
+        public List<Integer> findSubstring(String s, String[] words) {
+            List<Integer> res = new ArrayList<Integer>();
+            int m = words.length, n = words[0].length(), ls = s.length();
+            for (int i = 0; i < n; i++) {
+                if (i + m * n > ls) {
+                    break;
+                }
+                Map<String, Integer> differ = new HashMap<String, Integer>();
+                for (int j = 0; j < m; j++) {
+                    String word = s.substring(i + j * n, i + (j + 1) * n);
+                    differ.put(word, differ.getOrDefault(word, 0) + 1);
+                }
+                for (String word : words) {
+                    differ.put(word, differ.getOrDefault(word, 0) - 1);
+                    if (differ.get(word) == 0) {
+                        differ.remove(word);
+                    }
+                }
+                for (int start = i; start < ls - m * n + 1; start += n) {
+                    if (start != i) {
+                        String word = s.substring(start + (m - 1) * n, start + m * n);
+                        differ.put(word, differ.getOrDefault(word, 0) + 1);
+                        if (differ.get(word) == 0) {
+                            differ.remove(word);
+                        }
+                        word = s.substring(start - n, start);
+                        differ.put(word, differ.getOrDefault(word, 0) - 1);
+                        if (differ.get(word) == 0) {
+                            differ.remove(word);
+                        }
+                    }
+                    if (differ.isEmpty()) {
+                        res.add(start);
+                    }
+                }
+            }
+            return res;
+        }
+    }
+}
+
+class P76 {
+    class Solution {
+        public String minWindow(String s, String t) {
+            Map<Character, Integer> mapT = new HashMap<>();
+            for (int i = 0; i < t.length(); i++) {
+                mapT.put(t.charAt(i), mapT.getOrDefault(t.charAt(i), 0) + 1);
+            }
+            Map<Character, Integer> mapS = new HashMap<>();
+            int lp = 0, rp = 0;
+            while (rp < s.length()) {
+
+                rp++;
+            }
+            return s.substring(lp, rp);
         }
     }
 }
