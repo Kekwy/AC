@@ -54,6 +54,10 @@ random 对象多次调用 nextInt 方法；
 
 对于大数处理时，应尽量减少不必要的以和形式出现的中间值（减少加法运算）
 
+List<int[]> res = new ArrayList<>();
+
+return res.toArray(new int[0][]);
+
 MySQL:
 
 各种连表仔细体会一下
