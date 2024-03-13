@@ -594,13 +594,278 @@ class P76 {
             for (int i = 0; i < t.length(); i++) {
                 mapT.put(t.charAt(i), mapT.getOrDefault(t.charAt(i), 0) + 1);
             }
+            Map<Character, Integer> mapTemp = new HashMap<>(mapT);
             Map<Character, Integer> mapS = new HashMap<>();
             int lp = 0, rp = 0;
             while (rp < s.length()) {
-
+                char c = s.charAt(rp);
+                mapS.put(c, mapS.getOrDefault(c, 0) + 1);
+                if (mapTemp.containsKey(c)) {
+                    mapTemp.put(c, mapTemp.get(c) - 1);
+                    if (mapTemp.get(c) == 0) {
+                        mapTemp.remove(c);
+                    }
+                }
                 rp++;
+                if (mapTemp.isEmpty()) break;
             }
-            return s.substring(lp, rp);
+            if (!mapTemp.isEmpty()) return "";
+            char c1 = s.charAt(lp);
+            while (mapS.get(c1) > mapT.getOrDefault(c1, 0)) {
+                mapS.put(c1, mapS.get(c1) - 1);
+                if (mapS.get(c1) == 0) mapS.remove(c1);
+                lp++;
+                c1 = s.charAt(lp);
+            }
+            int resLp = lp, resRp = rp;
+            while (rp < s.length()) {
+                char c = s.charAt(rp);
+                rp++;
+                mapS.put(c, mapS.getOrDefault(c, 0) + 1);
+                c = s.charAt(lp);
+                while (mapS.get(c) > mapT.getOrDefault(c, 0)) {
+                    mapS.put(c, mapS.get(c) - 1);
+                    if (mapS.get(c) == 0) mapS.remove(c);
+                    lp++;
+                    c = s.charAt(lp);
+                }
+                if (rp - lp < resRp - resLp) {
+                    resLp = lp;
+                    resRp = rp;
+                }
+            }
+            return s.substring(resLp, resRp);
         }
     }
+}
+
+class P36 {
+    class Solution {
+        public boolean isValidSudoku(char[][] board) {
+            List<Set<Character>> rowSetList = new ArrayList<>();
+            List<Set<Character>> colSetList = new ArrayList<>();
+            List<Set<Character>> chunckSetList = new ArrayList<>();
+            for (int i = 0; i < 9; i++) {
+                rowSetList.add(new HashSet<>());
+                colSetList.add(new HashSet<>());
+                chunckSetList.add(new HashSet<>());
+            }
+            for (int i = 0; i < board.length; i++) {
+                for (int j = 0; j < board[i].length; j++) {
+                    char c = board[i][j];
+                    if (c == '.') continue;
+                    Set<Character> rowSet = rowSetList.get(i);
+                    Set<Character> colSet = colSetList.get(j);
+                    Set<Character> chunckSet = chunckSetList.get(i / 3 * 3 + j / 3);
+                    if (rowSet.contains(c)) return false;
+                    if (colSet.contains(c)) return false;
+                    if (chunckSet.contains(c)) return false;
+                    rowSet.add(c);
+                    colSet.add(c);
+                    chunckSet.add(c);
+                }
+            }
+            return true;
+        }
+    }
+}
+
+class P48 {
+    class Solution {
+        /**
+         * 先转置，后水平镜像
+         */
+        public void rotate(int[][] matrix) {
+            int n = matrix.length;
+            for (int i = 0; i < n; i++) {
+                for (int j = i + 1; j < n; j++) {
+                    int tmp = matrix[i][j];
+                    matrix[i][j] = matrix[j][i];
+                    matrix[j][i] = tmp;
+                }
+            }
+            for (int i = 0; i < n; i++) {
+                for (int j = 0; j < n / 2; j++) {
+                    int tmp = matrix[i][j];
+                    matrix[i][j] = matrix[i][n - j - 1];
+                    matrix[i][n - j - 1] = tmp;
+                }
+            }
+        }
+    }
+}
+
+class P73 {
+    class Solution {
+        public void setZeroes(int[][] matrix) {
+            Set<Integer> zeroRows = new HashSet<>();
+            Set<Integer> zeroCols = new HashSet<>();
+            for (int i = 0; i < matrix.length; i++) {
+                for (int j = 0; j < matrix[i].length; j++) {
+                    if (matrix[i][j] == 0) {
+                        zeroRows.add(i);
+                        zeroCols.add(j);
+                    }
+                }
+            }
+            for (Integer row : zeroRows) {
+                Arrays.fill(matrix[row], 0);
+            }
+            for (Integer col : zeroCols) {
+                for (int i = 0; i < matrix.length; i++) {
+                    matrix[i][col] = 0;
+                }
+            }
+        }
+    }
+}
+
+class P289 {
+
+    /**
+     * 引入 2, 3 冗余状态来实现对细胞原状态的标记，进而实现原地算法
+     */
+    class Solution {
+        public void gameOfLife(int[][] board) {
+
+            for (int i = 0; i < board.length; i++) {
+                for (int j = 0; j < board[i].length; j++) {
+                    int sum = 0;
+                    for (int k = -1; k < 2; k++) {
+                        for (int l = -1; l < 2; l++) {
+                            if (k == 0 && l == 0) continue;
+                            int x = i + k;
+                            int y = j + l;
+                            if (x >= 0 && x < board.length
+                                && y >= 0 && y < board[0].length) {
+                                if (board[x][y] == 1 || board[x][y] == 2) sum++;
+                            }
+                        }
+                    }
+                    if ((sum < 2 || sum > 3) && board[i][j] == 1) board[i][j] = 2;
+                    else if (sum == 3 && board[i][j] == 0) board[i][j] = 3;
+                }
+            }
+
+            for (int i = 0; i < board.length; i++) {
+                for (int j = 0; j < board[i].length; j++) {
+                    if (board[i][j] == 2) board[i][j] = 0;
+                    else if (board[i][j] == 3) board[i][j] = 1;
+                }
+            }
+
+        }
+    }
+}
+
+class P205 {
+    class Solution {
+        public boolean isIsomorphic(String s, String t) {
+            if (s.length() != t.length()) return false;
+            Map<Character, Integer> map1 = new HashMap<>();
+            Map<Character, Integer> map2 = new HashMap<>();
+            for (int i = 0; i < s.length(); i++) {
+                char c1 = s.charAt(i);
+                char c2 = t.charAt(i);
+                if (map1.containsKey(c1) && map2.containsKey(c2)) {
+                    if (!Objects.equals(map1.get(c1), map2.get(c2))) return false;
+                } else if (map1.containsKey(c1) || map2.containsKey(c2)) {
+                    return false;
+                } else {
+                    map1.put(c1, i);
+                    map2.put(c2, i);
+                }
+            }
+            return true;
+        }
+    }
+}
+
+class P290 {
+    class Solution {
+        public boolean wordPattern(String pattern, String s) {
+            Map<Character, Integer> patternMap = new HashMap<>();
+            Map<String, Integer> wordMap = new HashMap<>();
+            String[] words = s.split(" ");
+            if (words.length != pattern.length()) return false;
+            for (int i = 0; i < pattern.length(); i++) {
+                char c = pattern.charAt(i);
+                String word = words[i];
+                if (patternMap.containsKey(c) && wordMap.containsKey(word)) {
+                    if (!Objects.equals(patternMap.get(c), wordMap.get(word))) {
+                        return false;
+                    }
+                } else if (patternMap.containsKey(c) || wordMap.containsKey(word)) {
+                    return false;
+                } else {
+                    patternMap.put(c, i);
+                    wordMap.put(word, i);
+                }
+            }
+            return true;
+        }
+    }
+}
+
+class P49 {
+
+    class Solution {
+        public List<List<String>> groupAnagrams(String[] strs) {
+            Map<String, List<String>> map = new HashMap<>();
+            for (String str : strs) {
+                char[] charArray = str.toCharArray();
+                Arrays.sort(charArray);
+                String sortedString = new String(charArray);
+                List<String> stringList = map.getOrDefault(sortedString, new ArrayList<>());
+                stringList.add(str);
+                map.put(sortedString, stringList);
+            }
+            return map.values().stream().toList();
+        }
+    }
+
+}
+
+class P219 {
+    class Solution {
+        public boolean containsNearbyDuplicate(int[] nums, int k) {
+            Map<Integer, Integer> map = new HashMap<>();
+            for (int i = 0; i < nums.length; i++) {
+                if (map.containsKey(nums[i]) && i - map.get(nums[i]) <= k) {
+                    return true;
+                }
+                map.put(nums[i], i);
+            }
+            return false;
+        }
+    }
+}
+
+class P128 {
+
+    class Solution {
+        public int longestConsecutive(int[] nums) {
+            Map<Integer, Boolean> map = new HashMap<>();
+            for (int num : nums) {
+                map.put(num, false);
+            }
+            int res = 0;
+            for (int num : nums) {
+                if (map.get(num)) continue;
+                map.put(num, true);
+                int tmp = 1;
+                for (int i = 1; map.containsKey(num + i); i++) {
+                    tmp++;
+                    map.put(num + i, true);
+                }
+                for (int i = 1; map.containsKey(num - i); i++) {
+                    tmp++;
+                    map.put(num - i, true);
+                }
+                if (tmp > res) res = tmp;
+            }
+            return res;
+        }
+    }
+
 }
