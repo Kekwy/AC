@@ -1,6 +1,8 @@
 package com.kekwy.leetcode;
 
-
+// 着重讲了哪些里程碑式的语言，背后有哪些道理。
+// fortran：元语言
+// pascal：
 import com.kekwy.leetcode.util.TreeNode;
 
 import java.util.*;
@@ -114,6 +116,7 @@ class P129 {
         }
     }
 }
+
 
 class P124 {
     class Solution {
