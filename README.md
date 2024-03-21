@@ -70,7 +70,11 @@ TreeMap 自动排序，linkedHashMap 保留插入顺序
 
 Iterator iter = map.entrySet().iterator();
 
-MySQL:
+背包问题与完全背包问题再进一步加深一下理解。
+
+https://programmercarl.com/0518.%E9%9B%B6%E9%92%B1%E5%85%91%E6%8D%A2II.html#%E6%80%9D%E8%B7%AF
+
+## MySQL:
 
 各种连表仔细体会一下
 
