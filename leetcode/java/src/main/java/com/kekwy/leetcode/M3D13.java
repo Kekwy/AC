@@ -1,6 +1,7 @@
 package com.kekwy.leetcode;
 
 import com.kekwy.leetcode.util.ListNode;
+import com.kekwy.leetcode.util.TreeNode;
 import org.junit.jupiter.api.Test;
 
 import java.util.*;
@@ -14,8 +15,8 @@ class P2864 {
                 if (s.charAt(i) == '1') count++;
             }
             return "1".repeat(count - 1) +
-                    "0".repeat(s.length() - count) +
-                    "1";
+                   "0".repeat(s.length() - count) +
+                   "1";
         }
     }
 
@@ -159,17 +160,42 @@ class P71 {
  */
 class P224 {
     class Solution {
-
         public int calculate(String s) {
-            Stack<Character> opStack = new Stack<>();
-            Stack<Integer> numStack = new Stack<>();
-//            String
-            for (int i = 0; i < s.length(); i++) {
+            Deque<Integer> ops = new LinkedList<Integer>();
+            ops.push(1);
+            int sign = 1;
 
+            int ret = 0;
+            int n = s.length();
+            int i = 0;
+            while (i < n) {
+                if (s.charAt(i) == ' ') {
+                    i++;
+                } else if (s.charAt(i) == '+') {
+                    sign = ops.peek();
+                    i++;
+                } else if (s.charAt(i) == '-') {
+                    sign = -ops.peek();
+                    i++;
+                } else if (s.charAt(i) == '(') {
+                    ops.push(sign);
+                    i++;
+                } else if (s.charAt(i) == ')') {
+                    ops.pop();
+                    i++;
+                } else {
+                    long num = 0;
+                    while (i < n && Character.isDigit(s.charAt(i))) {
+                        num = num * 10 + s.charAt(i) - '0';
+                        i++;
+                    }
+                    ret += sign * num;
+                }
             }
-            return 0;
+            return ret;
         }
     }
+
 }
 
 class P141 {
@@ -295,16 +321,239 @@ class P92 {
 class P25 {
 
     class Solution {
+
         public ListNode reverseKGroup(ListNode head, int k) {
+            int length = 0;
+            for (ListNode node = head; node != null; node = node.next) {
+                length++;
+            }
+            ListNode dummyHead = new ListNode(0);
+            dummyHead.next = head;
+            ListNode groupTail = head;
+            ListNode groupPrev = dummyHead;
+            int i = 0;
+            while (i + k <= length) {
+                ListNode groupHead = groupTail;
+                ListNode nextNode = groupTail.next;
+                i++;
+                for (int j = 0; j < k - 1; j++, i++) {
+                    ListNode next = nextNode.next;
+                    nextNode.next = groupHead;
+                    groupHead = nextNode;
+                    nextNode = next;
+                }
+                groupPrev.next = groupHead;
+                groupTail.next = nextNode;
+                groupPrev = groupTail;
+                groupTail = nextNode;
+            }
+            return dummyHead.next;
+        }
+    }
+
+    @Test
+    public void test() {
+        ListNode node = ListNode.toList(new int[]{1, 2, 3, 4, 5});
+        Solution solution = new Solution();
+        solution.reverseKGroup(node, 2);
+    }
+
+}
+
+class P82 {
+
+    class Solution {
+        public ListNode deleteDuplicates(ListNode head) {
             ListNode dummyHead = new ListNode();
             dummyHead.next = head;
-            ListNode p = head;
-            ListNode q = null;
-            ListNode groupPrev = dummyHead;
-            ListNode groupTail = head;
-            int i = 0;
-
+            ListNode prev = dummyHead;
+            while (prev.next != null) {
+                ListNode p = prev.next;
+                ListNode node = p.next;
+                for (; node != null && node.val == p.val; node = node.next) ;
+                if (node != p.next) {
+                    prev.next = node;
+                } else {
+                    prev = p;
+                }
+            }
             return dummyHead.next;
+        }
+    }
+
+    @Test
+    public void test() {
+        Solution solution = new Solution();
+        solution.deleteDuplicates(ListNode.toList(new int[]{1, 2, 2}));
+    }
+
+}
+
+class P61 {
+
+    class Solution {
+        public ListNode rotateRight(ListNode head, int k) {
+            if (head == null) return null;
+            int length = 0;
+            for (ListNode p = head; p != null; p = p.next) {
+                length++;
+            }
+            k = k % length;
+            ListNode lp = head;
+            ListNode rp = head;
+            ;
+            for (int i = 0; i < k; i++) {
+                rp = rp.next;
+            }
+            while (rp.next != null) {
+                lp = lp.next;
+                rp = rp.next;
+            }
+            rp.next = head;
+            head = lp.next;
+            lp.next = null;
+            return head;
+        }
+    }
+
+}
+
+class P86 {
+
+    class Solution {
+        public ListNode partition(ListNode head, int x) {
+            if (head == null) return null;
+            ListNode less = new ListNode();
+            ListNode greater = new ListNode();
+            ListNode p = less, q = greater;
+            for (ListNode node = head; node != null; node = node.next) {
+                if (node.val < x) {
+                    p.next = node;
+                    p = node;
+                } else {
+                    q.next = node;
+                    q = node;
+                }
+            }
+            q.next = null;
+            p.next = greater.next;
+            return less.next;
+        }
+    }
+
+}
+
+class P146 {
+
+    class LRUCache {
+
+        class LinkNode {
+            LinkNode prev = null;
+            LinkNode next = null;
+            int val;
+            int key;
+
+            public LinkNode(int val, int key) {
+                this.val = val;
+                this.key = key;
+            }
+        }
+
+        private final LinkNode head = new LinkNode(0, 0);
+        private final LinkNode tail = new LinkNode(0, 0);
+        private int size = 0;
+        private final int capacity;
+
+        private final Map<Integer, LinkNode> map = new HashMap<>();
+
+        private void remove(LinkNode node) {
+            node.prev.next = node.next;
+            node.next.prev = node.prev;
+        }
+
+        private void insertToHead(LinkNode node) {
+            node.next = head.next;
+            head.next = node;
+            node.next.prev = node;
+            node.prev = head;
+        }
+
+        private void insertToTail(LinkNode node) {
+            node.prev = tail.prev;
+            tail.prev = node;
+            node.prev.next = node;
+            node.next = tail;
+        }
+
+        public LRUCache(int capacity) {
+            this.capacity = capacity;
+            head.next = tail;
+            tail.prev = head;
+        }
+
+        public int get(int key) {
+            int res = -1;
+            if (map.containsKey(key)) {
+                LinkNode node = map.get(key);
+                remove(node);
+                insertToHead(node);
+                res = node.val;
+            }
+            return res;
+        }
+
+        public void put(int key, int value) {
+            if (map.containsKey(key)) {
+                LinkNode node = map.get(key);
+                remove(node);
+                node.val = value;
+                insertToHead(node);
+                return;
+            }
+            if (size < capacity) {
+                LinkNode node = new LinkNode(value, key);
+                insertToHead(node);
+                map.put(key, node);
+                size++;
+            } else {
+                LinkNode node = tail.prev;
+                map.remove(node.key);
+                remove(node);
+                node.val = value;
+                node.key = key;
+                insertToHead(node);
+                map.put(key, node);
+            }
+        }
+    }
+
+}
+
+class P101 {
+
+    class Solution {
+        public boolean isSymmetric(TreeNode root) {
+            if (root == null) return true;
+            Stack<TreeNode> stack1 = new Stack<>();
+            Stack<TreeNode> stack2 = new Stack<>();
+            stack1.push(root.left);
+            stack2.push(root.right);
+            while (!stack1.isEmpty() && !stack2.isEmpty()) {
+                TreeNode node1 = stack1.pop();
+                TreeNode node2 = stack2.pop();
+                if (node1 == null && node2 == null) {
+                    continue;
+                } else if (node1 != null && node2 != null) {
+                    if (node1.val != node2.val) return false;
+                    stack1.push(node1.left);
+                    stack1.push(node1.right);
+                    stack2.push(node2.right);
+                    stack2.push(node2.left);
+                } else {
+                    return false;
+                }
+            }
+            return stack1.isEmpty() && stack2.isEmpty();
         }
     }
 

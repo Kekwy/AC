@@ -4,6 +4,8 @@
 
 ## 笔记
 
+静态区间和选择前缀和，动态区间和选择线段树。
+
 快速判断一个元素是否出现集合里的时候，就要考虑哈希法；
 
 剑指 Offer 57 - II：vector 的部分拷贝；
@@ -58,7 +60,21 @@ List<int[]> res = new ArrayList<>();
 
 return res.toArray(new int[0][]);
 
-MySQL:
+对比字符串：
+
+(a, b)-> a.get(1).compareTo(b.get(1))
+
+Comparator.comparing(a -> a.get(1))
+
+TreeMap 自动排序，linkedHashMap 保留插入顺序
+
+Iterator iter = map.entrySet().iterator();
+
+背包问题与完全背包问题再进一步加深一下理解。
+
+https://programmercarl.com/0518.%E9%9B%B6%E9%92%B1%E5%85%91%E6%8D%A2II.html#%E6%80%9D%E8%B7%AF
+
+## MySQL:
 
 各种连表仔细体会一下
 
@@ -185,6 +201,14 @@ MySQL CTE 递归：https://www.yiibai.com/mysql/recursive-cte.html
 
 - https://leetcode.cn/problems/find-the-subtasks-that-did-not-execute/
 
+
+删除空格：
+
+- TRIM()：删除左右两边的空格
+- LTRIM()：删除左边的空格
+- RTRIM()：删除右边的空格
+
+贪心：通过局部最优推出整体最优，否则可能会使用到动态规划。
 
 ## 复习题单
 

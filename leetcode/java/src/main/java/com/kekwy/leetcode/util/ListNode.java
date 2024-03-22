@@ -18,4 +18,15 @@ public class ListNode {
         this.val = val;
         this.next = next;
     }
+
+    public static ListNode toList(int[] array) {
+        ListNode dummyHead = new ListNode();
+        ListNode p = dummyHead;
+        for (int i : array) {
+            p.next = new ListNode(i);
+            p = p.next;
+        }
+        return dummyHead.next;
+    }
+
 }
