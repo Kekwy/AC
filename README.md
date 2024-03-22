@@ -74,6 +74,8 @@ Iterator iter = map.entrySet().iterator();
 
 https://programmercarl.com/0518.%E9%9B%B6%E9%92%B1%E5%85%91%E6%8D%A2II.html#%E6%80%9D%E8%B7%AF
 
+股票系列主打一个“状态”！
+
 ## MySQL:
 
 各种连表仔细体会一下
