@@ -76,6 +76,8 @@ https://programmercarl.com/0518.%E9%9B%B6%E9%92%B1%E5%85%91%E6%8D%A2II.html#%E6%
 
 股票系列主打一个“状态”！
 
+最大矩形和接雨水需要体会一下。
+
 ## MySQL:
 
 各种连表仔细体会一下
