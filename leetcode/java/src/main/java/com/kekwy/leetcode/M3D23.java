@@ -360,3 +360,170 @@ class P84 {
     }
 
 }
+
+class P797 {
+
+    class Solution {
+
+        private List<List<Integer>> res;
+        private LinkedList<Integer> path;
+
+        private void helper(int[][] graph, int i) {
+            if (i == graph.length - 1) {
+                res.add(List.copyOf(path));
+            } else {
+                for (int j : graph[i]) {
+                    path.add(j);
+                    helper(graph, j);
+                    path.removeLast();
+                }
+            }
+        }
+
+        public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
+            res = new LinkedList<>();
+            path = new LinkedList<>();
+            path.add(0);
+            helper(graph, 0);
+            return res;
+        }
+    }
+
+}
+
+class P695 {
+
+    class Solution {
+        private boolean[][] visit;
+
+        private int helper(int[][] grid, int i, int j) {
+            visit[i][j] = true;
+            int res = 1;
+            if (i - 1 >= 0 && grid[i - 1][j] == 1 && !visit[i - 1][j]) res += helper(grid, i - 1, j);
+            if (i + 1 < grid.length && grid[i + 1][j] == 1 && !visit[i + 1][j]) res += helper(grid, i + 1, j);
+            if (j - 1 >= 0 && grid[i][j - 1] == 1 && !visit[i][j - 1]) res += helper(grid, i, j - 1);
+            if (j + 1 < grid[0].length && grid[i][j + 1] == 1 && !visit[i][j + 1]) res += helper(grid, i, j + 1);
+            return res;
+        }
+
+        public int maxAreaOfIsland(int[][] grid) {
+            visit = new boolean[grid.length][grid[0].length];
+            int res = 0;
+            for (int i = 0; i < grid.length; i++) {
+                for (int j = 0; j < grid[i].length; j++) {
+                    if (grid[i][j] == 0 || visit[i][j]) continue;
+                    int area = helper(grid, i, j);
+                    if (area > res) res = area;
+                }
+            }
+            return res;
+        }
+    }
+
+}
+
+class P1020 {
+
+    class Solution {
+
+
+        private boolean[][] visit;
+
+        private boolean flag = false;
+
+        private int helper(int[][] grid, int i, int j) {
+            visit[i][j] = true;
+            flag = flag || i - 1 < 0 || i + 1 >= grid.length || j - 1 < 0 || j + 1 >= grid[0].length;
+            int res = 1;
+            if (i - 1 >= 0 && grid[i - 1][j] == 1 && !visit[i - 1][j]) res += helper(grid, i - 1, j);
+            if (i + 1 < grid.length && grid[i + 1][j] == 1 && !visit[i + 1][j]) res += helper(grid, i + 1, j);
+            if (j - 1 >= 0 && grid[i][j - 1] == 1 && !visit[i][j - 1]) res += helper(grid, i, j - 1);
+            if (j + 1 < grid[0].length && grid[i][j + 1] == 1 && !visit[i][j + 1]) res += helper(grid, i, j + 1);
+            return res;
+        }
+
+        public int numEnclaves(int[][] grid) {
+            visit = new boolean[grid.length][grid[0].length];
+            int res = 0;
+            for (int i = 0; i < grid.length; i++) {
+                for (int j = 0; j < grid[i].length; j++) {
+                    if (grid[i][j] == 0 || visit[i][j]) continue;
+                    flag = false;
+                    int area = helper(grid, i, j);
+                    if (!flag) res += area;
+                }
+            }
+            return res;
+        }
+    }
+
+}
+
+class P130 {
+
+
+    /**
+     * <a href="https://leetcode.cn/problems/number-of-enclaves/">...</a>
+     */
+    class Solution {
+
+        private boolean[][] visit;
+
+        private void helper(char[][] grid, int i, int j) {
+            visit[i][j] = true;
+            if (i - 1 >= 0 && grid[i - 1][j] == 'O' && !visit[i - 1][j]) helper(grid, i - 1, j);
+            if (i + 1 < grid.length && grid[i + 1][j] == 'O' && !visit[i + 1][j]) helper(grid, i + 1, j);
+            if (j - 1 >= 0 && grid[i][j - 1] == 'O' && !visit[i][j - 1]) helper(grid, i, j - 1);
+            if (j + 1 < grid[0].length && grid[i][j + 1] == 'O' && !visit[i][j + 1]) helper(grid, i, j + 1);
+            grid[i][j] = 'A';
+        }
+
+        public void solve(char[][] board) {
+            visit = new boolean[board.length][board[0].length];
+            for (int j = 0; j < board[0].length; j++) {
+                if (board[0][j] != 'X' && !visit[0][j]) helper(board, 0, j);
+                if (board[board.length - 1][j] != 'X' && !visit[board.length - 1][j])
+                    helper(board, board.length - 1, j);
+            }
+            for (int i = 0; i < board.length; i++) {
+                if (board[i][0] != 'X' && !visit[i][0]) helper(board, i, 0);
+                if (board[i][board[0].length - 1] != 'X' && !visit[i][board[0].length - 1])
+                    helper(board, i, board[0].length - 1);
+            }
+            for (char[] chars : board) {
+                for (int i = 0; i < chars.length; i++) {
+                    if (chars[i] == 'A') chars[i] = 'O';
+                    else if (chars[i] == 'O') chars[i] = 'X';
+                }
+            }
+        }
+
+    }
+
+}
+
+class P841 {
+
+    class Solution {
+
+        private int num = 0;
+        private boolean[] visit;
+
+        private void helper(int curr, List<List<Integer>> rooms) {
+            visit[curr] = true;
+            num++;
+            for (Integer i : rooms.get(curr)) {
+                if (!visit[i]) helper(i, rooms);
+            }
+        }
+
+        public boolean canVisitAllRooms(List<List<Integer>> rooms) {
+            visit = new boolean[rooms.size()];
+            helper(0, rooms);
+            return num == rooms.size();
+        }
+    }
+
+}
+
+
